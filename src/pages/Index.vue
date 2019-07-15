@@ -8,7 +8,7 @@
 
 <page-query>
 query Index{
-  pages: pages(id: "8b7eef239c7763e2ba8567c18cb858e8"){
+  site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
     path,
     id,
     title
