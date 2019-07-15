@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: lassediercks/schubrakede-next
+  repo: lassediercks/schubrakede-gridsome
 
 media_folder: static/img
 collections:
@@ -9,7 +9,7 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "content/index.md"
+        file: "content/pages/ndex.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { name: description, widget: string }
@@ -17,10 +17,10 @@ collections:
           - { name: sprinttext, widget: markdown }
       - label: "Impressum"
         name: imprint
-        file: "conntent/imprint.md"
-        fields: 
-          - { name: "Title", widget: string}
-          
+        file: "conntent/pages/imprint.md"
+        fields:
+          - { name: "Title", widget: string }
+
   - name: "blog"
     label: "Blog"
     identifier_field: headline
