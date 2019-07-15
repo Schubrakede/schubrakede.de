@@ -9,7 +9,7 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "content/pages/ndex.md"
+        file: "content/pages/index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { name: description, widget: string }
@@ -17,7 +17,7 @@ collections:
           - { name: sprinttext, widget: markdown }
       - label: "Impressum"
         name: imprint
-        file: "conntent/pages/imprint.md"
+        file: "content/pages/imprint.md"
         fields:
           - { name: "Title", widget: string }
 
