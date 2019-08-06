@@ -1,3 +1,5 @@
+const PostcssNested = require("postcss-nesting");
+
 module.exports = {
   siteName: "Schubrakede",
   transformers: {
@@ -10,7 +12,13 @@ module.exports = {
       ]
     }
   },
-
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: [PostcssNested]
+      }
+    }
+  },
   plugins: [
     {
       use: "@gridsome/source-filesystem",

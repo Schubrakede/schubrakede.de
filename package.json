@@ -12,5 +12,8 @@
     "gridsome": "^0.6.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.9.6"
+  },
+  "devDependencies": {
+    "postcss-nesting": "^7.0.1"
   }
 }
