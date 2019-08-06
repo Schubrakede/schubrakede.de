@@ -12,7 +12,13 @@ query Index{
     description,
     title,
     missiontext,
-    sprinttext
+    sprinttext,
+    teammember{
+      Title,
+      Image,
+      Name,
+      Description
+    }
   }
 }
 </page-query>
