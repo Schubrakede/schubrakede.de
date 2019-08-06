@@ -1,9 +1,11 @@
 <template>
-  <div class="bgWrap">
-    <div class="bg">
-      <Ball v-for="ball in balls" :key="ball"></Ball>
+  <ClientOnly>
+    <div class="bgWrap">
+      <div class="bg">
+        <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 7))]" :key="ball"></Ball>
+      </div>
     </div>
-  </div>
+  </ClientOnly>
 </template>
 
 <script>
@@ -12,8 +14,13 @@ export default {
   components: { Ball },
   data: function() {
     return {
-      balls: [...Array(200)]
+      windowWidth: 0,
+      windowHeight: 0
     };
+  },
+  mounted() {
+    this.windowWidth = window.innerWidth;
+    this.windowHeight = window.innerHeight;
   }
 };
 </script>

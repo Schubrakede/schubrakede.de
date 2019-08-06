@@ -1,17 +1,19 @@
 <template>
-  <div
-    :class="[
+  <ClientOnly>
+    <div
+      :class="[
   ballClass,
   colorClasses[color],
   sizeClasses[size],
   ]"
-    :style="{
-  top: `${positionY}px`,
-  left: `${positionX}px`,
+      :style="{
+  top: `${getRandomInt(windowHeight)}px`,
+  left: `${getRandomInt(windowWidth)}px`,
   opacity: opacity,
   animationDuration: `${duration}s`,
   animationDirection: directions[direction]}"
-  />
+    />
+  </ClientOnly>
 </template>
 
 <script>
@@ -37,28 +39,26 @@ function opacity(number) {
   return amount;
 }
 
-let width = window.innerWidth;
-let height = window.innerHeight;
 export default {
-  props: {
-    direction: {
-      type: Number,
-      default: 0
-    }
-  },
   data: function() {
     return {
+      windowHeight: 0,
+      windowWidth: 0,
       ballClass,
       directions,
       colorClasses,
       sizeClasses,
-      positionX: getRandomInt(width),
-      positionY: getRandomInt(height),
+      getRandomInt,
+      direction: getRandomInt(2),
       opacity: opacity(getRandomInt(100)),
       duration: getAnimationDuration(200),
       color: getRandomInt(3),
       size: getRandomInt(3)
     };
+  },
+  mounted() {
+    this.windowHeight = window.innerHeight;
+    this.windowWidth = window.innerWidth;
   }
 };
 </script>
