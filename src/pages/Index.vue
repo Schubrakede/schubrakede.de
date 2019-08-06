@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <h1>Hello</h1>
-    <div>{{$page}}</div>
-  </div>
+  <Layout>
+    <div>
+      <h1>Hello</h1>
+      <div>{{$page}}</div>
+    </div>
+  </Layout>
 </template>
 
 
