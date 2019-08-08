@@ -2,7 +2,9 @@ backend:
   name: github
   repo: lassediercks/schubrakede-gridsome
 
-media_folder: static/img
+media_folder: "static/img"
+public_folder: "img"
+
 collections:
   - name: "pages"
     label: "Pages"
@@ -13,6 +15,11 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { name: description, widget: string }
+          - {
+              name: companies,
+              widget: list,
+              fields: [{ name: Image, widget: image }],
+            }
           - { name: missiontext, widget: markdown }
           - { name: sprinttext, widget: markdown }
           - {
