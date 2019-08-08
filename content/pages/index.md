@@ -20,27 +20,27 @@ teammember:
   - Description: >-
       9 Jahre Erfahrung mit der benutzergerechten Gestaltung von Oberflächen.
       Von UX bis zur technischen Umsetzung.
-    Image: /static/img/dsc_0759_square-0-4x.jpg
+    Image: /img/dsc_0759_square-0-4x.jpg
     Name: Lasse Diercks
     Title: Design
   - Description: >-
       Entwickelt seit 10 Jahren Web basierte Applikationen. Am liebsten in
       JavaScript und ohne Server. In stabil und mit bedachter Developer
       Experience.
-    Image: /static/img/hannes.png
+    Image: /img/hannes.png
     Name: Hannes Diercks
     Title: Entwicklung
   - Description: >-
       Seit 8 Jahren in der Web Branche. Kreative Energie kombiniert mit
       technischer Finesse erlaubt Karsten Webseiten eine eigene Geschichte
       erzählen zu lassen
-    Image: /static/img/karsten.png
+    Image: /img/karsten.png
     Name: Karsten Buckstegge
     Title: Artist
   - Description: >-
       10 Jahre Erfahrung im Bereich IT Projektmanagement, Online Marketing und
       Vertrieb
-    Image: /static/img/felix.png
+    Image: /img/felix.png
     Name: Felix Speck
     Title: Vertrieb
 ---
