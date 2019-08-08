@@ -1,6 +1,11 @@
 ---
 title: Build. Learn. Repeat.
 description: Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen.
+companies:
+  - Image: /static/img/jimdo-logo.png
+  - Image: /static/img/cellular-logo.png
+  - Image: /static/img/xing-logo.png
+  - Image: /static/img/sumcumo-logo.png
 missiontext: >-
   Heute ist es möglich in extrem kurzer Zeit Software im Internet verfügbar zu
   machen und weiterzuentwickeln.
