@@ -1,5 +1,5 @@
 <template>
-  <Layout title="Startrampe">
+  <Layout isHome>
     <header class="header">
       <div class="headerText">
         <Headline class="headerHeadline" :level="1">{{$page.site.title}}</Headline>

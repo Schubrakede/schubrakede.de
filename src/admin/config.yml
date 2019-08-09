@@ -63,4 +63,15 @@ collections:
     folder: "content/landingpage"
     fields:
       - { name: headline, widget: string }
+      - { name: subline, widget: string }
+      - { name: headerImage, widget: image }
+      - {
+          name: features,
+          widget: list,
+          fields:
+            [
+              { name: image, widget: image },
+              { name: description, widget: textarea },
+            ],
+        }
       - { name: content, widget: markdown }

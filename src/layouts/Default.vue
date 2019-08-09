@@ -1,5 +1,5 @@
 <template>
-  <div class="frame">
+  <div :class="['frame', {'is-home': isHome}]">
     <Logo></Logo>
     <slot />
     <Footer></Footer>
@@ -13,6 +13,7 @@ import Logo from "../components/Logo";
 import Background from "./Background";
 import Footer from "../sections/Footer";
 export default {
+  props: ["isHome"],
   components: { Logo, Footer, Background },
   metaInfo: {
     link: [
@@ -80,12 +81,20 @@ body {
 }
 
 .frame {
-  padding: 120px 16px;
+  padding: 60px 16px;
 
   @media (min-width: 800px) {
-    padding: 200px 32px;
+    padding: 80px 32px;
     max-width: 950px;
     margin: 0 auto;
+  }
+  &.is-home {
+    padding: 120px 16px;
+    @media (min-width: 800px) {
+      padding: 200px 32px;
+      max-width: 950px;
+      margin: 0 auto;
+    }
   }
 }
 
