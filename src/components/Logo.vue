@@ -1,6 +1,6 @@
 <template>
   <div class="logoContainer">
-    <a href class="logo">
+    <g-link to="/" class="logo">
       <svg
         version="1.1"
         id="Layer_1"
@@ -42,7 +42,7 @@
           />
         </g>
       </svg>
-    </a>
+    </g-link>
   </div>
 </template>
 

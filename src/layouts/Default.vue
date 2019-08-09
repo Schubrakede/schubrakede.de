@@ -1,18 +1,24 @@
 <template>
   <div class="frame">
+    <Logo></Logo>
     <slot />
+    <Footer></Footer>
     <Background></Background>
   </div>
 </template>
 
         
-
 <script>
+import Logo from "../components/Logo";
 import Background from "./Background";
+import Footer from "../sections/Footer";
 export default {
-  components: { Background },
+  components: { Logo, Footer, Background },
   metaInfo: {
-    link: [{ rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }]
+    link: [
+      { rel: "shortcut icon", href: "/favicon.ico" },
+      { rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }
+    ]
   }
 };
 </script>

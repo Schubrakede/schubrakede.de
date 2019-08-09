@@ -39,6 +39,13 @@ collections:
         file: "content/pages/imprint.md"
         fields:
           - { name: "Title", widget: string }
+          - { name: Content, widget: markdown }
+      - label: "Datenschutz"
+        name: datenschutz
+        file: "content/pages/datenschutz.md"
+        fields:
+          - { name: "Title", widget: string }
+          - { name: Content, widget: markdown }
 
   - name: "blog"
     label: "Blog"

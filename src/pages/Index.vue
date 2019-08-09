@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <header class="header">
-      <Logo></Logo>
       <div class="headerText">
         <Headline class="headerHeadline" :level="1">{{$page.site.title}}</Headline>
         <Subline>{{$page.site.description}}</Subline>
@@ -54,7 +53,6 @@ query Index{
 </page-query>
 
 <script>
-import Logo from "../components/Logo";
 import References from "../components/References";
 import Spacer from "../components/Spacer";
 import Subline from "../components/Subline";
@@ -66,7 +64,6 @@ import Team from "../components/Team";
 
 export default {
   components: {
-    Logo,
     Spacer,
     Button,
     ButtonGroup,
