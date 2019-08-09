@@ -1,0 +1,33 @@
+---
+Title: Impressum
+Content: >-
+  ### Postanschrift:
+
+  Schubrakede Gbr
+
+  Postfach 30 41 08
+
+  20324 Hamburg
+
+
+  ### Firmensitz:
+
+  Schubrakede Gbr
+
+  Hanfstieg 40
+
+  22549 Hamburg
+
+
+  ### Verantwortlich für den Inhalt: \
+
+  Lasse Diercks
+
+
+  ### Haftungshinweis:\
+
+  Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die
+  Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind
+  ausschließlich deren Betreiber verantwortlich.
+---
+
