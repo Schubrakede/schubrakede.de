@@ -56,3 +56,11 @@ collections:
     fields:
       - { name: headline, widget: string }
       - { name: content, widget: markdown }
+  - name: "landingpage"
+    label: "Landingpage"
+    identifier_field: headline
+    create: true
+    folder: "content/landingpage"
+    fields:
+      - { name: headline, widget: string }
+      - { name: content, widget: markdown }
