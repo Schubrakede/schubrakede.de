@@ -23,11 +23,11 @@ Content: >-
 
   ### Arten der verarbeiteten Daten
 
-      - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
-      - Kontaktdaten (z.B., E-Mail, Telefonnummern).
-      - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
-      - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
-      - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
+   - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
+   - Kontaktdaten (z.B., E-Mail, Telefonnummern).
+   - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
+   - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
+   - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
 
 
   ### Kategorien betroffener Personen
@@ -40,10 +40,10 @@ Content: >-
 
   ### Zweck der Verarbeitung
 
-      - Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
-      - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
-      - Sicherheitsmaßnahmen.
-      - Reichweitenmessung/Marketing
+   - Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
+   - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
+   - Sicherheitsmaßnahmen.
+   - Reichweitenmessung/Marketing
 
   ### Verwendete Begrifflichkeiten
 
