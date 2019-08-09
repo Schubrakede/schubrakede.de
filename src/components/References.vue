@@ -1,7 +1,6 @@
 <template>
   <div class="references">
     <img v-for="image in images" :src="image.Image" :key="image.Image" alt />
-    {{images}}
   </div>
 </template>
 

@@ -1,7 +1,9 @@
 <template>
-  <VueMarkdown>
-    <slot />
-  </VueMarkdown>
+  <div class="richtext">
+    <VueMarkdown>
+      <slot />
+    </VueMarkdown>
+  </div>
 </template>
 
 <script>
@@ -11,11 +13,13 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="postcss" >
 .richtext {
   position: relative;
   background-size: 100%;
+
   p {
+    margin-top: 0;
     font-family: var(--font);
     font-weight: 400;
     line-height: 1.5;
@@ -25,19 +29,6 @@ export default {
     }
   }
 
-  &:after {
-    position: absolute;
-    content: " ";
-    display: block;
-    width: 150%;
-    top: -25%;
-    left: -25%;
-    background-image: radial-gradient(white, rgba(255, 255, 255, 0));
-    z-index: -1;
-    height: 150%;
-    max-height: 100vh;
-    max-width: 100vw;
-  }
   h1,
   h2,
   h3,
@@ -65,12 +56,9 @@ export default {
     word-wrap: break-word;
 
     -ms-word-break: break-all;
-    /* This is the dangerous one in WebKit, as it breaks things wherever */
     word-break: break-all;
-    /* Instead use this non-standard one: */
     word-break: break-word;
 
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -107,8 +95,21 @@ export default {
     }
   }
 }
-
+.richtext:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 150%;
+  top: -25%;
+  left: -25%;
+  background-image: radial-gradient(white, rgba(255, 255, 255, 0));
+  z-index: -1;
+  height: 150%;
+  max-height: 100vh;
+  max-width: 100vw;
+}
 .margin {
   margin-bottom: 120px;
 }
 </style>
+

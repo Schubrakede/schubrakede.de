@@ -1,12 +1,33 @@
 <template>
   <Layout>
-    <div>
-      <Headline :level="1">{{$page.site.title}}</Headline>
-      <Headline :level="2">{{$page.site.description}}</Headline>
-      <RichText class="mission">{{$page.site.missiontext}}</RichText>
-      <References :images="$page.site.companies"></References>
-      <div>{{$page}}</div>
-    </div>
+    <header class="header">
+      <Logo></Logo>
+      <div class="headerText">
+        <Headline class="headerHeadline" :level="1">{{$page.site.title}}</Headline>
+        <Subline>{{$page.site.description}}</Subline>
+      </div>
+      <Button href="tel:004915734376122">Anrufen</Button>
+    </header>
+    <References :images="$page.site.companies"></References>
+    <RichText class="mission">{{$page.site.missiontext}}</RichText>
+    <Spacer :size="2"></Spacer>
+    <Headline>Entwicklungs Sprint</Headline>
+    <RichText>{{$page.site.sprinttext}}</RichText>
+    <Spacer :size="1"></Spacer>
+    <ButtonGroup>
+      <Button href="mailto:request@schubrake.de">Termin anfragen</Button>
+    </ButtonGroup>
+
+    <Spacer :size="2"></Spacer>
+    <Headline>Hands on Hilfe</Headline>
+    <RichText>{{$page.site.handsOnText}}</RichText>
+    <Spacer :size="1"></Spacer>
+    <ButtonGroup>
+      <Button href="mailto:handson@schubrake.de">Verfügbarkeit anfragen</Button>
+    </ButtonGroup>
+    <Spacer :size="2"></Spacer>
+    <Headline>Team</Headline>
+    <Team :data="$page.site.teammember"></Team>
   </Layout>
 </template>
 
@@ -21,6 +42,7 @@ query Index{
     },
     missiontext,
     sprinttext,
+    handsOnText,
     teammember{
       Title,
       Image,
@@ -30,13 +52,30 @@ query Index{
   }
 }
 </page-query>
+
 <script>
+import Logo from "../components/Logo";
 import References from "../components/References";
+import Spacer from "../components/Spacer";
+import Subline from "../components/Subline";
 import Headline from "../components/Headline";
+import Button from "../components/Button";
+import ButtonGroup from "../components/ButtonGroup";
 import RichText from "../components/RichText";
+import Team from "../components/Team";
 
 export default {
-  components: { Headline, References, RichText }
+  components: {
+    Logo,
+    Spacer,
+    Button,
+    ButtonGroup,
+    Headline,
+    Subline,
+    References,
+    RichText,
+    Team
+  }
 };
 </script>
 
@@ -51,5 +90,27 @@ export default {
       font-size: 24px;
     }
   }
+}
+.header {
+  text-align: center;
+  @media (min-width: 520px) {
+    & {
+      height: auto;
+    }
+  }
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.headerText {
+  margin-bottom: 36px;
+}
+
+.headerHeadline {
+  font-weight: 600 !important;
 }
 </style>

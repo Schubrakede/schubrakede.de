@@ -1,12 +1,12 @@
 <template>
-  <h2 :is="`h${level}`" :class="['headline',`headline-level${levelClasses[level + 1]}`]">
+  <h2 :is="`h${level}`" :class="['headline',`level${levelClasses[level - 1]}`]">
     <slot />
   </h2>
 </template>
 
 <script>
 export default {
-  props: ["isRichText", "level"],
+  props: { level: { type: Number, default: 2 } },
   data: () => {
     return {
       levelClasses: ["One", "Two", "Three"]

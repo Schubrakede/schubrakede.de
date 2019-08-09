@@ -1,4 +1,4 @@
-const PostcssNested = require("postcss-nesting");
+const PostcssNested = require("postcss-nested");
 
 module.exports = {
   siteName: "Schubrakede",

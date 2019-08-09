@@ -5,10 +5,15 @@
   </div>
 </template>
 
+        
+
 <script>
 import Background from "./Background";
 export default {
-  components: { Background }
+  components: { Background },
+  metaInfo: {
+    link: [{ rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }]
+  }
 };
 </script>
 
