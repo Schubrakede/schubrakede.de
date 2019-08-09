@@ -18,7 +18,12 @@ import RichText from "../components/RichText";
 import Headline from "../components/Headline";
 
 export default {
-  components: { Headline, RichText }
+  components: { Headline, RichText },
+  metaInfo() {
+    return {
+      title: this.$page.site.Title
+    };
+  }
 };
 </script>
 

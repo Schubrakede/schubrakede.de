@@ -13,6 +13,7 @@ collections:
         name: "home"
         file: "content/pages/index.md"
         fields:
+          - { label: "Name", name: "Name", widget: string }
           - { label: "Title", name: "title", widget: "string" }
           - { name: description, widget: string }
           - {

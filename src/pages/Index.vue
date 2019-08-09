@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout title="Startrampe">
     <header class="header">
       <div class="headerText">
         <Headline class="headerHeadline" :level="1">{{$page.site.title}}</Headline>
@@ -34,6 +34,7 @@
 <page-query>
 query Index{
   site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
+    Name,
     description,
     title,
     companies {
@@ -72,6 +73,11 @@ export default {
     References,
     RichText,
     Team
+  },
+  metaInfo() {
+    return {
+      title: this.$page.site.Name
+    };
   }
 };
 </script>
