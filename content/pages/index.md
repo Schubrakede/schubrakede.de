@@ -1,4 +1,5 @@
 ---
+Name: Startrampe
 title: Build. Learn. Repeat.
 description: Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen.
 companies:
