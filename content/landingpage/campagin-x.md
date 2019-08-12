@@ -15,6 +15,9 @@ features:
       especially good code
     headline: Certified Awesome
     image: /img/billpaid.svg
-content: Lorem ipsum
+testimonial:
+  - name: Markus Siering
+    quote: “Shut up and give them money!”
+    title: 'Senior UI-Engineer, sum.cumo'
 ---
 
