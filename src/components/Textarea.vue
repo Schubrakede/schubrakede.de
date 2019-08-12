@@ -8,6 +8,7 @@ export default {};
 
 <style lang="postcss" scoped>
 .textarea {
+  min-height: 8em;
   width: 100%;
   margin-bottom: 1em;
   border: 2px solid var(--grey);

@@ -38,8 +38,8 @@
         <Input type="email" name="email" v-model="formData.email" />
         <Label for="company">Unternehmen</Label>
         <Input type="text" name="company" v-model="formData.email" />
-        <Label for="email">Telefonnummer</Label>
-        <Input type="number" name="email" v-model="formData.tel" />
+        <Label for="telephone">Telefonnummer</Label>
+        <Input type="tel" name="telephone" v-model="formData.tel" />
       </div>
 
       <div class="message-wrapper">

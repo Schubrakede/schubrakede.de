@@ -20,6 +20,7 @@ export default {
 .input {
   width: 100%;
   margin-bottom: 1em;
+  transition: border-color 220ms ease-out;
   border: 2px solid var(--grey);
   &:focus {
     outline: none;
@@ -27,5 +28,8 @@ export default {
   }
   padding: 0.5em 1em;
   font-size: inherit;
+  &:invalid {
+    border-color: var(--orange);
+  }
 }
 </style>
