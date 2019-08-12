@@ -3,13 +3,20 @@
     <header>
       <Headline>{{$page.landingpage.headline}}</Headline>
       <Subline v-if="$page.landingpage.subline">{{$page.landingpage.subline}}</Subline>
-      <Button>Jetzt Kontaktieren</Button>
+      <br />
+      <Button href="#formTarget">Jetzt Kontaktieren</Button>
     </header>
     <FeatureList :data="$page.landingpage.features"></FeatureList>
     <Testimonials :data="$page.landingpage.testimonial"></Testimonials>
-    <Headline :level="2">Zusammengearbeitet mit:</Headline>
+    <Spacer :size="3"></Spacer>
+    <Headline :level="3">Zusammengearbeitet mit:</Headline>
     <References :small="true" :images="$page.site.companies"></References>
+    <Spacer :size="3"></Spacer>
+    <Headline :level="3" id="formTarget">Kontakt</Headline>
+    <Spacer :size="1"></Spacer>
+
     <form
+      class="contactForm"
       name="contact"
       method="post"
       v-on:submit.prevent="handleSubmit"
@@ -25,22 +32,22 @@
         </label>
       </p>
       <div class="sender-info">
-        <div>
-          <label for="name" class="label">Your name</label>
-          <input type="text" name="name" v-model="formData.name" />
-        </div>
-        <div>
-          <label for="email">Your email</label>
-          <input type="email" name="email" v-model="formData.email" />
-        </div>
+        <Label>Name</Label>
+        <Input label="Name" type="text" v-model="formData.name" />
+        <Label for="email">E-Mail</Label>
+        <Input type="email" name="email" v-model="formData.email" />
+        <Label for="company">Unternehmen</Label>
+        <Input type="text" name="company" v-model="formData.email" />
+        <Label for="email">Telefonnummer</Label>
+        <Input type="number" name="email" v-model="formData.tel" />
       </div>
 
       <div class="message-wrapper">
-        <label for="message">Message</label>
-        <textarea name="message" v-model="formData.message"></textarea>
+        <Label for="message">Nachricht</Label>
+        <Textarea name="message" v-model="formData.message" />
       </div>
 
-      <button type="submit">Submit form</button>
+      <Button type="submit">Absenden</Button>
     </form>
 
     <h1 v-if="formSent">Bla</h1>
@@ -79,7 +86,11 @@ query Landingpage ($id: String!) {
 import Subline from "../components/Subline";
 import Button from "../components/Button";
 import RichText from "../components/RichText";
+import Spacer from "../components/Spacer";
+import Input from "../components/Input";
+import Textarea from "../components/Textarea";
 import Testimonials from "../components/Testimonials";
+import Label from "../components/Label";
 import FeatureList from "../components/FeatureList";
 import Headline from "../components/Headline";
 import References from "../components/References";
@@ -87,12 +98,16 @@ import References from "../components/References";
 export default {
   components: {
     References,
+    Label,
+    Input,
+    Textarea,
     Button,
     Testimonials,
     FeatureList,
     Subline,
     Headline,
-    RichText
+    RichText,
+    Spacer
   },
   data() {
     return {
@@ -127,5 +142,8 @@ export default {
 <style lang="postcss" scoped>
 header {
   padding: 4em 0;
+}
+.contactForm {
+  max-width: 20em;
 }
 </style>

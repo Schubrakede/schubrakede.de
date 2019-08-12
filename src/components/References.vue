@@ -10,7 +10,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss">
 .references {
   padding: 120px 0;
   display: grid;
@@ -28,5 +28,13 @@ export default {
   grid-template-columns: initial;
   grid-auto-columns: auto;
   grid-auto-flow: column;
+  @media (max-width: 800px) {
+    grid-template-columns: auto auto;
+    grid-auto-flow: initial;
+    justify-content: space-around;
+  }
+  @media (max-width: 400px) {
+    grid-template-columns: auto;
+  }
 }
 </style>
