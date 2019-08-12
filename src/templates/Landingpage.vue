@@ -48,9 +48,8 @@
       </div>
 
       <Button type="submit">Absenden</Button>
+      <Message v-if="formSent">Erfolgreich versendet</Message>
     </form>
-
-    <h1 v-if="formSent">Bla</h1>
   </Layout>
 </template>
 
@@ -92,6 +91,7 @@ import Textarea from "../components/Textarea";
 import Testimonials from "../components/Testimonials";
 import Label from "../components/Label";
 import FeatureList from "../components/FeatureList";
+import Message from "../components/Message";
 import Headline from "../components/Headline";
 import References from "../components/References";
 
@@ -104,6 +104,7 @@ export default {
     Button,
     Testimonials,
     FeatureList,
+    Message,
     Subline,
     Headline,
     RichText,
