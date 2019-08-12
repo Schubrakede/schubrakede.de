@@ -17,7 +17,7 @@ features:
     image: /img/billpaid.svg
 testimonial:
   - name: Markus Siering
-    quote: “Shut up and give them money!”
+    quote: Shut up and give them money!
     title: 'Senior UI-Engineer, sum.cumo'
 ---
 
