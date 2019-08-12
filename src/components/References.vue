@@ -1,12 +1,12 @@
 <template>
-  <div class="references">
+  <div :class="['references', {'references--small': small}]">
     <img v-for="image in images" :src="image.Image" :key="image.Image" alt />
   </div>
 </template>
 
 <script>
 export default {
-  props: ["images"]
+  props: ["images", "small"]
 };
 </script>
 
@@ -20,5 +20,13 @@ export default {
   grid-gap: 45px;
   align-items: center;
   justify-items: center;
+}
+.references--small {
+  padding: 40px 0;
+  justify-content: flex-start;
+  grid-template-rows: auto;
+  grid-template-columns: initial;
+  grid-auto-columns: auto;
+  grid-auto-flow: column;
 }
 </style>

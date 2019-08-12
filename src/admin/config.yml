@@ -71,7 +71,17 @@ collections:
           fields:
             [
               { name: image, widget: image },
-              { name: description, widget: textarea },
+              { name: headline, widget: string },
+              { name: description, widget: text },
             ],
         }
-      - { name: content, widget: markdown }
+      - {
+          name: testimonial,
+          widget: list,
+          fields:
+            [
+              { name: quote, widget: text },
+              { name: name, widget: string },
+              { name: title, widget: string },
+            ],
+        }
