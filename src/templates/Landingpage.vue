@@ -17,10 +17,9 @@
 
     <form
       class="contactForm"
-      name="contact"
+      :name="`Schubrakede Contact From ${$page.landingpage.headline}` "
       method="post"
       v-on:submit.prevent="handleSubmit"
-      action="/success/"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
@@ -40,6 +39,7 @@
         <Input type="text" name="company" v-model="formData.email" />
         <Label for="telephone">Telefonnummer</Label>
         <Input type="tel" name="telephone" v-model="formData.tel" />
+        <input type="text" v-model="formData.test" />
       </div>
 
       <div class="message-wrapper">
