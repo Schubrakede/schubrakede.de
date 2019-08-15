@@ -23,41 +23,6 @@
       <input type="hidden" name="form-name" value="contact" />
       <button type="submit">Send</button>
     </form>
-    <form
-      class="contactForm"
-      :name="`Schubrakede Contact From ${$page.landingpage.headline}` "
-      method="post"
-      v-on:submit.prevent="handleSubmit"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <p hidden>
-        <label>
-          Don’t fill this out:
-          <input name="bot-field" />
-        </label>
-      </p>
-      <div class="sender-info">
-        <Label>Name</Label>
-        <Input label="Name" type="text" v-model="formData.name" />
-        <Label for="email">E-Mail</Label>
-        <Input type="email" name="email" v-model="formData.email" />
-        <Label for="company">Unternehmen</Label>
-        <Input type="text" name="company" v-model="formData.email" />
-        <Label for="telephone">Telefonnummer</Label>
-        <Input type="tel" name="telephone" v-model="formData.tel" />
-        <input type="text" v-model="formData.test" />
-      </div>
-
-      <div class="message-wrapper">
-        <Label for="message">Nachricht</Label>
-        <Textarea name="message" v-model="formData.message" />
-      </div>
-
-      <Button type="submit">Absenden</Button>
-      <Message v-if="formSent">Erfolgreich versendet</Message>
-    </form>
   </Layout>
 </template>
 
