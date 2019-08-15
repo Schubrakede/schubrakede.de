@@ -1,12 +1,18 @@
 <template>
   <form :name="formName" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" :value="formName" />
-    <Label>Name</Label>
-    <Input label="Name" @input="ev => updateInput" type="text" v-model="formData.text" />
+    <Label for="name">Name</Label>
+    <Input name="name" @input="ev => updateInput" type="text" v-model="formData.name" />
     <Label for="email">E-Mail</Label>
-    <Input @input="ev => updateInput" type="email" v-model="formData.email" name="E-Mail" />
+    <Input @input="ev => updateInput" type="email" v-model="formData.email" name="email" />
     <Label for="company">Unternehmen</Label>
-    <Input required @input="ev => updateInput" type="text" v-model="formData.text" name="company" />
+    <Input
+      required
+      @input="ev => updateInput"
+      type="text"
+      v-model="formData.company"
+      name="company"
+    />
     <Label for="telephone">Telefonnummer</Label>
     <Input @input="ev => updateInput" type="tel" v-model="formData.tel" name="telephone" />
     <Label for="message">Nachricht</Label>
