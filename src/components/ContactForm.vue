@@ -36,7 +36,7 @@ export default {
       this.currentPanelist = ev.target.value;
     },
     updateInput(ev) {
-      this.value = ev.target.value;
+      this.formData = ev.target.value;
     }
   },
   data() {
