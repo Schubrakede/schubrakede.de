@@ -15,37 +15,13 @@
     <Headline :level="3" id="formTarget">Kontakt</Headline>
     <Spacer :size="1"></Spacer>
 
-    <form name="TESTCONTACT" method="POST" data-netlify="true">
-      <p>
-        <label>
-          Your Name:
-          <input type="text" name="name" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Your Email:
-          <input type="email" name="email" />
-        </label>
-      </p>
-      <p>
-        <label>
-          Your Role:
-          <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select>
-        </label>
-      </p>
-      <p>
-        <label>
-          Message:
-          <textarea name="message"></textarea>
-        </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
+    <form name="form-name" method="post" netlify>
+      <div>
+        <label for="name">Name</label>
+        <input required name="name" type="text" />
+      </div>
+      <input type="hidden" name="form-name" value="contact" />
+      <button type="submit">Send</button>
     </form>
     <form
       class="contactForm"
