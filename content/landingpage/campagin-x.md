@@ -22,5 +22,8 @@ testimonial:
   - name: Nadja Match
     quote: Kommt in die Puschen!
     title: 'VP of Engineering, Jimdo'
+  - name: Sebastian Müller
+    quote: 'If those two cannot fix the wunderbar, nobody can'
+    title: 'Cloud Consultant, Superluminar'
 ---
 
