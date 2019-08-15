@@ -26,7 +26,7 @@ export default {
     outline: none;
     border-color: var(--teal);
   }
-  padding: 0.5em 1em;
+  padding: 0.5em 0.7em;
   font-size: inherit;
   &:invalid {
     border-color: var(--orange);

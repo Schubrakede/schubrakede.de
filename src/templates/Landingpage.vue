@@ -14,7 +14,7 @@
     <Spacer :size="3"></Spacer>
     <Headline :level="3" id="formTarget">Kontakt</Headline>
     <Spacer :size="1"></Spacer>
-    <ContactForm :formName="$page.landingpage.headline"></ContactForm>
+    <ContactForm :formName="`Landingpage Form from: ${$page.landingpage.headline}`"></ContactForm>
   </Layout>
 </template>
 

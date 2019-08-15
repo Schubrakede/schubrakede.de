@@ -6,48 +6,38 @@
     <Label for="email">E-Mail</Label>
     <Input @input="ev => updateInput" type="email" v-model="formData.email" name="E-Mail" />
     <Label for="company">Unternehmen</Label>
-    <Input @input="ev => updateInput" type="text" v-model="formData.text" name="company" />
+    <Input required @input="ev => updateInput" type="text" v-model="formData.text" name="company" />
     <Label for="telephone">Telefonnummer</Label>
     <Input @input="ev => updateInput" type="tel" v-model="formData.tel" name="telephone" />
-
-    <label v-for="(panelist, index) in panelists" :key="index">
-      <input
-        type="radio"
-        name="panelist"
-        :value="panelist"
-        @input="ev => updatePanelist"
-        :checked="panelist === currentPanelist"
-      />
-      <span>{{ panelist }}</span>
-    </label>
-    <button>Submit</button>
+    <Label for="message">Nachricht</Label>
+    <Textarea @input="ev => updateInput" v-model="formData.message" name="message" />
+    <Button>Absenden</Button>
   </form>
 </template>
 
 <script>
 import Label from "../components/Label";
+import Button from "../components/Button";
 import Input from "../components/Input";
+import Textarea from "../components/Textarea";
 export default {
   props: ["formName"],
-  components: { Label, Input },
-  name: "QAForm",
+  components: { Textarea, Label, Button, Input },
   methods: {
-    updatePanelist(ev) {
-      this.currentPanelist = ev.target.value;
-    },
     updateInput(ev) {
       this.formData = ev.target.value;
     }
   },
   data() {
     return {
-      formData: {},
-      panelists: ["Evan You", "Chris Fritz"],
-      currentPanelist: "Evan You"
+      formData: {}
     };
   }
 };
 </script>
 
 <style>
+form {
+  max-width: 30em;
+}
 </style>
