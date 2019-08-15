@@ -19,5 +19,8 @@ testimonial:
   - name: Markus Siering
     quote: Shut up and give them money!
     title: 'Senior UI-Engineer, sum.cumo'
+  - name: Nadja Match
+    quote: Kommt in die Puschen!
+    title: 'Head of Product, Jimdo'
 ---
 
