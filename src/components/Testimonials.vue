@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    <div v-for="testi in data" :key="testi.name">
+    <div class="quote_wrap" v-for="testi in data" :key="testi.name">
       <span class="quote">{{testi.quote}}</span>
       <span class="name">{{testi.name}}</span>
       <span class="title">{{testi.title}}</span>
@@ -18,9 +18,12 @@ export default {
 .wrap {
   margin-bottom: 3em;
 }
+.quote_wrap {
+  margin-bottom: 2em;
+}
 .quote {
   display: block;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 0.5em;
   font-style: italic;
   &:before {
