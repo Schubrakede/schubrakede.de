@@ -14,15 +14,7 @@
     <Spacer :size="3"></Spacer>
     <Headline :level="3" id="formTarget">Kontakt</Headline>
     <Spacer :size="1"></Spacer>
-
-    <form name="form-name" method="post" netlify>
-      <div>
-        <label for="name">Name</label>
-        <input required name="name" type="text" />
-      </div>
-      <input type="hidden" name="form-name" value="contact" />
-      <button type="submit">Send</button>
-    </form>
+    <ContactForm></ContactForm>
   </Layout>
 </template>
 
@@ -57,6 +49,7 @@ query Landingpage ($id: String!) {
 <script>
 import Subline from "../components/Subline";
 import Button from "../components/Button";
+import ContactForm from "../components/ContactForm";
 import RichText from "../components/RichText";
 import Spacer from "../components/Spacer";
 import Input from "../components/Input";
@@ -71,6 +64,7 @@ import References from "../components/References";
 export default {
   components: {
     References,
+    ContactForm,
     Label,
     Input,
     Textarea,
@@ -88,27 +82,6 @@ export default {
       formData: {},
       formSent: false
     };
-  },
-  methods: {
-    encode(data) {
-      return Object.keys(data)
-        .map(
-          key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-    },
-    handleSubmit(e) {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: this.encode({
-          "form-name": e.target.getAttribute("name"),
-          ...this.formData
-        })
-      })
-        .then(() => (this.formSent = true))
-        .catch(error => alert(error));
-    }
   }
 };
 </script>
