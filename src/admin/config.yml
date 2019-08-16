@@ -54,6 +54,12 @@ collections:
     create: true
     folder: "content/blog"
     fields:
+      - {
+          label: "Published",
+          name: "published",
+          widget: "boolean",
+          default: false,
+        }
       - { name: headline, widget: string }
       - { name: content, widget: markdown }
   - name: "landingpage"
