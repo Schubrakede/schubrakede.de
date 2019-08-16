@@ -23,7 +23,7 @@ export default {
     font-family: var(--font);
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: 60px;
+    margin-bottom: 1em;
     &:last-child {
       margin-bottom: 0;
     }
