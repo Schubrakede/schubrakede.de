@@ -1,5 +1,5 @@
 ---
-headline: Cynefin und die Positiunierung von einem Entwicklungs Sprint
+headline: Cynefin und die Positionierung von einem Entwicklungs Sprint
 content: |-
   Cynefin ist ein Framwork
 
