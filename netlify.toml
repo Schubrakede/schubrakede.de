@@ -1,0 +1,17 @@
+[[redirects]]
+    from = "https://www.schubrakede.de/*"
+    to = "https://schubrake.de/:splat"
+    status = 301
+    force= true
+
+[[redirects]]
+    from = "https://schubrakede.de/*"
+    to = "https://schubrake.de/:splat"
+    status = 301
+    force= true
+
+[[redirects]]
+    from = "https://schubrakede.netlify.com/*"
+    to = "https://schubrake.de/:splat"
+    status = 301
+    force= true
