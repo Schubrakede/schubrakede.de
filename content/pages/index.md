@@ -7,6 +7,7 @@ companies:
   - Image: /img/jimdo-logo.png
   - Image: /img/sumcumo-logo.png
   - Image: /img/xing-logo.png
+  - Image: /img/bitmap.png
 missiontext: >-
   Heute ist es möglich in extrem kurzer Zeit Software im Internet verfügbar zu
   machen und weiterzuentwickeln.
