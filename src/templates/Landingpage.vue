@@ -82,6 +82,11 @@ export default {
       formData: {},
       formSent: false
     };
+  },
+  metaInfo() {
+    return {
+      meta: [{ name: "robots", content: "noindex, nofollow" }]
+    };
   }
 };
 </script>
