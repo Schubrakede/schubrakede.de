@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :title="$page.landingpage.headline" :description="$page.landingpage.subline">
     <header>
       <Headline>{{$page.landingpage.headline}}</Headline>
       <Subline v-if="$page.landingpage.subline">{{$page.landingpage.subline}}</Subline>

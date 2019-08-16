@@ -13,13 +13,43 @@ import Logo from "../components/Logo";
 import Background from "./Background";
 import Footer from "../sections/Footer";
 export default {
-  props: ["isHome"],
+  props: {
+    isHome: Boolean,
+    title: { type: String, default: "Schubrakede" },
+    description: {
+      type: String,
+      default:
+        "Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen."
+    }
+  },
   components: { Logo, Footer, Background },
-  metaInfo: {
-    link: [
-      { rel: "shortcut icon", href: "/favicon.ico" },
-      { rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }
-    ]
+  metaInfo() {
+    return {
+      link: [
+        { rel: "shortcut icon", href: "/favicon.ico" },
+        { rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }
+      ],
+      title: this.title,
+      meta: [
+        { name: "description", content: this.description },
+        { property: "og:description", content: this.description },
+        { property: "og:title", content: this.title },
+        { property: "og:image", content: "/img/open-graph.png" },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { property: "og:url", content: "Schubrake.de" },
+        { property: "og:site_name", content: "Schubrakede" },
+        { name: "twitter:card", content: "photo" },
+        { name: "twitter:site", content: "@schubrakede" },
+        { name: "twitter:image:width", content: "750" },
+        { name: "twitter:description", content: this.description },
+        { name: "twitter:image:height", content: "560" },
+        {
+          name: "twitter:image",
+          content: "/img/twitter.png"
+        }
+      ]
+    };
   }
 };
 </script>

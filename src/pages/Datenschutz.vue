@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :title="$page.site.Title">
     <Headline :level="1">{{$page.site.Title}}</Headline>
     <RichText>{{$page.site.Content}}</RichText>
   </Layout>
@@ -18,12 +18,7 @@ import RichText from "../components/RichText";
 import Headline from "../components/Headline";
 
 export default {
-  components: { Headline, RichText },
-  metaInfo() {
-    return {
-      title: this.$page.site.Title
-    };
-  }
+  components: { Headline, RichText }
 };
 </script>
 
