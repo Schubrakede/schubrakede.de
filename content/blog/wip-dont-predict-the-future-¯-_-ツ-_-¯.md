@@ -1,4 +1,5 @@
 ---
+published: false
 headline: 'WIP: Don''t predict the future ¯\_(ツ)_/¯'
 content: >-
   Over the course of my developer carrier I started and worked on a lot projects
