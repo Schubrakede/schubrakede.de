@@ -4,6 +4,7 @@
     <Label for="name">Name</Label>
     <Input
       name="name"
+      id="name"
       placeholder="z.b. Max Mustermann"
       @input="ev => updateInput"
       type="text"
@@ -17,6 +18,7 @@
       required
       v-model="formData.email"
       name="email"
+      id="email"
     />
     <Label for="company">Unternehmen</Label>
     <Input
@@ -26,6 +28,7 @@
       type="text"
       v-model="formData.company"
       name="company"
+      id="company"
     />
     <Label for="telephone">Telefonnummer</Label>
     <Input
@@ -34,6 +37,7 @@
       type="tel"
       v-model="formData.tel"
       name="telephone"
+      id="telephone"
     />
     <Label for="message">Nachricht</Label>
     <Textarea
@@ -41,19 +45,36 @@
       @input="ev => updateInput"
       v-model="formData.message"
       name="message"
+      id="message"
     />
-    <Button>Absenden</Button>
+    <div class="checkboxWrap">
+      <Checkbox
+        type="checkbox"
+        required
+        @input="ev => updateInput"
+        v-model="formData.checked"
+        name="datenschutzcheck"
+        id="datenschutzcheck"
+      />
+      <Label :noMargin="true" for="datenschutzcheck">
+        Ich stimme
+        <AnchorLink href="/datenschutz">der Datenschutzerklärung</AnchorLink>&nbsp;zu
+      </Label>
+    </div>
+    <Button>Anfrage an Schubrakede senden</Button>
   </form>
 </template>
 
 <script>
 import Label from "../components/Label";
+import AnchorLink from "../components/AnchorLink";
 import Button from "../components/Button";
 import Input from "../components/Input";
+import Checkbox from "../components/Checkbox";
 import Textarea from "../components/Textarea";
 export default {
   props: ["formName"],
-  components: { Textarea, Label, Button, Input },
+  components: { Textarea, Label, Button, Input, Checkbox, AnchorLink },
   methods: {
     updateInput(ev) {
       this.formData = ev.target.value;
@@ -68,6 +89,14 @@ export default {
 </script>
 
 <style>
+.checkboxWrap {
+  padding: 0.5em 0;
+  display: inline-grid;
+  margin-bottom: 0.5em;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-gap: 0.3em;
+}
 form {
   max-width: 30em;
 }

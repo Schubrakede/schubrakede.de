@@ -1,12 +1,12 @@
 <template>
-  <label class="label">
+  <label :class="['label', {'label--nomargin': noMargin}]">
     <slot />
   </label>
 </template>
 
 <script>
 export default {
-  props: ["htmlFor"]
+  props: ["htmlFor", "noMargin"]
 };
 </script>
 
@@ -14,5 +14,8 @@ export default {
 .label {
   display: block;
   margin-bottom: 0.3em;
+}
+.label--nomargin {
+  margin-bottom: 0;
 }
 </style>
