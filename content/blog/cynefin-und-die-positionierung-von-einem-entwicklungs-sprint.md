@@ -21,8 +21,7 @@ content: >-
   bringen.
 
 
-  **Obvious**
-
+  ## Obvious
 
   Das beste Beispiel für die Obvious Domäne ist die Seite auf der wir mit dem
   Auto auf der Straße fahren.
@@ -33,22 +32,63 @@ content: >-
   eine Entscheidung zu treffen.
 
 
-  **Complicated**
+  Sense-Categorise-Respond
 
+
+  ## Complicated
 
   Die Domäne Complicated beschreibt Probleme die durch Analyse oder
-  Expertenwissen gelöst werden könnnen. Es gibt eine Lösung diese ist allerdings
+  Expertenwissen gelöst werden Können. Es gibt eine Lösung diese ist allerdings
   nicht selbsterklärend. Die meisten Entwicklungsprobleme liegen z.b. in dieser
   Domäne.
 
 
-  **Complex**
+  Sense-Analyse-Respond
 
 
-  Die Complexe Domäne zeichnet sich dadurch aus, dass die Komponenten in einem
+  ## Complex
+
+  Die Complex Domäne zeichnet sich dadurch aus, dass die Komponenten in einem
   System so schnelllebig sind und die Beziehung der Komponenten so dynamisch
   sind, dass es keine Kausalität gibt mit der man ein Problem lösen könnte. Als
   komplexe Systeme könnte man z.b. Das Internet, Große (mehr als 200
   Mitarbeiter) Unternehmen oder öffentliche Berichterstattung bezeichnen.
+
+
+  Also: Ein Komplexes System hat keine Kausalität sondern Neigungen. Um
+  herauszufinden in welche Richtung man diese Neigungen beeinflussen kann
+  sondiert man das System mit mehreren safe-to-fail Experimenten.
+
+
+  Was garantiert ist in einem komplexen System ist, dass alles was man tut
+  unbeabsichtigte Konsequenzen hat, weswegen "safe-to-fail" so wichtig ist.
+
+
+  Probe-Sense-Respond 
+
+
+  ## Chaos
+
+  Die Chaos Domäne beschreibt einen _temporären_ Zustand der Katastrophen- oder
+  Krisenartig ist.
+
+
+  Alle Regeln sind außer Kraft gesetzt weswegen es das wichtig ist schnell
+  Irgendetwas zu tun und dann zu schauen wie die Reaktion darauf ist.
+
+
+  Act-Sense-Respond
+
+
+  ## Disorder
+
+  Die - meiner Meinung nach- meist übersehene Domäne ist Disorder. Sie
+  beschreibt den Zustand wenn man nicht weiß in welcher der anderen 4 Domänen
+  man sich befindet. Interessant hierbei ist, dass Menschen dazu neigen Probleme
+  so zu lösen wie sie es für sie am gewohntesten ist.
+
+
+  Ein Bürokrat wird einen Prozess beginnen, ein Entwickler wird ein Problem
+  analysieren wollen usw.
 ---
 
