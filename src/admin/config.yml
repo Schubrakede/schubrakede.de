@@ -62,6 +62,14 @@ collections:
         }
       - { name: headline, widget: string }
       - { name: content, widget: markdown }
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "author"
+        searchFields: ["name"]
+        valueField: "name"
+        displayFields: ["name"]
+
   - name: "landingpage"
     label: "Landingpage"
     identifier_field: headline
@@ -90,3 +98,14 @@ collections:
               { name: title, widget: string },
             ],
         }
+
+  - name: "author"
+    label: Author
+    identifier_field: name,
+    create: true
+    folder: "content/author"
+    fields:
+      - { name: name, widget: string }
+      - { name: description, widget: string }
+      - { name: image, widget: image }
+      - { name: twitterhandle, widget: string }
