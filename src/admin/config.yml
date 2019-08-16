@@ -64,7 +64,6 @@ collections:
     fields:
       - { name: headline, widget: string }
       - { name: subline, widget: string }
-      - { name: headerImage, widget: image }
       - {
           name: features,
           widget: list,
