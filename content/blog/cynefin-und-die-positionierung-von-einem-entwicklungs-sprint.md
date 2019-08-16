@@ -23,6 +23,7 @@ content: >-
 
   ## Obvious
 
+
   Das beste Beispiel für die Obvious Domäne ist die Seite auf der wir mit dem
   Auto auf der Straße fahren.
 
@@ -37,6 +38,7 @@ content: >-
 
   ## Complicated
 
+
   Die Domäne Complicated beschreibt Probleme die durch Analyse oder
   Expertenwissen gelöst werden Können. Es gibt eine Lösung diese ist allerdings
   nicht selbsterklärend. Die meisten Entwicklungsprobleme liegen z.b. in dieser
@@ -47,6 +49,7 @@ content: >-
 
 
   ## Complex
+
 
   Die Complex Domäne zeichnet sich dadurch aus, dass die Komponenten in einem
   System so schnelllebig sind und die Beziehung der Komponenten so dynamisch
@@ -69,6 +72,7 @@ content: >-
 
   ## Chaos
 
+
   Die Chaos Domäne beschreibt einen _temporären_ Zustand der Katastrophen- oder
   Krisenartig ist.
 
@@ -82,6 +86,7 @@ content: >-
 
   ## Disorder
 
+
   Die - meiner Meinung nach- meist übersehene Domäne ist Disorder. Sie
   beschreibt den Zustand wenn man nicht weiß in welcher der anderen 4 Domänen
   man sich befindet. Interessant hierbei ist, dass Menschen dazu neigen Probleme
@@ -90,5 +95,32 @@ content: >-
 
   Ein Bürokrat wird einen Prozess beginnen, ein Entwickler wird ein Problem
   analysieren wollen usw.
+
+
+
+
+
+
+  ## Etablierte Prozesse in Cynefin Domänen
+
+
+  ![](/img/artboard-3.png)
+
+
+  In der Obvious Domäne können wir mit klassischen **Wasserfall** Prozessen
+  arbeiten. Es gibt wenig bis keine Variation. Planung-Ausführung-Ende.
+
+
+  Die komplizierte Domäne ist Nicht selbsterklärend weswegen wir Expertenwissen
+  benötigen. Die Experten können dann dann mit **Sequentiellen Experimenten** zu
+  einer Lösung kommen. Es gibt verschiedene Wege um ans Ziel zu kommen.
+
+
+  Interessant wird es zwischen den Domänen Complex und Complicated. **Scrum**
+  ist großartig für den Übergang weil man sich pro Scrum Sprint nur einer
+  kleinen Teilmenge widmet und der Rest des Problems aber unberührt lassen kann
+  und so auf eventuelle Veränderungen schnell reagieren kann. Deswegen macht es
+  Sinn Scrum bei Digital-Produkten zu verwenden die eine hohe Anzahl an
+  Kundeninteraktionen haben.
 ---
 
