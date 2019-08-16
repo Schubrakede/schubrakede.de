@@ -10,6 +10,7 @@ export default {};
 .textarea {
   min-height: 8em;
   width: 100%;
+  font-family: inherit;
   margin-bottom: 1em;
   border: 2px solid var(--grey);
   &:focus {

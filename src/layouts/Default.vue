@@ -6,8 +6,7 @@
     <Background></Background>
   </div>
 </template>
-
-        
+       
 <script>
 import Logo from "../components/Logo";
 import Background from "./Background";

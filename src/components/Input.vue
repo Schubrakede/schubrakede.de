@@ -18,6 +18,7 @@ export default {
 
 <style lang="postcss" scoped>
 .input {
+  font-family: inherit;
   width: 100%;
   margin-bottom: 1em;
   transition: border-color 220ms ease-out;

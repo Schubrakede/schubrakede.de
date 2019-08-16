@@ -2,11 +2,25 @@
   <form :name="formName" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" :value="formName" />
     <Label for="name">Name</Label>
-    <Input name="name" @input="ev => updateInput" type="text" v-model="formData.name" />
+    <Input
+      name="name"
+      placeholder="z.b. Max Mustermann"
+      @input="ev => updateInput"
+      type="text"
+      v-model="formData.name"
+    />
     <Label for="email">E-Mail</Label>
-    <Input @input="ev => updateInput" type="email" v-model="formData.email" name="email" />
+    <Input
+      placeholder="name@unternehmen.com"
+      @input="ev => updateInput"
+      type="email"
+      required
+      v-model="formData.email"
+      name="email"
+    />
     <Label for="company">Unternehmen</Label>
     <Input
+      placeholder="z.b. Fielmann, Jimdo, Xing"
       required
       @input="ev => updateInput"
       type="text"
@@ -14,9 +28,20 @@
       name="company"
     />
     <Label for="telephone">Telefonnummer</Label>
-    <Input @input="ev => updateInput" type="tel" v-model="formData.tel" name="telephone" />
+    <Input
+      placeholder="Mobil oder Festnetz"
+      @input="ev => updateInput"
+      type="tel"
+      v-model="formData.tel"
+      name="telephone"
+    />
     <Label for="message">Nachricht</Label>
-    <Textarea @input="ev => updateInput" v-model="formData.message" name="message" />
+    <Textarea
+      placeholder="Konkretes interesse oder ungesättigte Neugier?"
+      @input="ev => updateInput"
+      v-model="formData.message"
+      name="message"
+    />
     <Button>Absenden</Button>
   </form>
 </template>
