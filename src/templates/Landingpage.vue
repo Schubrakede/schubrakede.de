@@ -7,8 +7,11 @@
       <Button href="#formTarget">Jetzt Kontaktieren</Button>
     </header>
     <FeatureList :data="$page.landingpage.features"></FeatureList>
-    <Testimonials :data="$page.landingpage.testimonial"></Testimonials>
-    <Spacer :size="3"></Spacer>
+    <Testimonials
+      v-if="$page.landingpage.testimonial.length > 0"
+      :data="$page.landingpage.testimonial"
+    ></Testimonials>
+    <Spacer v-if="$page.landingpage.testimonial.length  > 0" :size="3"></Spacer>
     <Headline :level="3">Zusammengearbeitet mit:</Headline>
     <References :small="true" :images="$page.site.companies"></References>
     <Spacer :size="3"></Spacer>
