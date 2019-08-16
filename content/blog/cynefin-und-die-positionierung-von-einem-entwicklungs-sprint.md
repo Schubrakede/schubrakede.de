@@ -1,4 +1,5 @@
 ---
+published: false
 headline: Cynefin und die Positionierung von einem Entwicklungs Sprint
 content: >-
   In diesem Blogpost möchte ich grob das Cynefin Framework erklären und
