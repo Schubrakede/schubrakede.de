@@ -1,6 +1,6 @@
 ---
 published: false
-headline: Cynefin und die Positionierung von einem Entwicklungs Sprint
+headline: Cynefin und der Entwicklungssprint
 content: >-
   In diesem Blogpost möchte ich grob das Cynefin Framework erklären und
   anschliessend unser Produkt "Entwicklungs Sprint" auf diesem Positionieren.
@@ -122,5 +122,6 @@ content: >-
   und so auf eventuelle Veränderungen schnell reagieren kann. Deswegen macht es
   Sinn Scrum bei Digital-Produkten zu verwenden die eine hohe Anzahl an
   Kundeninteraktionen haben.
+author: Lasse Diercks
 ---
 
