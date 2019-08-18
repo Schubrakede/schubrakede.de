@@ -101,7 +101,6 @@ collections:
 
   - name: "author"
     label: Author
-    identifier_field: name,
     create: true
     folder: "content/author"
     fields:
