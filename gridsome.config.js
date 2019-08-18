@@ -59,6 +59,18 @@ module.exports = {
       }
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "content/author/*.md",
+        typeName: "Author",
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    },
+    {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`

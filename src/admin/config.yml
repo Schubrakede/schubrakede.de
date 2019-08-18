@@ -71,7 +71,7 @@ collections:
         widget: "relation"
         collection: "author"
         searchFields: ["name"]
-        valueField: "name"
+        valueField: twitterhandle
         displayFields: ["name"]
 
   - name: "landingpage"
@@ -106,8 +106,7 @@ collections:
   - name: "author"
     label: Author
     create: true
-    identifier_field: name
-    slug: "{{year}}-{{month}}-{{day}}-{{headline}}"
+    identifier_field: twitterhandle
     folder: "content/author"
     fields:
       - { name: name, widget: string }

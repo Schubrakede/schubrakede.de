@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    {{$page.blog.author}}
     <Headline class="blog-headline" :level="1">{{$page.blog.headline}}</Headline>
     <RichText class="blog-content">{{$page.blog.content}}</RichText>
   </Layout>
@@ -31,10 +32,12 @@ query Blog ($id: String!) {
   blog: blog (id: $id){
       headline,
       content,
-      published
+      published,
+      author,
   }
-
 }
+
+
 </page-query>
 
 <style lang="postcss">
