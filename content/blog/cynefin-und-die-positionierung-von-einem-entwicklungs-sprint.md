@@ -1,5 +1,6 @@
 ---
 published: false
+date: 2019-04-29T09:03:58.893Z
 headline: Cynefin und der Entwicklungssprint
 content: >-
   In diesem Blogpost möchte ich grob das Cynefin Framework erklären und
@@ -124,4 +125,3 @@ content: >-
   Kundeninteraktionen haben.
 author: Lasse Diercks
 ---
-

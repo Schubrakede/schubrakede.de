@@ -52,6 +52,8 @@ collections:
     label: "Blog"
     identifier_field: headline
     create: true
+    editor:
+      preview: false
     folder: "content/blog"
     fields:
       - {
@@ -60,6 +62,8 @@ collections:
           widget: "boolean",
           default: false,
         }
+      - { label: Date, name: date, widget: datetime }
+
       - { name: headline, widget: string }
       - { name: content, widget: markdown }
       - label: "Author"
@@ -103,6 +107,7 @@ collections:
     label: Author
     create: true
     identifier_field: name
+    slug: "{{year}}-{{month}}-{{day}}-{{headline}}"
     folder: "content/author"
     fields:
       - { name: name, widget: string }
