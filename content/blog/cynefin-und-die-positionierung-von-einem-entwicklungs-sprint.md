@@ -123,6 +123,6 @@ content: >-
   und so auf eventuelle Veränderungen schnell reagieren kann. Deswegen macht es
   Sinn Scrum bei Digital-Produkten zu verwenden die eine hohe Anzahl an
   Kundeninteraktionen haben.
-author: Lasse Diercks
+author: lassediercks
 ---
 
