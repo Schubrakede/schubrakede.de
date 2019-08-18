@@ -1,5 +1,6 @@
 ---
 published: false
+date: 2019-08-18T20:35:37.752Z
 headline: 'WIP: Don''t predict the future ¯\_(ツ)_/¯'
 content: >-
   Over the course of my developer carrier I started and worked on a lot projects
@@ -35,5 +36,6 @@ content: >-
 
 
   I have also build tools that made my work easier at a
+author: xiphe
 ---
 
