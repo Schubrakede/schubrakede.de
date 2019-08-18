@@ -108,6 +108,7 @@ collections:
     create: true
     identifier_field: twitterhandle
     folder: "content/author"
+    slug: "{{slug}}"
     fields:
       - { name: name, widget: string }
       - { name: description, widget: string }
