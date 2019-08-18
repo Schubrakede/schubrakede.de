@@ -102,6 +102,7 @@ collections:
   - name: "author"
     label: Author
     create: true
+    identifier_field: name
     folder: "content/author"
     fields:
       - { name: name, widget: string }
