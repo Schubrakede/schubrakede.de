@@ -1,7 +1,7 @@
 <template>
   <div class="team">
     <div class="member" v-for="member in data" :key="member.Name">
-      <div class="memberImg" :style="{backgroundImage: `url(${member.Image}`}" />
+      <div class="memberImg" :style="{backgroundImage: `url(${member.Image})`}" />
       <div>
         <Headline :level="3" class="memberName">{{member.Name}}</Headline>
         <span class="role">{{member.Title}}</span>
