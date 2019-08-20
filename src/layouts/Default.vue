@@ -9,8 +9,18 @@
        
 <script>
 import Logo from "../components/Logo";
+import colors from "../components/design/colors.json";
 import Background from "./Background";
 import Footer from "../sections/Footer";
+
+const resolveColors = data => {
+  let result = new String();
+  for (let value of Object.entries(data)) {
+    result = result.concat("", `--${value[1].name}: ${value[1].value};\n`);
+  }
+  return result;
+};
+
 export default {
   props: {
     isHome: Boolean,
@@ -22,6 +32,11 @@ export default {
     }
   },
   components: { Logo, Footer, Background },
+  data() {
+    return {
+      colors
+    };
+  },
   metaInfo() {
     return {
       link: [
@@ -47,7 +62,8 @@ export default {
           name: "twitter:image",
           content: "/img/twitter.png"
         }
-      ]
+      ],
+      style: [{ cssText: `:root\{${resolveColors(colors.values)}}` }]
     };
   }
 };
@@ -63,17 +79,7 @@ query {
 
 <style lang="postcss">
 :root {
-  --dark: #343637;
   --font: "serenity", "arial", sans-serif;
-
-  --starry-sky: rgba(36, 38, 43, 1);
-  --navy: #083a48;
-  --orange: #ff9b00;
-  --green: #87fd6e;
-  --teal: #3ad4d6;
-  --grey: rgba(87, 90, 99, 1);
-  --blue: rgba(45, 61, 106, 1);
-  --blueLight: #f8fdff;
 
   --schubrakeden-shadow: 4px 4px 0 0 rgba(101, 133, 167, 0.15),
     2px 2px 0 0 rgba(134, 155, 177, 0.2);

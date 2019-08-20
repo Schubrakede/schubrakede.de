@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "name": "dark",
+      "value": "#343637"
+    },
+    {
+      "name": "starrySky",
+      "value": "rgba(36, 38, 43, 1)"
+    },
+    {
+      "name": "navy",
+      "value": "#083a48"
+    },
+    {
+      "name": "orange",
+      "value": "#ff9b00"
+    },
+    {
+      "name": "green",
+      "value": "#87fd6e"
+    },
+    {
+      "name": "teal",
+      "value": "#3ad4d6"
+    },
+    {
+      "name": "grey",
+      "value": "rgba(87, 90, 99, 1)"
+    },
+    {
+      "name": "blue",
+      "value": "rgba(45, 61, 106, 1)"
+    },
+    {
+      "name": "blueLight",
+      "value": "#f8fdff"
+    }
+  ]
+}
