@@ -2,6 +2,9 @@ backend:
   name: github
   repo: lassediercks/schubrakede-gridsome
 
+publish_mode: editorial_workflow
+display_url: https://schubrake.de
+logo_url: https://schubrake.de/schubrakede.png
 media_folder: "static/img"
 public_folder: "img"
 
