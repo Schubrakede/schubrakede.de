@@ -12,10 +12,11 @@ export default {
 
 <style lang="postcss" scoped>
 .references {
-  padding: 120px 0;
+  padding: 5em 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(auto, 150px));
   grid-gap: 1.2em;
+  grid-row-gap: 2em;
   align-items: center;
   justify-items: center;
 }
