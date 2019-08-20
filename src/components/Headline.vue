@@ -35,20 +35,12 @@ export default {
 
 .levelOne {
   margin-bottom: 18px;
-  font-size: 90px;
-  @media (max-width: 900px) {
-    font-size: 80px;
-  }
-  @media (max-width: 520px) {
-    & {
-      font-size: 11vw;
-    }
-  }
+  font-size: 3.4em;
 }
 
 .levelTwo {
   font-weight: 600;
-  font-size: 68px;
+  font-size: 2.6em;
   letter-spacing: 0;
 
   margin: 0;

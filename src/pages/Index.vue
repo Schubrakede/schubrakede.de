@@ -2,7 +2,7 @@
   <Layout isHome>
     <header class="header">
       <div class="headerText">
-        <Headline class="headerHeadline" :level="1">{{$page.site.title}}</Headline>
+        <Headline :level="1">{{$page.site.title}}</Headline>
         <Subline>{{$page.site.description}}</Subline>
       </div>
       <Button href="tel:004915734376122">Anrufen</Button>
@@ -111,9 +111,5 @@ export default {
 
 .headerText {
   margin-bottom: 36px;
-}
-
-.headerHeadline {
-  font-weight: 600 !important;
 }
 </style>

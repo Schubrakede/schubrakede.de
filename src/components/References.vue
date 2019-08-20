@@ -18,6 +18,8 @@ export default {
   grid-gap: 1.2em;
   grid-row-gap: 2em;
   align-items: center;
+  align-content: center;
+  justify-content: center;
   justify-items: center;
 }
 .reference-image {
