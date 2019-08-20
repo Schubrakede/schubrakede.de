@@ -3,8 +3,6 @@ published: false
 date: 2019-04-29T09:03:58.893Z
 headline: Cynefin und der Entwicklungssprint
 content: >-
-
-
   In diesem Blogpost möchte ich grob das Cynefin Framework erklären und
   anschliessend unser Produkt "Entwicklungs Sprint" auf diesem Positionieren.
 
@@ -105,6 +103,9 @@ content: >-
 
 
   ## Etablierte Prozesse in Cynefin Domänen
+
+
+  ![](/img/artboard-5.png)
 
 
   In der Obvious Domäne können wir mit klassischen **Wasserfall** Prozessen
