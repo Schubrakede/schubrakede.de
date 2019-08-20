@@ -140,7 +140,9 @@ content: >-
 
 
   In der Complex Domäne gibt es wenig Sachen die man managen kann. Das macht es
-  einerseits
+  einerseits übersichtlich leichter weil mans ich auf das konzentriert was
+  veränderbar ist aber nicht einfach da die einzige Sache von der man ausgehen
+  kann ist, dass es ungeplante Konsequenzen gibt bei allem was man tut.
 author: lassediercks
 ---
 
