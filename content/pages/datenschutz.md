@@ -13,21 +13,31 @@ Content: >-
 
   ### Verantwortlicher
 
-  Lasse DiercksClemens-Schultz-Straße 3820356 Hamburg
+
+  Lasse Diercks
+
+  Clemens-Schultz-Straße 38
+
+  20356 Hamburg
 
   015734376122
 
   legal@schubrake.de
 
 
-
   ### Arten der verarbeiteten Daten
 
-   - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
-   - Kontaktdaten (z.B., E-Mail, Telefonnummern).
-   - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
-   - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
-   - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
+
+  * Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
+
+  * Kontaktdaten (z.B., E-Mail, Telefonnummern).
+
+  * Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
+
+  * Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten,
+  Zugriffszeiten).
+
+  * Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
 
 
   ### Kategorien betroffener Personen
@@ -37,13 +47,17 @@ Content: >-
   betroffenen Personen zusammenfassend auch als „Nutzer“).
 
 
-
   ### Zweck der Verarbeitung
 
-   - Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
-   - Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
-   - Sicherheitsmaßnahmen.
-   - Reichweitenmessung/Marketing
+
+  * Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.
+
+  * Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.
+
+  * Sicherheitsmaßnahmen.
+
+  * Reichweitenmessung/Marketing
+
 
   ### Verwendete Begrifflichkeiten
 
@@ -59,12 +73,10 @@ Content: >-
   Identität dieser natürlichen Person sind.
 
 
-
   „Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren
   ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit
   personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden
   Umgang mit Daten.
-
 
 
   „Pseudonymisierung“ die Verarbeitung personenbezogener Daten in einer Weise,
@@ -76,7 +88,6 @@ Content: >-
   identifizierbaren natürlichen Person zugewiesen werden.
 
 
-
   „Profiling“ jede Art der automatisierten Verarbeitung personenbezogener Daten,
   die darin besteht, dass diese personenbezogenen Daten verwendet werden, um
   bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen,
@@ -86,18 +97,15 @@ Content: >-
   Person zu analysieren oder vorherzusagen.
 
 
-
   Als „Verantwortlicher“ wird die natürliche oder juristische Person, Behörde,
   Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die
   Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet,
   bezeichnet.
 
 
-
   „Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde,
   Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des
   Verantwortlichen verarbeitet.
-
 
 
   ### Maßgebliche Rechtsgrundlagen
@@ -137,7 +145,6 @@ Content: >-
   1 DSGVO) bestimmt sich nach den Vorgaben des Art. 9 Abs. 2 DSGVO.
 
 
-
   ### Sicherheitsmaßnahmen
 
 
@@ -147,7 +154,6 @@ Content: >-
   Eintrittswahrscheinlichkeit und Schwere des Risikos für die Rechte und
   Freiheiten natürlicher Personen, geeignete technische und organisatorische
   Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.
-
 
 
   Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit,
@@ -160,7 +166,6 @@ Content: >-
   Entwicklung, bzw. Auswahl von Hardware, Software sowie Verfahren, entsprechend
   dem Prinzip des Datenschutzes durch Technikgestaltung und durch
   datenschutzfreundliche Voreinstellungen.
-
 
 
   Zusammenarbeit mit Auftragsverarbeitern, gemeinsam Verantwortlichen und
@@ -176,12 +181,10 @@ Content: >-
   Interessen (z.B. beim Einsatz von Beauftragten, Webhostern, etc.). 
 
 
-
   Sofern wir Daten anderen Unternehmen unserer Unternehmensgruppe offenbaren,
   übermitteln oder ihnen sonst den Zugriff gewähren, erfolgt dies insbesondere
   zu administrativen Zwecken als berechtigtes Interesse und darüberhinausgehend
   auf einer den gesetzlichen Vorgaben entsprechenden Grundlage.
-
 
 
   ### Übermittlungen in Drittländer
@@ -204,7 +207,6 @@ Content: >-
   verarbeiten (Art. 44 bis 49 DSGVO, Informationsseite der EU-Kommission).
 
 
-
   ### Rechte der betroffenen Personen
 
 
@@ -214,11 +216,9 @@ Content: >-
   Vorgaben.
 
 
-
   Recht auf Berichtigung: Sie haben entsprechend. den gesetzlichen Vorgaben das
   Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung
   der Sie betreffenden unrichtigen Daten zu verlangen.
-
 
 
   Recht auf Löschung und Einschränkung der Verarbeitung: Sie haben nach Maßgabe
@@ -227,12 +227,10 @@ Content: >-
   Vorgaben eine Einschränkung der Verarbeitung der Daten zu verlangen.
 
 
-
   Recht auf Datenübertragbarkeit: Sie haben das Recht, Sie betreffende Daten,
   die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in
   einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten oder
   deren Übermittlung an einen anderen Verantwortlichen zu fordern.
-
 
 
   Beschwerde bei Aufsichtsbehörde: Sie haben ferner nach Maßgabe der
@@ -240,13 +238,11 @@ Content: >-
   Aufsichtsbehörde einzureichen.
 
 
-
   ### Widerrufsrecht
 
 
   Sie haben das Recht, erteilte Einwilligungen mit Wirkung für die Zukunft zu
   widerrufen.
-
 
 
   ### Widerspruchsrecht
@@ -262,7 +258,6 @@ Content: >-
   personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen; dies gilt
   auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung
   steht.
-
 
 
   ### Cookies und Widerspruchsrecht bei Direktwerbung
@@ -288,10 +283,8 @@ Content: >-
   Cookies“).
 
 
-
   Wir können temporäre und permanente Cookies einsetzen und klären hierüber im
   Rahmen unserer Datenschutzerklärung auf.
-
 
 
   Sofern wir die Nutzer um eine Einwilligung in den Einsatz von Cookies bitten
@@ -308,13 +301,11 @@ Content: >-
   öffentlicher Gewalt erfolgt, gem. Art. 6 Abs. 1 lit. e. DSGVO, verarbeitet.
 
 
-
   Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert
   werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen
   ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den
   Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies
   kann zu Funktionseinschränkungen dieses Onlineangebotes führen.
-
 
 
   Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des
@@ -325,7 +316,6 @@ Content: >-
   Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des
   Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht
   alle Funktionen dieses Onlineangebotes genutzt werden können.
-
 
 
   ### Löschung von Daten
@@ -339,13 +329,11 @@ Content: >-
   entgegenstehen. 
 
 
-
   Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich
   zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt.
   D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das
   gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen
   aufbewahrt werden müssen.
-
 
 
   Änderungen und Aktualisierungen der Datenschutzerklärung
@@ -358,7 +346,6 @@ Content: >-
   Benachrichtigung erforderlich wird.
 
 
-
   ### Agenturdienstleistungen
 
 
@@ -367,7 +354,6 @@ Content: >-
   Kampagnenplanung, Software- und Designentwicklung/-beratung oder Pflege,
   Umsetzung von Kampagnen und Prozessen/ Handling, Serveradministration,
   Datenanalyse/ Beratungsleistungen und Schulungsleistungen gehören.
-
 
 
   Hierbei verarbeiten wir Bestandsdaten (z.B., Kundenstammdaten, wie Namen oder
@@ -393,7 +379,6 @@ Content: >-
   auftragsgemäßen Zwecken.
 
 
-
   Wir löschen die Daten nach Ablauf gesetzlicher Gewährleistungs- und
   vergleichbarer Pflichten. die Erforderlichkeit der Aufbewahrung der Daten wird
   alle drei Jahre überprüft; im Fall der gesetzlichen Archivierungspflichten
@@ -401,7 +386,6 @@ Content: >-
   § 147 Abs. 1 AO). Im Fall von Daten, die uns gegenüber im Rahmen eines
   Auftrags durch den Auftraggeber offengelegt wurden, löschen wir die Daten
   entsprechend den Vorgaben des Auftrags, grundsätzlich nach Ende des Auftrags.
-
 
 
   ### Kontaktaufnahme
@@ -416,14 +400,13 @@ Content: >-
   Anfragenorganisation gespeichert werden.
 
 
-
   Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir
   überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die
   gesetzlichen Archivierungspflichten.
 
 
-
   ### Typekit-Schriftarten von Adobe
+
 
   Wir setzen auf Grundlage unserer berechtigten Interessen (d.h. Interesse an
   der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes
