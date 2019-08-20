@@ -1,6 +1,6 @@
 ---
 Name: Startrampe
-title: Entwickeln. Lernen. Handeln.
+title: Build. Learn. Repeat.
 description: Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen.
 companies:
   - Image: /img/fielmannlogo.svg
