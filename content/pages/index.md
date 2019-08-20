@@ -3,7 +3,7 @@ Name: Startrampe
 title: Build. Learn. Repeat.
 description: Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen.
 companies:
-  - Image: /img/bitmap.png
+  - Image: /img/fielmannlogo.svg
   - Image: /img/jimdo-logo.png
   - Image: /img/xing-logo.png
   - Image: /img/cellular-logo.png
