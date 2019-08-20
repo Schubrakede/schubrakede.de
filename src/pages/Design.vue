@@ -62,7 +62,7 @@
     <Label>Font</Label>
     <Headline>Serenity</Headline>
     <Paragraph>
-      Unsere Font heißt Serenity und wir benutzten nur Light oder
+      Unsere Font heißt Serenity und wir benutzten nur Medium oder
       <b>Bold</b>
     </Paragraph>
     <Spacer :size="2" />

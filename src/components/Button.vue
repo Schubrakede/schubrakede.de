@@ -12,7 +12,8 @@ export default {
 
 <style lang="postcss">
 .button {
-  background: var(--navy);
+  color: white;
+  background: var(--starry-sky);
   border-radius: 4px;
   color: white;
   text-decoration: none;
@@ -26,8 +27,6 @@ export default {
 
   justify-content: center;
 
-  box-shadow: var(--schubrakeden-shadow);
-
   transition: box-shadow 120ms ease-in-out;
 
   @media (max-width: 520px) {
@@ -40,19 +39,6 @@ export default {
   &:hover {
     box-shadow: 8px 8px 0 0 rgba(101, 133, 167, 0.3),
       4px 4px 0 0 rgba(134, 155, 177, 0.4);
-  }
-}
-
-.secondary {
-  color: var(--navy);
-  background: var(--blueLight);
-
-  box-shadow: var(--schubrakeden-shadow--light);
-
-  &:focus,
-  &:hover {
-    box-shadow: 8px 8px 0 0 rgba(131, 152, 153, 0.12),
-      4px 4px 0 0 rgba(214, 225, 235, 0.56);
   }
 }
 </style>

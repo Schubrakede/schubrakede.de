@@ -36,14 +36,12 @@ export default {
   h5 {
     font-family: var(--font);
     line-height: 1.2;
-    color: var(--navy);
   }
 
   h3 {
     text-shadow: initial;
     font-size: 28px;
     line-height: 32px;
-    font-weight: 300;
 
     &:hover {
       text-shadow: initial;

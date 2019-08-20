@@ -25,7 +25,7 @@
       <Button href="mailto:handson@schubrake.de">Verfügbarkeit anfragen</Button>
     </ButtonGroup>
     <Spacer :size="2"></Spacer>
-    <Headline>Team</Headline>
+    <Headline margin>Team</Headline>
     <Team :data="$page.site.teammember"></Team>
   </Layout>
 </template>
