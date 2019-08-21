@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: lassediercks/schubrakede-gridsome
+  repo: schubrakede/schubrakede.de
 
 publish_mode: editorial_workflow
 display_url: https://schubrake.de

@@ -1,5 +1,5 @@
 {
-  "name": "schubrakede-gridsome",
+  "name": "schubrakede",
   "private": true,
   "scripts": {
     "build": "gridsome build",
