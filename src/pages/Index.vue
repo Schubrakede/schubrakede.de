@@ -21,8 +21,8 @@
     ></ProductCard>
 
     <Spacer :size="2"></Spacer>
-    <Headline>Hands on Hilfe</Headline>
-    <RichText>{{$page.site.handsOnText}}</RichText>
+    <Headline margin center>In-House Beratung</Headline>
+    <RichText class="handson">{{$page.site.handsOnText}}</RichText>
     <Spacer :size="1"></Spacer>
     <ButtonGroup>
       <Button noGlink href="#kontakt">Rückruf anfordern</Button>
@@ -127,7 +127,9 @@ export default {
   align-items: center;
   margin-bottom: 80px;
 }
-
+.handson {
+  font-size: 28px;
+}
 .headerText {
   margin-bottom: 36px;
 }
