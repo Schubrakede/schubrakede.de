@@ -46,7 +46,6 @@ query Index{
       Image
     },
     missiontext,
-    sprinttext,
     handsOnText,
     teammember{
       Title,
