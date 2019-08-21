@@ -10,12 +10,15 @@
     <References :images="$page.site.companies"></References>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>
-    <Headline>Entwicklungs Sprint</Headline>
-    <RichText>{{$page.site.sprinttext}}</RichText>
-    <Spacer :size="1"></Spacer>
-    <ButtonGroup>
-      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
-    </ButtonGroup>
+    <Headline margin center>Produkte</Headline>
+    <ProductCard
+      :to="product.node.path"
+      v-for="product in $page.allProduct.edges"
+      :key="product.name"
+      :teaser="product.node.teaser"
+      :duration="product.node.duration"
+      :name="product.node.name"
+    ></ProductCard>
 
     <Spacer :size="2"></Spacer>
     <Headline>Hands on Hilfe</Headline>
@@ -51,7 +54,17 @@ query Index{
       Name,
       Description
     }
+  },
+  allProduct{
+  edges{
+    node{
+      path,
+      name,
+      duration,
+      teaser
+    }
   }
+}
 }
 </page-query>
 
@@ -60,6 +73,7 @@ import ContactForm from "../components/ContactForm";
 import References from "../components/References";
 import Spacer from "../components/Spacer";
 import Subline from "../components/Subline";
+import ProductCard from "../components/ProductCard";
 import Headline from "../components/Headline";
 import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
@@ -68,6 +82,7 @@ import Team from "../components/Team";
 
 export default {
   components: {
+    ProductCard,
     Spacer,
     Button,
     ButtonGroup,

@@ -12,6 +12,7 @@ export default {
 
 <style>
 .paragraph {
+  margin: 0;
   font-weight: 400;
   font-size: 22px;
   line-height: 1.5;

@@ -1,7 +1,11 @@
 <template>
   <h2
     :is="`h${level}`"
-    :class="['headline',`level${levelClasses[level - 1]}`,{'hasMargin': margin}]"
+    :class="[
+    'headline',`level${levelClasses[level - 1]}`,
+      {hasMargin: margin},
+     {center: center}
+     ]"
   >
     <slot />
   </h2>
@@ -9,7 +13,11 @@
 
 <script>
 export default {
-  props: { level: { type: Number, default: 2 }, margin: { type: Boolean } },
+  props: {
+    level: { type: Number, default: 2 },
+    margin: { type: Boolean },
+    center: { type: Boolean }
+  },
   data: () => {
     return {
       levelClasses: ["One", "Two", "Three"]
@@ -18,7 +26,7 @@ export default {
 };
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 .headline {
   font-family: var(--font-headline);
   line-height: 1;
@@ -28,6 +36,9 @@ export default {
   margin: 0;
   &.hasMargin {
     margin-bottom: 1em;
+  }
+  &.center {
+    text-align: center;
   }
 }
 

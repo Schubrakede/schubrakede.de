@@ -75,6 +75,7 @@ module.exports = {
       options: {
         path: "content/products/*.md",
         typeName: "Product",
+        route: "/product/:name",
         remark: {
           plugins: [
             // ...local plugins

@@ -121,6 +121,7 @@ collections:
   - name: product
     label: Product
     create: true
+    slug: "{{ name }}"
     identifier_field: name
     folder: "content/products"
     fields:

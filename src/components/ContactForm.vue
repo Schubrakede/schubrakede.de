@@ -41,7 +41,7 @@
     />
     <Label for="message">Nachricht</Label>
     <Textarea
-      placeholder="Konkretes interesse oder ungesättigte Neugier?"
+      placeholder="Konkretes Interesse oder grobe Neugier?"
       @input="ev => updateInput"
       v-model="formData.message"
       name="message"
