@@ -3,7 +3,7 @@
     <Headline class="headline" :level="3">{{name}}</Headline>
     <span class="duration">{{duration}}</span>
     <Paragraph class="teaser">{{teaser}}</Paragraph>
-    <AnchorLink :href="to">Mehr erfahren</AnchorLink>
+    <span class="fake-link">Mehr erfahren</span>
   </g-link>
 </template>
 
@@ -46,5 +46,11 @@ export default {
 .teaser {
   opacity: 0.8;
   margin-bottom: 0.25em;
+}
+.fake-link {
+  font-weight: bold;
+  color: var(--navy);
+  border-bottom: 4px solid var(--teal);
+  text-decoration: none;
 }
 </style>
