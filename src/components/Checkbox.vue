@@ -8,7 +8,7 @@ export default {};
 
 <style lang="postcss">
 .checkbox {
-  border: 2px solid var(--navy);
+  border: 2px solid var(--bley);
   width: 32px;
   height: 32px;
 }
