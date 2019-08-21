@@ -117,3 +117,13 @@ collections:
       - { name: description, widget: string }
       - { name: image, widget: image }
       - { name: twitterhandle, widget: string }
+
+  - name: product
+    label: Product
+    create: true
+    identifier_field: name
+    folder: "content/products"
+    fields:
+      - { name: name, widget: string }
+      - { name: description, widget: string }
+      - { name: image, widget: image }
