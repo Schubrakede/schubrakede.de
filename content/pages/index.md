@@ -11,7 +11,7 @@ companies:
 missiontext: >-
   Je größer ein Projekt wird desto mehr Zeit & Budget fliesst in Planung und
   Koordination. Das Internet ist so dynamisch geworden, dass eine validierte
-  Idee schon wieder veraltet sein kann, wenn sie 9 Monate Entwicklungszeit
+  Idee schon wieder veraltet sein kann wenn sie 9 Monate Entwicklungszeit
   braucht.
 
 
