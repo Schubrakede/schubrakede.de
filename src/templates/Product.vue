@@ -2,7 +2,8 @@
   <Layout>
     <Headline :level="1">{{$page.product.name}}</Headline>
     <RichText>{{$page.product.description}}</RichText>
-    <Headline :level="2">Interesse?</Headline>
+    <Spacer :size="2"></Spacer>
+    <Headline :level="2" margin>Interesse?</Headline>
     <ContactForm :formName="`Produkt Form von ${$page.product.name}`"></ContactForm>
   </Layout>
 </template>
@@ -17,11 +18,12 @@ query Product ($id: String!) {
 }
 </page-query>
 <script>
+import Spacer from "../components/Spacer";
 import ContactForm from "../components/ContactForm";
 import Headline from "../components/Headline";
 import RichText from "../components/RichText";
 export default {
-  components: { ContactForm, Headline, RichText }
+  components: { Spacer, ContactForm, Headline, RichText }
 };
 </script>
 
