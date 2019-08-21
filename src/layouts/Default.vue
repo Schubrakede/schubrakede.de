@@ -82,6 +82,7 @@ query {
   --font: "serenity", "arial", sans-serif;
   --sr-shadow--small: 0 10px 20px 0 rgba(8, 58, 72, 0.26);
   --sr-shadow: 0 20px 40px 0 rgba(8, 58, 72, 0.26);
+  --sr-shadow--active: 0 20px 50px 0 rgba(58, 212, 214, 0.47);
 }
 
 *,
