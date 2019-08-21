@@ -68,6 +68,11 @@
     <Spacer :size="2" />
     <Label>Farben</Label>
     <Colors></Colors>
+    <Spacer :size="2" />
+    <Label>Input</Label>
+    <Input placeholder="this is a placeholder" />
+    <Label>Checkbox</Label>
+    <Checkbox />
   </Layout>
 </template>
 
@@ -104,6 +109,7 @@ allAuthor{
 import Headline from "../components/Headline";
 import Subline from "../components/Subline";
 import Author from "../components/Author";
+import Checkbox from "../components/Checkbox";
 import Button from "../components/Button";
 import AnchorLink from "../components/AnchorLink";
 import Colors from "../components/design/Colors";
@@ -111,6 +117,7 @@ import Spacer from "../components/Spacer";
 import References from "../components/References";
 import Label from "../components/Label";
 import Team from "../components/Team";
+import Input from "../components/Input";
 import Paragraph from "../components/Paragraph";
 import FeatureList from "../components/FeatureList";
 
@@ -120,6 +127,8 @@ export default {
     Paragraph,
     Button,
     References,
+    Input,
+    Checkbox,
     Author,
     Headline,
     Subline,
