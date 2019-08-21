@@ -80,12 +80,8 @@ query {
 <style lang="postcss">
 :root {
   --font: "serenity", "arial", sans-serif;
-
-  --schubrakeden-shadow: 4px 4px 0 0 rgba(101, 133, 167, 0.15),
-    2px 2px 0 0 rgba(134, 155, 177, 0.2);
-
-  --schubrakeden-shadow--light: 4px 4px 0 0 rgba(131, 152, 153, 0.12),
-    2px 2px 0 0 rgba(214, 225, 235, 0.56);
+  --sr-shadow--small: 0 10px 20px 0 rgba(8, 58, 72, 0.26);
+  --sr-shadow: 0 20px 40px 0 rgba(8, 58, 72, 0.26);
 }
 
 *,
@@ -106,7 +102,7 @@ body {
   font-family: var(--font);
   background-color: white;
   background-size: 100% auto;
-  color: var(--dark);
+  color: var(--starrySky);
 
   @media (max-width: 520px) {
     & {

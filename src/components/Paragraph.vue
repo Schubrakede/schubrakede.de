@@ -14,7 +14,7 @@ export default {
 .paragraph {
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.7;
+  line-height: 1.5;
   font-family: var(--font);
 }
 

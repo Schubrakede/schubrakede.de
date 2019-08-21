@@ -22,7 +22,8 @@ export default {
   width: 100%;
   margin-bottom: 1em;
   transition: border-color 220ms ease-out;
-  border: 2px solid var(--grey);
+  border: 2px solid var(--bley);
+  border-radius: 2px;
   &:focus {
     outline: none;
     border-color: var(--teal);

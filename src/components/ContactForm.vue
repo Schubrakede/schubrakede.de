@@ -10,7 +10,7 @@
       type="text"
       v-model="formData.name"
     />
-    <Label for="email">E-Mail</Label>
+    <Label for="email">E-Mail*</Label>
     <Input
       placeholder="name@unternehmen.com"
       @input="ev => updateInput"
@@ -20,7 +20,7 @@
       name="email"
       id="email"
     />
-    <Label for="company">Unternehmen</Label>
+    <Label for="company">Unternehmen*</Label>
     <Input
       placeholder="z.b. Fielmann, Jimdo, Xing"
       required
@@ -58,9 +58,13 @@
       />
       <Label :noMargin="true" for="datenschutzcheck">
         Ich stimme
-        <AnchorLink href="/datenschutz">der Datenschutzerklärung</AnchorLink>&nbsp;zu
+        <AnchorLink href="/datenschutz">der Datenschutzerklärung</AnchorLink>&nbsp;zu*
       </Label>
     </div>
+    <br />
+    <span>Mit * gekennzeichnete Felder sind Pflichtfelder</span>
+    <br />
+    <br />
     <Button>Anfrage an Schubrakede senden</Button>
   </form>
 </template>

@@ -2,10 +2,10 @@
   <Layout isHome>
     <header class="header">
       <div class="headerText">
-        <Headline class="headerHeadline" :level="1">{{$page.site.title}}</Headline>
+        <Headline :level="1">{{$page.site.title}}</Headline>
         <Subline>{{$page.site.description}}</Subline>
       </div>
-      <Button href="tel:004915734376122">Anrufen</Button>
+      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     </header>
     <References :images="$page.site.companies"></References>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
@@ -14,7 +14,7 @@
     <RichText>{{$page.site.sprinttext}}</RichText>
     <Spacer :size="1"></Spacer>
     <ButtonGroup>
-      <Button href="mailto:request@schubrake.de">Termin anfragen</Button>
+      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     </ButtonGroup>
 
     <Spacer :size="2"></Spacer>
@@ -22,11 +22,13 @@
     <RichText>{{$page.site.handsOnText}}</RichText>
     <Spacer :size="1"></Spacer>
     <ButtonGroup>
-      <Button href="mailto:handson@schubrake.de">Verfügbarkeit anfragen</Button>
+      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     </ButtonGroup>
     <Spacer :size="2"></Spacer>
-    <Headline>Team</Headline>
     <Team :data="$page.site.teammember"></Team>
+    <Spacer :size="2"></Spacer>
+    <Headline id="kontakt" margin>Kontakt</Headline>
+    <ContactForm formName="Startseiten Kontakt Formular"></ContactForm>
   </Layout>
 </template>
 
@@ -54,6 +56,7 @@ query Index{
 </page-query>
 
 <script>
+import ContactForm from "../components/ContactForm";
 import References from "../components/References";
 import Spacer from "../components/Spacer";
 import Subline from "../components/Subline";
@@ -68,6 +71,7 @@ export default {
     Spacer,
     Button,
     ButtonGroup,
+    ContactForm,
     Headline,
     Subline,
     References,
@@ -111,9 +115,5 @@ export default {
 
 .headerText {
   margin-bottom: 36px;
-}
-
-.headerHeadline {
-  font-weight: 600 !important;
 }
 </style>

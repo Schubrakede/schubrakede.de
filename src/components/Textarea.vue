@@ -12,7 +12,7 @@ export default {};
   width: 100%;
   font-family: inherit;
   margin-bottom: 0.5em;
-  border: 2px solid var(--grey);
+  border: 2px solid var(--bley);
   &:focus {
     outline: none;
     border-color: var(--teal);
