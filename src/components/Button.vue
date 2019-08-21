@@ -20,6 +20,7 @@ export default {
   font-family: var(--font-headline);
   height: 56px;
   padding: 0 36px;
+  border: none;
   display: inline-flex;
   font-size: inherit;
   align-items: center;
