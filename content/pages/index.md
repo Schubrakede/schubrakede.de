@@ -23,7 +23,7 @@ handsOnText: >-
   Produkt/Team in die Lage zu versetzen  schnell Kundenorientiert zu entwickeln
   eine andere. Wenn ihr Hilfe dabei benötigt Geschwindigkeit in eure
   Frontend-Entwicklung zu bekommen oder ein Design System im Unternehmen zu
-  entwickeln/distribuieren dann kommen wir zu euch und helfen euch dabe.
+  entwickeln/distribuieren dann kommen wir zu euch und helfen euch dabei.
 teammember:
   - Description: >-
       10 Jahre Erfahrung im Bereich IT Projektmanagement, Online Marketing und
