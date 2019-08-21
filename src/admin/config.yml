@@ -125,5 +125,6 @@ collections:
     folder: "content/products"
     fields:
       - { name: name, widget: string }
+      - { name: duration, widget: string }
       - { name: description, widget: markdown }
       - { name: image, widget: image }
