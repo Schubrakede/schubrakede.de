@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="770px" height="195px" viewBox="0 0 770 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="186" height="112"></rect>
+        <filter x="-37.6%" y="-44.6%" width="175.3%" height="225.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0323254609   0 0 0 0 0.228715491   0 0 0 0 0.282410553  0 0 0 0.261063156 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="186" height="112"></rect>
+        <filter x="-37.6%" y="-44.6%" width="175.3%" height="225.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0323254609   0 0 0 0 0.228715491   0 0 0 0 0.282410553  0 0 0 0.261063156 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="288" height="112"></rect>
+        <filter x="-24.3%" y="-44.6%" width="148.6%" height="225.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0323254609   0 0 0 0 0.228715491   0 0 0 0 0.282410553  0 0 0 0.261063156 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-10" transform="translate(-126.000000, -254.000000)">
+            <g id="Group-7" transform="translate(166.000000, 254.000000)">
+                <g id="Group-5" transform="translate(0.000000, 23.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="Montag" font-family="Serenity-Bold, Serenity" font-size="22" font-weight="bold" fill="#262829">
+                        <tspan x="20" y="29">Montag</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-2" transform="translate(504.000000, 23.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="Freitag" font-family="Serenity-Bold, Serenity" font-size="22" font-weight="bold" fill="#262829">
+                        <tspan x="20" y="29">Freitag</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy" transform="translate(201.000000, 23.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="Dienstag---Donnersta" font-family="Serenity-Bold, Serenity" font-size="22" font-weight="bold" fill="#262829">
+                        <tspan x="23" y="29">Dienstag - Donnerstag</tspan>
+                    </text>
+                </g>
+                <g id="Group-4">
+                    <path d="M0,0 L186,0 L186,23 L0,23 L0,0 Z" id="Rectangle" fill="#262829"></path>
+                    <text id="In-Zusammenarbeit" font-family="Serenity-Medium, Serenity" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="20" y="17">In Zusammenarbeit</tspan>
+                    </text>
+                </g>
+                <g id="Group-4-Copy" transform="translate(504.000000, 0.000000)">
+                    <path d="M0,0 L186,0 L186,23 L0,23 L0,0 Z" id="Rectangle" fill="#262829"></path>
+                    <text id="In-Zusammenarbeit" font-family="Serenity-Medium, Serenity" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="20" y="17">In Zusammenarbeit</tspan>
+                    </text>
+                </g>
+                <text id="Kernidee-erarbeiten" font-family="Serenity-Medium, Serenity" font-size="16" font-weight="400" fill="#262829">
+                    <tspan x="19" y="82">Kernidee erarbeiten</tspan>
+                    <tspan x="19" y="103">Umfang definieren</tspan>
+                </text>
+                <text id="Ergebnis-und-Zugang" font-family="Serenity-Medium, Serenity" font-size="16" font-weight="400" fill="#262829">
+                    <tspan x="523" y="74">Ergebnis und Zugang </tspan>
+                    <tspan x="523" y="94">dazu vorstellen &amp; </tspan>
+                    <tspan x="523" y="114">übergeben</tspan>
+                </text>
+                <text id="Interne-Entwicklung" font-family="Serenity-Medium, Serenity" font-size="16" font-weight="400" fill="#262829">
+                    <tspan x="226" y="74">Interne Entwicklung</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
