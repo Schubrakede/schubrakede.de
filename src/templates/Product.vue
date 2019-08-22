@@ -1,6 +1,7 @@
 <template>
   <Layout>
-    <Headline :level="1">{{$page.product.name}}</Headline>
+    <Headline center :level="1">{{$page.product.name}}</Headline>
+    <img class="product-image" :src="$page.product.image" alt />
     <RichText>{{$page.product.description}}</RichText>
     <Spacer :size="2"></Spacer>
     <Headline :level="2" margin>Interesse?</Headline>
@@ -12,6 +13,7 @@
 query Product ($id: String!) {
     product: product (id: $id){
      name,
+     image,  
      duration,
      description
   }
@@ -28,4 +30,7 @@ export default {
 </script>
 
 <style>
+.product-image {
+  margin: 0.5em 0;
+}
 </style>
