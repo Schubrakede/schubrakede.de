@@ -54,7 +54,7 @@ query Index{
       Description
     }
   },
-  allProduct{
+  allProduct(sortBy: "name", order: ASC){
   edges{
     node{
       path,

@@ -24,9 +24,11 @@ export default {
   display: block;
   max-width: 25em;
   margin: 0 auto;
+  margin-bottom: 2em;
+
   position: relative;
   background: white;
-  padding: 2em 5em 2em 1.25em;
+  padding: 2.5em 5em 2.5em 1.25em;
   box-shadow: var(--sr-shadow);
   transition: box-shadow 350ms ease-out;
   &:hover {
@@ -44,8 +46,8 @@ export default {
   top: 1.25em;
 }
 .teaser {
-  opacity: 0.8;
-  margin-bottom: 0.25em;
+  opacity: 0.6;
+  margin-bottom: 0.5em;
 }
 .fake-link {
   font-weight: bold;
