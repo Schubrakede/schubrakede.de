@@ -40,7 +40,12 @@ export default {
   metaInfo() {
     return {
       link: [
-        { rel: "shortcut icon", href: "/favicon.ico" },
+        {
+          rel: "shortcut icon",
+          id: "favicon",
+          type: "image/x-icon",
+          href: "/favicon.ico"
+        },
         { rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }
       ],
       title: this.title,
