@@ -1,8 +1,14 @@
 <template>
-  <g-link :to="to" class="product-card">
-    <Headline class="headline" :level="3">{{name}}</Headline>
+  <g-link
+    itemprop="url"
+    itemscope
+    itemtype="https://schema.org/Product"
+    :to="to"
+    class="product-card"
+  >
+    <Headline class="headline" itemprop="name" :level="3">{{name}}</Headline>
     <span class="duration">{{duration}}</span>
-    <Paragraph class="teaser">{{teaser}}</Paragraph>
+    <Paragraph itemprop="description" class="teaser">{{teaser}}</Paragraph>
     <span class="fake-link">Mehr erfahren</span>
   </g-link>
 </template>

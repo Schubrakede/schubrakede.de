@@ -76,7 +76,7 @@ export default {
         { property: "og:image:height", content: "630" },
         { property: "og:url", content: "Schubrake.de" },
         { property: "og:site_name", content: "Schubrakede" },
-        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:card", content: "photo" },
         { name: "twitter:site", content: "@schubrakede" },
         { name: "twitter:creator", content: "@schubrakede" },
         { name: "twitter:image:width", content: "750" },
