@@ -1,5 +1,8 @@
 <template>
-  <Layout>
+  <Layout
+    :title="$page.blog.headline"
+    :ogImage="`https://og-image.lassediercks.now.sh/${$page.blog.headline}.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnow-black.svg`"
+  >
     <Headline class="blog-headline" :level="1">{{$page.blog.headline}}</Headline>
     <RichText class="blog-content">{{$page.blog.content}}</RichText>
     <Author
