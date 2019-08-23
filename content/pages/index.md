@@ -27,7 +27,7 @@ handsOnText: >-
 teammember:
   - Description: >-
       10 Jahre Erfahrung im Bereich IT-Projektmanagement, Online Marketing und
-      Vertrieb
+      Vertrieb.
     Image: /img/felix.png
     Name: Felix Speck
     Title: Vertrieb
@@ -40,7 +40,7 @@ teammember:
   - Description: >-
       Seit 8 Jahren in der Web Branche. Kreative Energie, kombiniert mit
       technischer Finesse erlaubt Karsten Webseiten eine eigene Geschichte
-      erzählen zu lassen
+      erzählen zu lassen.
     Image: /img/karsten.png
     Name: Karsten Buckstegge
     Title: Artist
