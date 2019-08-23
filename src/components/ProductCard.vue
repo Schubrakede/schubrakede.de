@@ -2,10 +2,13 @@
   <g-link
     itemprop="url"
     itemscope
-    itemtype="https://schema.org/Product"
+    itemtype="https://schema.org/Service"
     :to="to"
     class="product-card"
   >
+    <meta itemprop="areaServed" content="Norddeutschland" />
+    <meta itemprop="brand" content="Schubrakede" />
+    <meta itemprop="image" :content="image" />
     <Headline class="headline" itemprop="name" :level="3">{{name}}</Headline>
     <span class="duration">{{duration}}</span>
     <Paragraph itemprop="description" class="teaser">{{teaser}}</Paragraph>
@@ -18,7 +21,7 @@ import Headline from "./Headline";
 import AnchorLink from "./AnchorLink";
 import Paragraph from "./Paragraph";
 export default {
-  props: ["to", "name", "teaser", "duration"],
+  props: ["to", "name", "teaser", "duration", "image"],
   components: { AnchorLink, Paragraph, Headline }
 };
 </script>

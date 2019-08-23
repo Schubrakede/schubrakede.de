@@ -12,6 +12,7 @@
     <Spacer :size="2"></Spacer>
     <Headline margin center>Produkte</Headline>
     <ProductCard
+      :image="product.node.image"
       :to="product.node.path"
       v-for="product in $page.allProduct.edges"
       :key="product.name"
@@ -59,6 +60,7 @@ query Index{
   edges{
     node{
       path,
+      image,
       name,
       duration,
       teaser
