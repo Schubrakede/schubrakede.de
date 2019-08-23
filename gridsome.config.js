@@ -2,6 +2,7 @@ const PostcssNested = require("postcss-nested");
 
 module.exports = {
   siteName: "Schubrakede",
+  siteUrl: "https:/schubrake.de",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -20,6 +21,21 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      use: "@gridsome/plugin-sitemap",
+      options: {
+        config: {
+          "/blog/*": {
+            changefreq: "weekly",
+            priority: 0.5
+          },
+          "/product": {
+            changefreq: "monthly",
+            priority: 0.7
+          }
+        }
+      }
+    },
     {
       use: "@gridsome/source-filesystem",
       options: {
