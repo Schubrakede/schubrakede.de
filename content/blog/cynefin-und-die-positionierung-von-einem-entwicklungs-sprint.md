@@ -143,6 +143,22 @@ content: >-
   einerseits übersichtlich leichter weil mans ich auf das konzentriert was
   veränderbar ist aber nicht einfach da die einzige Sache von der man ausgehen
   kann ist, dass es ungeplante Konsequenzen gibt bei allem was man tut.
+
+
+  Das ist genau wo wir unseren [Entwicklungs
+  Sprint](https://schubrake.de/product/entwicklungs-sprint) positionieren.
+
+
+  Ein Werkzeug das in kurzer Zeit ein Ergebnis liefert das man testen kann. 
+
+
+  * Kein unnötigen Personalprozesse.
+
+  * Keine langfristige Vertragsbindungen.
+
+
+  Also ein Experiment das bei positiven Ergebnissen verstärkt und bei negativen
+  Ergebnissen wieder eingestampft werden kann.
 author: lassediercks
 ---
 
