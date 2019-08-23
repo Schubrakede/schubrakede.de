@@ -24,7 +24,8 @@ export default {
 .wrap {
   margin: 3em 0;
   display: grid;
-  grid-template-columns: 1fr auto;
+  align-items: center;
+  grid-template-columns: auto 1fr;
   grid-gap: 1em;
 }
 .author-image {

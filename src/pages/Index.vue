@@ -28,6 +28,7 @@
       <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     </ButtonGroup>
     <Spacer :size="2"></Spacer>
+    <Headline margin center>Team</Headline>
     <Team :data="$page.site.teammember"></Team>
     <Spacer :size="2"></Spacer>
     <Headline id="kontakt" margin>Kontakt</Headline>
