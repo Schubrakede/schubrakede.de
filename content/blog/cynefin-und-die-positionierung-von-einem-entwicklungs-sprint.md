@@ -31,7 +31,7 @@ content: >-
 
   In z.b. Deutschland, Italien und USA ist das Rechts, in UK und Australien
   links. Es ist offensichtlich zu verstehen wir müssen bloß die Zugehörige
-  Kategorie Wissen um eine Entscheidung zu treffen.
+  Kategorie kennen um eine Entscheidung zu treffen.
 
 
   Sense-Categorise-Respond
@@ -40,11 +40,10 @@ content: >-
   ### Complicated
 
 
-  Die Domäne Complicated beschreibt Probleme die durch Analyse oder
-  Expertenwissen gelöst werden Können. Es gibt eine Lösung diese ist allerdings
+  Die Complicated Domäne beinhaltet Probleme die durch Analyse oder
+  Expertenwissen gelöst werden Können. Es gibt eine Lösung, diese ist allerdings
   nicht selbsterklärend. Die meisten Entwicklungsprobleme liegen z.b. in dieser
-  Domäne.  Das Problem ist nicht selbsterklärend aber es gibt eine Lösung die
-  durch Analyse, Expertenwissen oder lineare Experimente erreicht werden kann.
+  Domäne. 
 
 
   Sense-Analyse-Respond
@@ -53,11 +52,14 @@ content: >-
   ### Complex
 
 
-  Die Complex Domäne zeichnet sich dadurch aus, dass viele Bestandteile in einem
-  System so schnelllebig und die Beziehung der Komponenten untereinander nicht
-  starr sind, dass es keine Kausalität gibt mit der man eine Vohersage treffe
-  könnte. Als komplexe Systeme könnte man z.b. Das Internet, Große (mehr als 200
-  Mitarbeiter) Unternehmen oder die öffentliche Berichterstattung bezeichnen.
+  Eine Complex Domäne zeichnet sich dadurch aus, dass viele Bestandteile in
+  einem System so schnelllebig und die Beziehung der Komponenten untereinander
+  dynamisch sind, dass es keine Kausalität gibt mit der man eine Vorhersage
+  treffen könnte. Als komplexe Systeme könnte man z.b. Das Internet, Große (mehr
+  als 200 Mitarbeiter) Unternehmen oder die öffentliche Berichterstattung
+  bezeichnen. Es ist nicht möglich das selbe Ergebnis durch die selben Maßnahmen
+  ein zweites mal zu erreichen. Ausser durch Glück. Virale Videos kann man z.b.
+  nicht "einfach machen". 
 
 
   Also: Ein Komplexes System hat keine Kausalität sondern Neigungen. Um
@@ -75,9 +77,18 @@ content: >-
   Krisenartig ist.
 
 
-  Alle Regeln sind außer Kraft gesetzt weswegen die einzige Möglichkeit ist
-  schnell irgendetwas zu tun und von da aus weiter zu gehen als irgendwelche
-  Pläne zu schmieden.
+  Alle Regeln sind außer Kraft gesetzt weswegen die einzig Sinnvolle
+  Entscheidung ist, schnell irgendetwas zu tun und von da aus weiter zu gehen
+  als irgendwelche großen Pläne zu schmieden.
+
+
+  Chaos ist nicht immer nur schlecht, es ist auch ein Zeitpunkt wo Innovation
+  entstehen können.
+
+
+  Mein Lieblings Beispiel für kontrolliertes Chaos ist das Format "Hackathon" wo
+  in einem Unternehmen z.b. alle Mitarbeiter für eine Woche ein eigenes Projekt
+  durchführen können.
 
 
   Act-Sense-Respond
@@ -89,7 +100,7 @@ content: >-
   Die - meiner Meinung nach - meist übersehene Domäne ist Disorder. Sie
   beschreibt den Zustand wenn man nicht weiß in welcher der anderen 4 Domänen
   man sich befindet. Interessant hierbei ist, dass Menschen dazu neigen Probleme
-  so zu lösen wie sie es für sie am gewohntesten ist.
+  so zu lösen wie es für sie am gewohntesten ist.
 
 
   Ein Bürokrat wird einen Prozess beginnen, ein Entwickler wird ein Problem
@@ -98,8 +109,8 @@ content: >-
 
   Ich nehm gerne das Beispiel von Schätzungen in Software Entwicklung wenn nach
   "einem groben Zeitrahmen" gefragt wird, der Scope aber viel zu groß ist um ihn
-  einzuschätzen und dann noch der geschätzte Zeitrahmen als Deadline verkündet
-  wird. 
+  einzuschätzen und dann auch noch der geschätzte Zeitrahmen als Deadline
+  verkündet wird. 
 
 
   ## Etablierte Prozesse in Cynefin Domänen
@@ -113,7 +124,7 @@ content: >-
 
 
   Die komplizierte Domäne ist Nicht selbsterklärend weswegen wir Expertenwissen
-  benötigen. Die Experten können dann dann mit **Sequentiellen Experimenten** zu
+  benötigen. Die Experten können dann mit **Sequentiellen Experimenten** zu
   einer Lösung kommen. Es gibt verschiedene Wege um ans Ziel zu kommen. Hier
   machen viele Werkzeuge aus der **Lean Management** Richtung Sinn.
 
@@ -124,25 +135,28 @@ content: >-
 
   Interessant wird es zwischen den Domänen Complex und Complicated. **Scrum**
   ist großartig für den Übergang weil man sich pro Scrum Sprint nur einer
-  kleinen Teilmenge widmet und der Rest des Problems aber unberührt lassen kann
-  und so auf eventuelle Veränderungen schnell reagieren kann. Deswegen macht es
-  z.b. Sinn Scrum bei Digital-Produkten zu verwenden die eine hohe Anzahl an
+  kleinen Teilmenge widmet, der Rest des Problems aber unberührt bleiben kann.
+  So kann man auf unerwartete Veränderungen (Complex) reagieren. Deswegen macht
+  es z.b. Sinn Scrum bei Digital-Produkten zu verwenden die eine hohe Anzahl an
   Kundeninteraktionen haben.
 
 
   ## Ordnung kennen wir. Komplexität ist neu.
 
 
-  In dem letzten Bild wird auch klar, dass es noch keine etablierten Methoden
-  oder Prozesse für die Domäne Complex gibt. Die Frage ist: was kommt vor
-  **Scrum**? Wie finden wir heraus welche Möglichkeiten es gibt die wir dann
-  versuchen können zu stabilisieren?
+  In dem letzten Bild wird auch klar, dass es noch keine wirklich etablierten
+  Methoden oder Prozesse für die Domäne Complex gibt. Die spannende Frage ist:
+  was kommt vor **Scrum**? Wie finden wir heraus welche Möglichkeiten es gibt
+  die wir dann versuchen können zu stabilisieren?
 
 
   In der Complex Domäne gibt es wenig Sachen die man managen kann. Das macht es
-  einerseits übersichtlich leichter weil mans ich auf das konzentriert was
-  veränderbar ist aber nicht einfach da die einzige Sache von der man ausgehen
-  kann ist, dass es ungeplante Konsequenzen gibt bei allem was man tut.
+  einerseits leichter weil man sich nur auf das konzentriert was veränderbar ist
+  aber nicht einfach da jederzeit mit unerwarteten Konsequenzen gerechnet werden
+  muss. 
+
+
+  Hier brauchen wir kurze, schnelle Experimente.
 
 
   Das ist genau wo wir unseren [Entwicklungs
@@ -158,7 +172,8 @@ content: >-
 
 
   Also ein Experiment das bei positiven Ergebnissen verstärkt und bei negativen
-  Ergebnissen wieder eingestampft werden kann.
+  Ergebnissen wieder eingestampft werden kann oder bei unerwarteten positiven
+  Ergebnissen direkt in eine andere Richtung gelenkt werden kann.
 author: lassediercks
 ---
 
