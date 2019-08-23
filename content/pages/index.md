@@ -15,30 +15,30 @@ missiontext: >-
   braucht.
 
 
-  Wir glauben an echtes Feedback in kleinen verwertbaren Portionen um
-  Nutzerorientiert zu entwickeln anstatt ein Budget auszufüllen nur weil es da
+  Wir glauben an echtes Feedback in kleinen verwertbaren Portionen, um
+  Nutzerorientiert zu entwickeln, anstatt ein Budget auszufüllen nur weil es da
   ist.
 handsOnText: >-
   Ein Projekt zu starten ist die eine Sache, ein langlebiges bestehendes
-  Produkt/Team in die Lage zu versetzen  schnell Kundenorientiert zu entwickeln
+  Produkt/Team in die Lage zu versetzen,  schnell Kundenorientiert zu entwickeln
   eine andere. Wenn ihr Hilfe dabei benötigt Geschwindigkeit in eure
   Frontend-Entwicklung zu bekommen oder ein Design System im Unternehmen zu
-  entwickeln/distribuieren dann kommen wir zu euch und helfen euch dabei.
+  entwickeln/distribuieren, dann kommen wir zu euch und helfen euch dabei.
 teammember:
   - Description: >-
-      10 Jahre Erfahrung im Bereich IT Projektmanagement, Online Marketing und
+      10 Jahre Erfahrung im Bereich IT-Projektmanagement, Online Marketing und
       Vertrieb
     Image: /img/felix.png
     Name: Felix Speck
     Title: Vertrieb
   - Description: >-
-      9 Jahre Erfahrung mit der benutzergerechten Gestaltung von Oberflächen.
-      Von UX bis zur technischen Umsetzung.
+      9 Jahre Erfahrung mit Nutzerorientiertem Design. Von UX über UI bis zur
+      technischen Umsetzung.
     Image: /img/dsc_0759_square-0-4x.jpg
     Name: Lasse Diercks
     Title: Design
   - Description: >-
-      Seit 8 Jahren in der Web Branche. Kreative Energie kombiniert mit
+      Seit 8 Jahren in der Web Branche. Kreative Energie, kombiniert mit
       technischer Finesse erlaubt Karsten Webseiten eine eigene Geschichte
       erzählen zu lassen
     Image: /img/karsten.png
@@ -46,8 +46,7 @@ teammember:
     Title: Artist
   - Description: >-
       Entwickelt seit 10 Jahren Web basierte Applikationen. Am liebsten in
-      JavaScript und ohne Server. In stabil und mit bedachter Developer
-      Experience.
+      JavaScript und ohne Server. Stabil und mit bedachter Developer Experience.
     Image: /img/hannes.png
     Name: Hannes Diercks
     Title: Entwicklung
