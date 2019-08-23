@@ -1,9 +1,5 @@
 <template>
-  <Layout
-    :ogImage="`https://og-image.lassediercks.now.sh/${$page.product.name}.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnow-black.svg`"
-    :title="$page.product.name"
-    :description="$page.product.teaser"
-  >
+  <Layout :title="$page.product.name" :description="$page.product.teaser">
     <Headline center :level="1">{{$page.product.name}}</Headline>
     <img class="product-image" :src="$page.product.image" alt />
     <RichText>{{$page.product.description}}</RichText>

@@ -23,7 +23,6 @@ const resolveColors = data => {
 
 export default {
   props: {
-    ogImage: String,
     isHome: Boolean,
     title: { type: String, default: "Schubrakede" },
     description: {
@@ -71,9 +70,7 @@ export default {
         { property: "og:title", content: this.title },
         {
           property: "og:image",
-          content: this.ogImage
-            ? this.ogImage
-            : "https://schubrake.de/img/open-graph.png"
+          content: "https://schubrake.de/img/open-graph.png"
         },
         { property: "og:image:width", content: "1200" },
         { property: "og:image:height", content: "630" },
