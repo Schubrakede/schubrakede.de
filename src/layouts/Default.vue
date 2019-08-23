@@ -41,10 +41,25 @@ export default {
     return {
       link: [
         {
-          rel: "shortcut icon",
+          sizes: "96x96",
+          rel: "icon",
           id: "favicon",
-          type: "image/x-icon",
-          href: "/favicon.ico"
+          type: "image/png",
+          href: "/favicon_96-96.png"
+        },
+        {
+          sizes: "32x32",
+          rel: "icon",
+          id: "favicon",
+          type: "image/png",
+          href: "/favicon_32-32.png"
+        },
+        {
+          sizes: "16x16",
+          rel: "icon",
+          id: "favicon",
+          type: "image/png",
+          href: "/favicon_16-16.png"
         },
         { rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }
       ],
