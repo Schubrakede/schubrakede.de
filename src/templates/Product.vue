@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout :title="$page.product.name" :description="$page.product.teaser">
     <Headline center :level="1">{{$page.product.name}}</Headline>
     <img class="product-image" :src="$page.product.image" alt />
     <RichText>{{$page.product.description}}</RichText>
@@ -14,6 +14,7 @@ query Product ($id: String!) {
     product: product (id: $id){
      name,
      image,  
+     teaser,
      duration,
      description
   }
@@ -31,6 +32,7 @@ export default {
 
 <style>
 .product-image {
+  width: 100%;
   margin: 0.5em 0;
 }
 </style>
