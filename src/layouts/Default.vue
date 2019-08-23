@@ -68,7 +68,10 @@ export default {
         { name: "description", content: this.description },
         { property: "og:description", content: this.description },
         { property: "og:title", content: this.title },
-        { property: "og:image", content: "/img/open-graph.png" },
+        {
+          property: "og:image",
+          content: "https://schubrake.de/img/open-graph.png"
+        },
         { property: "og:image:width", content: "1200" },
         { property: "og:image:height", content: "630" },
         { property: "og:url", content: "Schubrake.de" },
@@ -81,7 +84,7 @@ export default {
         { name: "twitter:image:height", content: "560" },
         {
           name: "twitter:image",
-          content: "/img/twitter.png"
+          content: "https://schubrake.de/img/twitter.png"
         }
       ],
       style: [{ cssText: `:root\{${resolveColors(colors.values)}}` }]
