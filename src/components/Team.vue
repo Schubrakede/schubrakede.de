@@ -24,11 +24,10 @@ export default {
 
 <style scoped lang="postcss">
 .team {
-  width: 100%;
   display: grid;
-  grid-gap: 1.25em;
   grid-auto-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-gap: 1.25em;
   margin-bottom: 80px;
   @media (max-width: 950px) {
     grid-template-columns: 1fr;
@@ -37,14 +36,15 @@ export default {
 
 .member {
   display: grid;
+  align-items: center;
+  margin-bottom: 2em;
   grid-template-columns: auto 1fr;
   grid-template-rows: 100%;
-  background: white;
-  box-shadow: var(--sr-shadow--small);
   @media (max-width: 520px) {
     & {
       flex-direction: column;
       align-items: flex-start;
+      grid-template-rows: 70%;
     }
   }
 }
@@ -63,11 +63,13 @@ export default {
 }
 
 .memberImg {
+  border-radius: 40px 5px 5px 40px;
+  box-shadow: var(--sr-shadow--small);
   flex-shrink: 0;
   height: 100%;
   background-position: center center;
   background-size: cover;
-  width: 180px;
+  width: 160px;
   @media (max-width: 520px) {
     & {
       margin-bottom: 28px;
