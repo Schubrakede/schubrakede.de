@@ -29,6 +29,13 @@ export default {
     }
   }
 
+  img {
+    max-width: 30em;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
   h1,
   h2,
   h3,

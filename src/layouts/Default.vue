@@ -1,9 +1,13 @@
 <template>
-  <div :class="['frame', {'is-home': isHome}]">
-    <Logo></Logo>
-    <slot />
-    <Footer></Footer>
-    <Background></Background>
+  <div>
+    <transition name="fade" appear>
+      <div :class="['frame', {'is-home': isHome}]">
+        <Logo></Logo>
+        <slot />
+        <Footer></Footer>
+        <Background></Background>
+      </div>
+    </transition>
   </div>
 </template>
        
@@ -107,6 +111,14 @@ query {
   --sr-shadow--small: 0 10px 20px 0 rgba(8, 58, 72, 0.26);
   --sr-shadow: 0 20px 40px 0 rgba(8, 58, 72, 0.26);
   --sr-shadow--active: 0 20px 50px 0 rgba(58, 212, 214, 0.47);
+}
+
+.fade-enter-active {
+  transition: opacity 500ms;
+}
+
+.fade-enter {
+  opacity: 0;
 }
 
 *,

@@ -57,18 +57,12 @@ query Blog ($id: String!, $author: String!) {
 }
 </page-query>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 .blog-headline {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .blog-content {
-  img {
-    max-width: 30em;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-  }
   margin-bottom: 5em;
 }
 </style>

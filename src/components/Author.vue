@@ -20,13 +20,16 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss" scoped>
 .wrap {
   margin: 3em 0;
   display: grid;
   align-items: center;
   grid-template-columns: auto 1fr;
   grid-gap: 1em;
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
 }
 .author-image {
   width: 150px;
