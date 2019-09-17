@@ -23,8 +23,8 @@ content: >+
   Als ich angefangen habe bei [Jimdo](https://jimdo.de) zu arbeiten (2011), gab
   es z.b. Unternehmensweite Hackathons wo alle Mitarbeiter (bis auf ein paar
   sehr wichtige ausnahmen) eine Woche ihre normale Arbeit abgelegt haben und
-  beim dann beim Hackathon mitgemacht haben. Damals hatte das Unternehmen um die
-  ~70 Mitarbeiter.
+  dann beim Hackathon mitgemacht haben. Damals hatte das Unternehmen um die ~70
+  Mitarbeiter.
 
 
   ## Wie organisieren wir einen Hackathon?
@@ -79,12 +79,6 @@ content: >+
   Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: Das Problem
   gibt es und im Hackathon dann ein Designer und ein Entwickler das Problem
   gelöst haben.
-
-
-  Eine optionale Regel kann sein, dass Themen mit weniger als 2 oder 3
-  Mitgliedern dann von dem Whiteboard genommen werden und sich die übrigen
-  Mitglieder einem bestehendem Thema zuordnen müssen. Nach meine Erfahrung
-  passiert das aber ganz organisch von alleine.
 
 
   Nachdem die Themen und Teams gefunden sind, ist der Start des Hackathons
