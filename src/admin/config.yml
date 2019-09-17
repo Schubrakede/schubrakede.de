@@ -2,7 +2,6 @@ backend:
   name: github
   repo: Schubrakede/schubrakede.de
 
-publish_mode: editorial_workflow
 display_url: https://schubrake.de
 logo_url: https://schubrake.de/schubrakede.png
 media_folder: "static/img"
