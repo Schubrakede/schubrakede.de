@@ -31,6 +31,7 @@ export default {
   text-decoration: none;
   color: inherit;
   display: block;
+  border-radius: 4px;
   max-width: 25em;
   margin: 0 auto;
   margin-bottom: 2em;

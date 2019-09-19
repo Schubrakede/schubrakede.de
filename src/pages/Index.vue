@@ -28,6 +28,14 @@
     <ButtonGroup>
       <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     </ButtonGroup>
+    <Spacer v-if="$page.allBlog.edges.length > 0" :size="2"></Spacer>
+    <Headline v-if="$page.allBlog.edges.length > 0" margin center>Blog</Headline>
+    <BlogItem
+      :date="item.node.date"
+      :href="item.node.path"
+      v-for="item in $page.allBlog.edges"
+      :key="item.node.headline"
+    >{{item.node.headline}}</BlogItem>
     <Spacer :size="2"></Spacer>
     <Headline margin center>Team</Headline>
     <Team :data="$page.site.teammember"></Team>
@@ -67,10 +75,21 @@ query Index{
     }
   }
 }
+  allBlog(sortBy: "date", order: DESC,filter: { published: { eq: true }}){
+    edges{
+      node{
+        path,
+        date,
+        headline
+      }
+    }
+  }
 }
+
 </page-query>
 
 <script>
+import BlogItem from "../components/BlogItem";
 import ContactForm from "../components/ContactForm";
 import References from "../components/References";
 import Spacer from "../components/Spacer";
@@ -84,6 +103,7 @@ import Team from "../components/Team";
 
 export default {
   components: {
+    BlogItem,
     ProductCard,
     Spacer,
     Button,

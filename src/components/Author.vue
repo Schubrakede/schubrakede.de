@@ -2,9 +2,12 @@
   <div class="wrap">
     <div class="author-image" :style="{backgroundImage: `url(${image})`}" />
     <div>
-      <Headline :level="3">{{name}}</Headline>
+      <Headline class="author-name" :level="3">{{name}}</Headline>
       <Paragraph>{{description}}</Paragraph>
-      <AnchorLink :href="`https://twitter.com/${twitterhandle}`">@{{twitterhandle}} auf Twitter</AnchorLink>
+      <AnchorLink
+        class="twitterlink"
+        :href="`https://twitter.com/${twitterhandle}`"
+      >@{{twitterhandle}} auf Twitter</AnchorLink>
     </div>
   </div>
 </template>
@@ -30,6 +33,13 @@ export default {
   @media (max-width: 560px) {
     grid-template-columns: 1fr;
   }
+}
+.twitterlink {
+  display: inline-block;
+  margin-top: 0.25em;
+}
+.author-name {
+  margin-bottom: 0.5em;
 }
 .author-image {
   width: 150px;
