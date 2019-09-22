@@ -59,7 +59,7 @@ content: >+
 
 
   Jedes Mitglied kann, muss aber nicht, innerhalb von 5 Minuten vorstellen was
-  und warum er/sie in dieser Woche gerne machen würden.
+  und warum er/sie in dieser Woche gerne machen würde und warum.
 
 
   Das kann ein konkreter Plan, eine grobe Idee oder einfach ein bestehendes
