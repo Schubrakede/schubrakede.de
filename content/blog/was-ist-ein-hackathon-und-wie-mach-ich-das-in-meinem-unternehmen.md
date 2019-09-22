@@ -71,13 +71,13 @@ content: >+
 
 
   Nun darf sich jedes Mitglied selbst dafür Entscheiden, an welchem Thema er/sie
-  arbeiten möchte. Wichtig hierbei ist, dass nur, weil man ein Thema vorstellt,
-  es nicht heißt, dass man das Thema auch selbst bearbeiten muss/will. 
+  arbeiten möchte. Wichtig ist: wer das Thema vorschlägt muss nicht automatisch
+  das Thema bearbeiten.
 
 
-  Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: Das Problem
-  gibt es und im Hackathon dann ein Designer und ein Entwickler das Problem
-  gelöst haben.
+  Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: "Hier ist
+  Problem XY" und im Hackathon haben dann ein Designer und ein Entwickler das
+  Problem gelöst.
 
 
   Nachdem die Themen und Teams gefunden sind, ist der Start des Hackathons
@@ -89,11 +89,11 @@ content: >+
 
 
   Am Freitagmittag präsentieren die Teams das Ergebnis ihres Hackathons.
-  Interessant dabei ist, ob ein Ziel erreicht wurde und wenn nein warum nicht
+  Interessant dabei ist, ob ein Ziel erreicht wurde und wenn nein, warum nicht
   oder ob hier andere interessante Aspekte entdeckt wurden. Ich würde
   EnterpriseY dazu anhalten Geschäftsführer bzw. das obere Management mit in die
-  Vorstellung der Hackathon Ergebnisse zu nehmen. Allerdings, nur wenn die
-  Kultur es zulässt und das nicht für ein "Ablieferungs-Zwang" sorgt.
+  Vorstellung der Hackathon Ergebnisse zu nehmen. Allerdings nur, wenn die
+  Kultur es zulässt und dies nicht für ein "Ablieferungs-Zwang" sorgt.
 
 
 
