@@ -36,19 +36,19 @@ teammember:
       technischen Umsetzung.
     Image: /img/dsc_0759_square-0-4x.jpg
     Name: Lasse Diercks
-    Title: Design
+    Title: 'Gründer, Designer'
   - Description: >-
       Seit 8 Jahren in der Web Branche. Kreative Energie, kombiniert mit
       technischer Finesse erlaubt Karsten Webseiten eine eigene Geschichte
       erzählen zu lassen.
     Image: /img/karsten.png
     Name: Karsten Buckstegge
-    Title: Artist
+    Title: 'Illustrator, Entwickler'
   - Description: >-
       Entwickelt seit 10 Jahren Web basierte Applikationen. Am liebsten in
       JavaScript und ohne Server. Stabil und mit bedachter Developer Experience.
     Image: /img/hannes.png
     Name: Hannes Diercks
-    Title: Entwicklung
+    Title: 'Gründer, Entwickler'
 ---
 
