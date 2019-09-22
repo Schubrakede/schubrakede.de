@@ -89,7 +89,7 @@ content: >+
 
 
   Am Freitagmittag präsentieren die Teams das Ergebnis ihres Hackathons.
-  Interessant dabei ist, ob ein Ziel erreicht wurde und wenn nein warum nicht
+  Interessant dabei ist, ob ein Ziel erreicht wurde und wenn nein, warum nicht
   oder ob hier andere interessante Aspekte entdeckt wurden. Ich würde
   EnterpriseY dazu anhalten Geschäftsführer bzw. das obere Management mit in die
   Vorstellung der Hackathon Ergebnisse zu nehmen. Allerdings nur, wenn die
