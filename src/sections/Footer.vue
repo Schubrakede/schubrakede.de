@@ -1,15 +1,15 @@
 <template>
-    <footer class="footer">
-      <AnchorLink href="/imprint">Impressum</AnchorLink>
-      <AnchorLink href="/datenschutz">Datenschutzerklärung</AnchorLink>
-    </footer>
+  <footer class="footer">
+    <AnchorLink to="/imprint">Impressum</AnchorLink>
+    <AnchorLink to="/datenschutz">Datenschutzerklärung</AnchorLink>
+  </footer>
 </template>
 
 <script>
-import AnchorLink from '../components/AnchorLink'
+import AnchorLink from "../components/AnchorLink";
 export default {
-  components: {AnchorLink}
-}
+  components: { AnchorLink }
+};
 </script>
 
 <style lang="postcss">
@@ -28,5 +28,4 @@ export default {
     }
   }
 }
-
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <g-link class="link" :to="href">
+  <a class="link" :to="to && to" :is="to ? 'g-link' : 'a'" :href="href">
     <slot />
-  </g-link>
+  </a>
 </template>
 <script>
 export default {
-  props: ["href"]
+  props: ["href", "to"]
 };
 </script>
 <style lang="postcss">

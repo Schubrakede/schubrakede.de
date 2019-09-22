@@ -18,11 +18,10 @@
 
 <script>
 import Headline from "./Headline";
-import AnchorLink from "./AnchorLink";
 import Paragraph from "./Paragraph";
 export default {
   props: ["to", "name", "teaser", "duration", "image"],
-  components: { AnchorLink, Paragraph, Headline }
+  components: { Paragraph, Headline }
 };
 </script>
 

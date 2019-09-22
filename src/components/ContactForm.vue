@@ -58,7 +58,7 @@
       />
       <Label :noMargin="true" for="datenschutzcheck">
         Ich stimme
-        <AnchorLink href="/datenschutz">der Datenschutzerklärung</AnchorLink>&nbsp;zu*
+        <AnchorLink to="/datenschutz">der Datenschutzerklärung</AnchorLink>&nbsp;zu*
       </Label>
     </div>
     <br />

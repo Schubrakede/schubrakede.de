@@ -9,7 +9,7 @@
     <Spacer :size="1"></Spacer>
     <Paragraph>
       Vielleicht möchtest du zurück
-      <AnchorLink href="/">auf die Startseite</AnchorLink>
+      <AnchorLink to="/">auf die Startseite</AnchorLink>
     </Paragraph>
   </Layout>
 </template>
