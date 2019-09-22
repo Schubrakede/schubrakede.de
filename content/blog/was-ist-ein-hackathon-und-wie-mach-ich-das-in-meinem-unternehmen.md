@@ -70,7 +70,7 @@ content: >+
   festgehalten.
 
 
-  Nun darf sich jedes Mitglied selbst dafür Entscheiden an welchem Thema er/sie
+  Nun darf sich jedes Mitglied selbst dafür Entscheiden, an welchem Thema er/sie
   arbeiten möchte. Wichtig hierbei ist, dass nur, weil man ein Thema vorstellt,
   es nicht heißt, dass man das Thema auch selbst bearbeiten muss/will. 
 
