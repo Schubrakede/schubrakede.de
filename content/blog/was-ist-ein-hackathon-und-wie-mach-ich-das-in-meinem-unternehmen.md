@@ -49,7 +49,7 @@ content: >+
 
   Bei EnterpriseY gibt es die Abteilungen Design, Entwicklung, Support,
   Vertrieb, Marketing, HR und Lean Management. Als Faustregel würde ich
-  versuchen mindesten 3 Abteilungen in einen Hackathon zu bekommen.
+  versuchen mindestens 3 Abteilungen in einen Hackathon zu bekommen.
 
 
   ### Wie starten wir?
