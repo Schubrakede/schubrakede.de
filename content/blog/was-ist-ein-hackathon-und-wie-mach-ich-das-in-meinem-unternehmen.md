@@ -71,13 +71,13 @@ content: >+
 
 
   Nun darf sich jedes Mitglied selbst dafür Entscheiden, an welchem Thema er/sie
-  arbeiten möchte. Wichtig hierbei ist, dass nur, weil man ein Thema vorstellt,
-  es nicht heißt, dass man das Thema auch selbst bearbeiten muss/will. 
+  arbeiten möchte. Wichtig ist: wer das Thema vorschlägt muss nicht automatisch
+  das Thema bearbeiten.
 
 
-  Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: Das Problem
-  gibt es und im Hackathon dann ein Designer und ein Entwickler das Problem
-  gelöst haben.
+  Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: "Dieses
+  Problem gibt es" und im Hackathon haben dann ein Designer und ein Entwickler
+  das Problem gelöst.
 
 
   Nachdem die Themen und Teams gefunden sind, ist der Start des Hackathons
