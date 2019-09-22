@@ -1,6 +1,6 @@
 ---
 published: false
-date: 2019-08-30T13:25:24.242Z
+date: 2019-09-23T13:25:24.242Z
 headline: Was ist ein Hackathon? Und wie mach ich das in meinem Unternehmen?
 content: >+
   Erst einmal: Hackathon ist kein standardisierter Begriff und auch bekannt
@@ -23,7 +23,7 @@ content: >+
   Als ich angefangen habe bei [Jimdo](https://jimdo.de) zu arbeiten (2011), gab
   es z.b. Unternehmensweite Hackathons wo alle Mitarbeiter (bis auf ein paar
   sehr wichtige ausnahmen) eine Woche ihre normale Arbeit abgelegt haben und
-  dann beim Hackathon mitgemacht haben. Damals hatte das Unternehmen um die ~70
+  dann beim Hackathon mitgemacht haben. Damals hatte das Unternehmen circa 70
   Mitarbeiter.
 
 
