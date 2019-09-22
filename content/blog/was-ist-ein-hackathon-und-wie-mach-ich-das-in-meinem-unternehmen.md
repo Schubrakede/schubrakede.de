@@ -75,9 +75,9 @@ content: >+
   das Thema bearbeiten.
 
 
-  Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: "Dieses
-  Problem gibt es" und im Hackathon haben dann ein Designer und ein Entwickler
-  das Problem gelöst.
+  Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: "Hier ist
+  Problem XY" und im Hackathon haben dann ein Designer und ein Entwickler das
+  Problem gelöst.
 
 
   Nachdem die Themen und Teams gefunden sind, ist der Start des Hackathons
