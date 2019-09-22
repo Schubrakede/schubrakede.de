@@ -92,8 +92,8 @@ content: >+
   Interessant dabei ist, ob ein Ziel erreicht wurde und wenn nein warum nicht
   oder ob hier andere interessante Aspekte entdeckt wurden. Ich würde
   EnterpriseY dazu anhalten Geschäftsführer bzw. das obere Management mit in die
-  Vorstellung der Hackathon Ergebnisse zu nehmen. Allerdings, nur wenn die
-  Kultur es zulässt und das nicht für ein "Ablieferungs-Zwang" sorgt.
+  Vorstellung der Hackathon Ergebnisse zu nehmen. Allerdings nur, wenn die
+  Kultur es zulässt und dies nicht für ein "Ablieferungs-Zwang" sorgt.
 
 
 
