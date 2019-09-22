@@ -70,10 +70,9 @@ content: >+
   festgehalten.
 
 
-  Nun darf jedes sich jedes Mitglied selbst dafür Entscheiden an welchem Thema
-  er/sie arbeiten möchte. Wichtig hierbei ist, dass nur, weil man ein Thema
-  vorstellt, es nicht heißt, dass man das Thema auch selbst bearbeiten
-  muss/will. 
+  Nun darf sich jedes Mitglied selbst dafür Entscheiden an welchem Thema er/sie
+  arbeiten möchte. Wichtig hierbei ist, dass nur, weil man ein Thema vorstellt,
+  es nicht heißt, dass man das Thema auch selbst bearbeiten muss/will. 
 
 
   Ich habe z.b. schon mitbekommen, dass jemand aus dem Support sagt: Das Problem
