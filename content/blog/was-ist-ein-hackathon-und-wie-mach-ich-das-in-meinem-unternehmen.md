@@ -47,9 +47,9 @@ content: >+
   Bei StartupX machen alle mit! 
 
 
-  Bei EnterpriseY gibt es die Abteilungen Design, Entwicklung, Support, Vertrieb
-  und Marketing. Als Faustregel würde ich versuchen mindesten 3 Abteilungen in
-  einen Hackathon zu bekommen.
+  Bei EnterpriseY gibt es die Abteilungen Design, Entwicklung, Support,
+  Vertrieb, Marketing, HR und Lean Management. Als Faustregel würde ich
+  versuchen mindesten 3 Abteilungen in einen Hackathon zu bekommen.
 
 
   ### Wie starten wir?
