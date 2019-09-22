@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2019-09-23T13:25:24.242Z
 headline: Was ist ein Hackathon? Und wie mach ich das in meinem Unternehmen?
 content: >+
