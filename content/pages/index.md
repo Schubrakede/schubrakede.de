@@ -26,11 +26,11 @@ handsOnText: >-
   entwickeln/distribuieren, dann kommen wir zu euch und helfen euch dabei.
 teammember:
   - Description: >-
-      10 Jahre Erfahrung im Bereich IT-Projektmanagement, Online Marketing und
-      Vertrieb.
+      Setzt seit 10 Jahren erfolgreich IT-Projekte mit Unternehmen um. Unser
+      Experte für Online Marketing und Vertrieb.
     Image: /img/felix.png
     Name: Felix Speck
-    Title: Vertrieb
+    Title: 'Projektmanagement, Vertrieb'
   - Description: >-
       9 Jahre Erfahrung mit Nutzerorientiertem Design. Von UX über UI bis zur
       technischen Umsetzung.
