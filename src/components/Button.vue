@@ -1,5 +1,10 @@
 <template>
-  <button :href="href" :is="href ? 'a' : 'button'" :class="['button', {'secondary': secondary}]">
+  <button
+    v-on:click="$emit('click')"
+    :href="href"
+    :is="href ? 'a' : 'button'"
+    :class="['button', {'secondary': secondary}]"
+  >
     <slot />
   </button>
 </template>
