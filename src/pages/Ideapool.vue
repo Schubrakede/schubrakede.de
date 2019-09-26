@@ -22,7 +22,6 @@
       <Label>E-Mail</Label>
       <Input
         type="email"
-        pattern=".+@globex.com"
         size="30"
         required
         v-bind:value="emailValue"
