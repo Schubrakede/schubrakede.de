@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import { db } from "../../firebase-config";
+import { db } from "../db";
 import Label from "../components/Label";
 import Spacer from "../components/Spacer";
 import Button from "../components/Button";
