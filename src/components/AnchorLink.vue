@@ -10,6 +10,7 @@ export default {
 </script>
 <style lang="postcss">
 .link {
+  cursor: pointer;
   font-weight: bold;
   color: var(--navy);
   border-bottom: 4px solid var(--teal);

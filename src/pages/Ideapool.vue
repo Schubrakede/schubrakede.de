@@ -1,47 +1,105 @@
 <template>
   <Layout>
-    <Headline>Schubrakede Ideen Sammlung</Headline>
-    <Spacer :size="1"></Spacer>
-    <div class="idea-grid">
-      <div class="idea" v-for="idea in ideas" :key="idea.name">
-        <p class="idea-text">{{idea.idea}}</p>
-        <div class="idea-footer">
-          <span class="rating-amount">{{idea.rating}}</span>
-          <button class="upvote-button" @click.once="increaseRating(idea.id, idea.rating)">👍</button>
+    <Headline :level="1">Entwicklungssprint zu Gewinnen</Headline>
+    <Paragraph>
+      Vom 2.12. bis zum 6.12. haben wir einen
+      <AnchorLink to="product/entwicklungs-sprint">Entwicklungssprint</AnchorLink>&nbsp;ohne konkrete Idee geplant und wollen dich gerne einladen uns
+      <AnchorLink href="#addIdea">deine Idee zu pitchen</AnchorLink>&nbsp;was wir in dieser Woche machen können.
+      <br />
+      <br />Am 6.12. werden uns dann eine Idee heraussuchen unter Betrachtung der Umsetzbarkeit, Intention &amp; Abstimmungen.
+      <br />
+      <br />Generell freuen wir uns über Ideen die unter die Kategorie "Make World suck less" fallen.
+    </Paragraph>
+    <Spacer :size="2"></Spacer>
+
+    <div id="ideas">
+      <Headline>Ideen Sammlung</Headline>
+      <Spacer :size="1"></Spacer>
+      <div class="idea-grid">
+        <div class="idea" v-for="idea in ideas" :key="idea.name">
+          <p class="idea-text">{{idea.idea}}</p>
+          <div class="idea-footer">
+            <span class="rating-amount">{{idea.rating}}</span>
+            <button class="upvote-button" @click.once="increaseRating(idea.id, idea.rating)">👍</button>
+          </div>
         </div>
       </div>
     </div>
     <Spacer :size="2"></Spacer>
 
-    <Headline margin>Eigene Idee hinzufügen</Headline>
-    <form @submit.prevent="addIdea">
-      <Label>Name</Label>
-      <Input type="text" required v-bind:value="nameValue" v-on:input="nameValue = $event" />
-      <Label>Deine Idee</Label>
-      <Textarea type="text" required v-bind:value="ideaValue" v-on:input="ideaValue = $event" />
-      <Label>E-Mail</Label>
-      <Input
-        type="email"
-        size="30"
-        required
-        v-bind:value="emailValue"
-        v-on:input="emailValue = $event"
-      />
-      <Button class="button">Idee hinzufügen</Button>
-    </form>
+    <div id="addIdea">
+      <Headline margin>Eigene Idee hinzufügen</Headline>
+      <form class="form" @submit.prevent @submit.once="addIdea">
+        <Label>Name</Label>
+        <Input type="text" required v-bind:value="nameValue" v-on:input="nameValue = $event" />
+        <Label>Deine Idee (max 300. Zeichen)</Label>
+        <Textarea
+          maxlength="300"
+          type="text"
+          required
+          v-bind:value="ideaValue"
+          v-on:input="ideaValue = $event"
+        />
+        <Label>E-Mail</Label>
+        <Input
+          type="email"
+          size="30"
+          required
+          v-bind:value="emailValue"
+          v-on:input="emailValue = $event"
+        />
+        <CheckboxWrap>
+          <Checkbox id="mithelfen"></Checkbox>
+          <Label :noMargin="true" for="mithelfen">Ich will beim Sprint aktiv mithelfen</Label>
+        </CheckboxWrap>
+        <CheckboxWrap>
+          <Checkbox required id="teilnahmebdg"></Checkbox>
+          <Label :noMargin="true" for="teilnahmebdg">
+            Ich akzeptiere die
+            <AnchorLink href="#teilnahmebedingungen">Teilnahmebedingungen</AnchorLink>
+          </Label>
+        </CheckboxWrap>
+        <Button class="button">Idee hinzufügen</Button>
+      </form>
+    </div>
+    <Spacer :size="4"></Spacer>
+
+    <div id="teilnahmebedingungen">
+      <Headline>Teilnahmebedingungen</Headline>Wir sind ein kleines Team und haben das hier mal eben zusammengelötet™.
+      <br />
+      <br />Bitte verzichtete darauf mehr als eine Idee zu pitchen.
+      <br />Bitte verhalte dich wie du dich auch sonstwo im Internet verhalten würdest.
+      <br />Bitte lade nicht die Seite 500 mal neu und Vote deine Idee hoch.
+      <br />"Wenn du Ich will beim Sprint aktiv mithelfen" angeklickt hast, gehen wir davon aus, dass du in der Woche vom 2.12. - 6.12. mindestens 3-4 Stunden am Tag verfügbar bist.
+    </div>
   </Layout>
 </template>
 
 <script>
 import { db } from "../db";
 import Label from "../components/Label";
+import CheckboxWrap from "../components/CheckboxWrap";
+import Checkbox from "../components/Checkbox";
 import Spacer from "../components/Spacer";
 import Button from "../components/Button";
+import AnchorLink from "../components/AnchorLink";
+import Paragraph from "../components/Paragraph";
 import Headline from "../components/Headline";
 import Input from "../components/Input";
 import Textarea from "../components/Textarea";
 export default {
-  components: { Spacer, Headline, Textarea, Label, Input, Button },
+  components: {
+    AnchorLink,
+    CheckboxWrap,
+    Checkbox,
+    Spacer,
+    Headline,
+    Textarea,
+    Paragraph,
+    Label,
+    Input,
+    Button
+  },
   data() {
     return {
       ideas: [],
@@ -106,5 +164,8 @@ export default {
   font: inherit;
   background: none;
   border: none;
+}
+.form {
+  max-width: 40em;
 }
 </style>

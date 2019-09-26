@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition name="fade" appear>
-      <div :class="['frame', {'is-home': isHome}]">
+      <div :class="['frame', {wide: wide}, {'is-home': isHome}]">
         <Logo></Logo>
         <slot />
         <Footer></Footer>
@@ -27,6 +27,7 @@ const resolveColors = data => {
 
 export default {
   props: {
+    wide: Boolean,
     isHome: Boolean,
     title: { type: String, default: "Schubrakede" },
     description: {
@@ -150,7 +151,9 @@ body {
 
 .frame {
   padding: 60px 16px;
-
+  &.wide {
+    max-width: 1400px !important;
+  }
   @media (min-width: 800px) {
     padding: 80px 32px;
     max-width: 950px;
