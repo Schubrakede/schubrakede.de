@@ -15,15 +15,14 @@ content: >-
   Woche alles schaffen können. 
 
 
-  Nun haben wir entschlossen - statt irgendwelche eigenen Ideen zu benutzen -
-  wir verlosen einen Sprint für eine Idee die dich, dein Unternehmen oder dein
-  Projekt weiterbringt.
+  Nun haben wir entschlossen einen Sprint zu verlosen für eine Idee die dich,
+  dein Unternehmen oder dein Projekt weiterbringt.
 
 
-  D.h. du bekommst einen kostenlosen
+  Das heißt: du bekommst einen kostenlosen
   [Entwicklungs-Sprint](https://schubrake.de/product/entwicklungs-sprint) wobei
-  dir am Ende das Ergebnis und der Source-Code gehört und wir haben etwas, was
-  wir auf unserer Webseite und Social Media Kanälen als Referenz benutzten
+  dir am Ende das Ergebnis und der Source-Code gehört und wir etwas haben, was
+  wir auf unserer Webseite und Social Media Kanälen als Referenz benutzen
   können.
 
 
