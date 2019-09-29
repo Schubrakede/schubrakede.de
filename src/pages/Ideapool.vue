@@ -1,5 +1,8 @@
 '<template>
-  <Layout title="Entwicklungs-Sprint zu gewinnen">
+  <Layout
+    title="Entwicklungs-Sprint zu gewinnen"
+    description="Wir machen einen Sprint, wir brauchen nur noch dein Input"
+  >
     <Headline :level="1">Entwicklungs-Sprint zu gewinnen</Headline>
     <Paragraph>
       Was bei uns im Kalender steht: Vom 2.12.2019 bis zum 6.12.2019 machen wir einen
