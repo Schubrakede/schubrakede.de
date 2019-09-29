@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: 2019-09-30T13:25:24.242Z
 headline: Gewinne einen Entwicklung-Sprint!
 content: >-
