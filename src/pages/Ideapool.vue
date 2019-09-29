@@ -168,7 +168,7 @@ export default {
 .idea {
   animation: appear 350ms ease-in 1;
   box-shadow: var(--sr-shadow);
-  padding: 1.5em 1.5em 1em 1.5em;
+  padding: 0.5em 1em 0.5em 1em;
   background: white;
   display: flex;
   flex-direction: column;
