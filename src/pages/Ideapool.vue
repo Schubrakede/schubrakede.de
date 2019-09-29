@@ -2,15 +2,19 @@
   <Layout title="Entwicklungs-Sprint zu gewinnen">
     <Headline :level="1">Entwicklungs-Sprint zu gewinnen</Headline>
     <Paragraph>
-      Vom 2.12. bis zum 6.12.2019 haben wir einen
-      <AnchorLink to="product/entwicklungs-sprint">Entwicklungssprint</AnchorLink>&nbsp;ohne konkrete Idee geplant und wollen dich gerne einladen uns
-      <AnchorLink href="#addIdea">deine Idee zu pitchen,</AnchorLink>&nbsp;was wir in dieser Woche machen können.
+      Was bei uns im Kalender steht: Vom 2.12.2019 bis zum 6.12.2019 machen wir einen
+      <AnchorLink to="product/entwicklungs-sprint">Entwicklungs-Sprint</AnchorLink>
       <br />
-      <br />Am 29.11.2019 entscheiden wir uns für eine Idee. Wichtig für ist dabei die Intention und Herausforderung aber die Machbarkeit ist auch ein Faktor.
+      <br />Was noch nicht fest steht ist, was wir in dieser Woche konkret machen.
+      Deshalb wollen wir dich gerne einladen uns
+      <AnchorLink href="#addIdea">deine Idee zu pitchen,</AnchorLink>&nbsp;was wir deiner Meinung nach in dieser Woche machen können.
       <br />
-      <br />Die Abstimmungen sind mehr als Meinungsspiegel und weniger als konkretes Voting gedacht.
+      <br />Am 29.11.2019 suchen wir uns eine Idee aus. Wichtig hierbei ist dabei die Intention und Herausforderung, aber die Machbarkeit ist auch ein Faktor.
       <br />
-      <br />Generell präferieren wir Ideen die unter die Kategorie "Make World suck less" fallen.
+      <br />Die Abstimmungen sind mehr als Meinungsspiegel, und weniger als konkretes Voting gedacht.
+      <br />
+
+      <br />Generell präferieren wir Ideen, die unter die Kategorie "Make World suck less" fallen.
     </Paragraph>
     <Spacer :size="2"></Spacer>
 
