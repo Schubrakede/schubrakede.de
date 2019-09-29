@@ -8,7 +8,7 @@
       <br />
       <br />Am 2.12. werden wir uns dann eine Idee heraussuchen unter Betrachtung der Umsetzbarkeit, Intention &amp; Abstimmungen.
       <br />
-      <br />Generell freuen wir uns über Ideen die unter die Kategorie "Make World suck less" fallen.
+      <br />Generell präferieren wir Ideen die unter die Kategorie "Make World suck less" fallen.
     </Paragraph>
     <Spacer :size="2"></Spacer>
 
@@ -160,12 +160,19 @@ export default {
   box-shadow: var(--sr-shadow);
   padding: 1.5em 1.5em 1em 1.5em;
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .idea-text {
   margin: 0;
 }
 .button {
   margin-bottom: 1em;
+}
+.rating-amount {
+  display: inline-flex;
+  align-items: center;
 }
 .idea-footer {
   display: flex;
