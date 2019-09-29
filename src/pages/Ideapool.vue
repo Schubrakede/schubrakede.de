@@ -75,6 +75,7 @@
         <li>Bitte lade nicht die Seite 500 mal neu und Vote deine Idee hoch.</li>
         <li>Wenn du "Ich will beim Sprint aktiv mithelfen" angeklickt hast, gehen wir davon aus, dass du in der Woche vom 2.12. - 6.12. mindestens 3-4 Stunden am Tag verfügbar bist.</li>
         <li>Wie bei unserem regulärem Entwicklungs-Sprint gehört das Ergebnis und der gesamte Source-Code dir. Bei diesem Sprint behalten wir uns die Rechte daran den Sprint als Referenz zu benuzten und das Ergebnis öffentlich zu kommunizieren.</li>
+        <li>Wie bei unserem regulärem Entwickliungs-Sprint besteht nach beendung der Sprints keine gewährleistung auf Qualität, Hosting oder sonstigen Support. Für kleine Fragen stehen wir selbstverständlich immer zur Verfügung</li>
       </List>
     </div>
   </Layout>
