@@ -29,7 +29,7 @@ content: >-
   Win-Win oder?
 
 
-  [hier kannst du deine Idee einreichen](https://schubrake.de/ideapool)
+  [Hier kannst du deine Idee einreichen.](https://schubrake.de/ideapool)
 author: lassediercks
 ---
 
