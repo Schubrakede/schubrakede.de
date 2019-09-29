@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2019-09-30T13:25:24.242Z
-headline: Gewinne einen Entwicklung-Sprint!
+headline: Gewinne einen Entwicklungs-Sprint!
 content: >-
   Wir stehen ganz am Anfang. 
 
