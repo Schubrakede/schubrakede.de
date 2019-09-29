@@ -1,12 +1,14 @@
-<template>
+'<template>
   <Layout title="Entwicklungs-Sprint zu gewinnen">
     <Headline :level="1">Entwicklungs-Sprint zu gewinnen</Headline>
     <Paragraph>
-      Vom 2.12. bis zum 6.12. haben wir einen
+      Vom 2.12. bis zum 6.12.2019 haben wir einen
       <AnchorLink to="product/entwicklungs-sprint">Entwicklungssprint</AnchorLink>&nbsp;ohne konkrete Idee geplant und wollen dich gerne einladen uns
       <AnchorLink href="#addIdea">deine Idee zu pitchen,</AnchorLink>&nbsp;was wir in dieser Woche machen können.
       <br />
-      <br />Am 2.12. werden wir uns dann eine Idee heraussuchen unter Betrachtung der Umsetzbarkeit, Intention &amp; Abstimmungen.
+      <br />Am 29.11.2019 entscheiden wir uns für eine Idee. Wichtig für ist dabei die Intention und Herausforderung aber die Machbarkeit ist auch ein Faktor.
+      <br />
+      <br />Die Abstimmungen sind mehr als Meinungsspiegel und weniger als konkretes Voting gedacht.
       <br />
       <br />Generell präferieren wir Ideen die unter die Kategorie "Make World suck less" fallen.
     </Paragraph>
@@ -73,9 +75,9 @@
         <li>Bitte verzichtete darauf mehr als eine Idee zu pitchen.</li>
         <li>Bitte verhalte dich wie du dich auch sonstwo im Internet verhalten würdest.</li>
         <li>Bitte lade nicht die Seite 500 mal neu und Vote deine Idee hoch.</li>
-        <li>Wenn du "Ich will beim Sprint aktiv mithelfen" angeklickt hast, gehen wir davon aus, dass du in der Woche vom 2.12. - 6.12. mindestens 3-4 Stunden am Tag verfügbar bist.</li>
+        <li>Wenn du "Ich will beim Sprint aktiv mithelfen" angeklickt hast, gehen wir davon aus, dass du in der Woche vom 2.12. - 6.12.2019 mindestens 3-4 Stunden am Tag verfügbar bist.</li>
         <li>Wie bei unserem regulärem Entwicklungs-Sprint gehört das Ergebnis und der gesamte Source-Code dir. Bei diesem Sprint behalten wir uns die Rechte daran den Sprint als Referenz zu benuzten und das Ergebnis öffentlich zu kommunizieren.</li>
-        <li>Wie bei unserem regulärem Entwickliungs-Sprint besteht nach beendung der Sprints keine gewährleistung auf Qualität, Hosting oder sonstigen Support. Für kleine Fragen stehen wir selbstverständlich immer zur Verfügung</li>
+        <li>Wie bei unserem regulärem Entwickliungs-Sprint besteht nach beendung der Sprints keine gewährleistung auf Qualität, Hosting oder sonstigen Support. Für kleine Fragen stehen wir selbstverständlich immer zur Verfügung.</li>
       </List>
     </div>
   </Layout>
