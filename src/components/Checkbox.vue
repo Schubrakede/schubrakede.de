@@ -1,9 +1,18 @@
 <template>
-  <input type="checkbox" class="checkbox" />
+  <div>
+    <input
+      :checked="value"
+      @change="$emit('change', $event.target.checked)"
+      type="checkbox"
+      class="checkbox"
+    />
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: { value: Boolean }
+};
 </script>
 
 <style lang="postcss">

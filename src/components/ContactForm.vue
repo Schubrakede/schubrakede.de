@@ -47,7 +47,7 @@
       name="message"
       id="message"
     />
-    <div class="checkboxWrap">
+    <CheckboxWrap>
       <Checkbox
         type="checkbox"
         required
@@ -60,7 +60,8 @@
         Ich stimme
         <AnchorLink to="/datenschutz">der Datenschutzerklärung</AnchorLink>&nbsp;zu*
       </Label>
-    </div>
+    </CheckboxWrap>
+
     <br />
     <span>Mit * gekennzeichnete Felder sind Pflichtfelder</span>
     <br />
@@ -75,10 +76,19 @@ import AnchorLink from "../components/AnchorLink";
 import Button from "../components/Button";
 import Input from "../components/Input";
 import Checkbox from "../components/Checkbox";
+import CheckboxWrap from "../components/CheckboxWrap";
 import Textarea from "../components/Textarea";
 export default {
   props: ["formName"],
-  components: { Textarea, Label, Button, Input, Checkbox, AnchorLink },
+  components: {
+    CheckboxWrap,
+    Textarea,
+    Label,
+    Button,
+    Input,
+    Checkbox,
+    AnchorLink
+  },
   methods: {
     updateInput(ev) {
       this.formData = ev.target.value;
@@ -93,14 +103,6 @@ export default {
 </script>
 
 <style>
-.checkboxWrap {
-  padding: 0.5em 0;
-  display: inline-grid;
-  margin-bottom: 0.5em;
-  align-items: center;
-  grid-template-columns: auto auto;
-  grid-gap: 0.3em;
-}
 form {
   max-width: 30em;
 }

@@ -1,9 +1,11 @@
 <template>
-  <textarea class="textarea" />
+  <textarea class="textarea" v-bind:value="value" v-on:input="$emit('input', $event.target.value)" />
 </template>
 
 <script>
-export default {};
+export default {
+  props: { value: String }
+};
 </script>
 
 <style lang="postcss" scoped>
@@ -16,6 +18,9 @@ export default {};
   &:focus {
     outline: none;
     border-color: var(--teal);
+  }
+  &:invalid {
+    border-color: var(--orange);
   }
   padding: 0.5em 0.7em;
   font-size: inherit;
