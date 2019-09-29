@@ -15,15 +15,14 @@ content: >-
   Woche alles schaffen können. 
 
 
-  Nun haben wir entschlossen einen Sprint zu verlosen für eine Idee die dich,
-  dein Unternehmen oder dein Projekt weiterbringt.
+  ## Du kannst einen Sprint gewinnen!
 
 
   Das heißt: du bekommst einen kostenlosen
   [Entwicklungs-Sprint](https://schubrake.de/product/entwicklungs-sprint) wobei
   dir am Ende das Ergebnis und der Source-Code gehört und wir etwas haben, was
-  wir auf unserer Webseite und Social Media Kanälen als Referenz benutzen
-  können.
+  wir auf unserer Webseite und auf unseren Social Media Kanälen als Referenz
+  benutzen können.
 
 
   Win-Win oder?
