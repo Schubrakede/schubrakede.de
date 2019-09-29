@@ -32,16 +32,8 @@
       <form class="form" @submit.prevent @submit.once="addIdea">
         <Dialog class="submitted" v-if="submitted">Deine Idee wurde hinzugefügt</Dialog>
         <div v-if="!this.submitted">
-          <Label>Name</Label>
+          <Label>Dein Name</Label>
           <Input type="text" required v-bind:value="nameValue" v-on:input="nameValue = $event" />
-          <Label>Deine Idee (max 300. Zeichen)</Label>
-          <Textarea
-            maxlength="300"
-            type="text"
-            required
-            v-bind:value="ideaValue"
-            v-on:input="ideaValue = $event"
-          />
           <Label>E-Mail</Label>
           <Input
             type="email"
@@ -49,6 +41,14 @@
             required
             v-bind:value="emailValue"
             v-on:input="emailValue = $event"
+          />
+          <Label>Deine Idee (max 300. Zeichen)</Label>
+          <Textarea
+            maxlength="300"
+            type="text"
+            required
+            v-bind:value="ideaValue"
+            v-on:input="ideaValue = $event"
           />
           <CheckboxWrap>
             <Checkbox @change="participate = $event" :value="participate" id="mithelfen"></Checkbox>
@@ -148,7 +148,7 @@ export default {
 .idea-grid {
   grid-gap: 1em;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(12.5em, 1fr));
 }
 @keyframes appear {
   0% {
