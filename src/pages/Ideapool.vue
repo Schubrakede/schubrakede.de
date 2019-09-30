@@ -67,7 +67,8 @@
             <Checkbox required id="teilnahmebdg"></Checkbox>
             <Label :noMargin="true" for="teilnahmebdg">
               Ich akzeptiere die
-              <AnchorLink href="#teilnahmebedingungen">Teilnahmebedingungen</AnchorLink>
+              <AnchorLink href="#teilnahmebedingungen">Teilnahmebedingungen</AnchorLink>&nbsp;und
+              <AnchorLink to="/datenschutz">Datenschutzvereinbarung</AnchorLink>
             </Label>
           </CheckboxWrap>
           <Button class="button">Idee hinzufügen</Button>
