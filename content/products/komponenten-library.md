@@ -52,6 +52,6 @@ description: >-
   implementieren ist. Dafür arbeiten wir eng mit euren Frontend-Entwicklern
   zusammen um gemeinsam zu entscheiden wie genau wir die Komponenten in euer
   Produkt bekommen. 
-image: /img/analyzeloop.svg
+image: /img/artboard-8.png
 ---
 
