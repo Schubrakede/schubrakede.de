@@ -1,9 +1,22 @@
 <template>
   <Layout :title="$page.product.name" :description="$page.product.teaser">
-    <Headline center :level="1">{{$page.product.name}}</Headline>
-    <img class="product-image" :src="$page.product.image" alt />
+    <div class="product_header">
+      <Headline class="product_headline" :margin="false" :level="1">{{$page.product.name}}</Headline>
+      <p class="product_header-teaser">{{$page.product.teaser}}</p>
+      <div class="product_header-aside">
+        <span class="product_header-duration">
+          Dauer:
+          {{$page.product.duration}}
+        </span>
+        <span class="product_header-location">{{$page.product.locationInfo}}</span>
+      </div>
+    </div>
+    <Spacer :size="1"></Spacer>
+
     <RichText>{{$page.product.description}}</RichText>
-    <Spacer :size="2"></Spacer>
+    <Spacer :size="1"></Spacer>
+    <RichText>{{$page.product.possibleOutcome}}</RichText>
+    <Spacer :size="1"></Spacer>
     <Headline :level="2" margin>Interesse?</Headline>
     <ContactForm :formName="`Produkt Form von ${$page.product.name}`"></ContactForm>
   </Layout>
@@ -15,6 +28,8 @@ query Product ($id: String!) {
      name,
      image,  
      teaser,
+     possibleOutcome,
+     locationInfo,
      duration,
      description
   }
@@ -30,9 +45,41 @@ export default {
 };
 </script>
 
-<style>
-.product-image {
-  width: 100%;
-  margin: 0.5em 0;
+<style lang="postcss">
+.product_header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr auto;
+  grid-gap: 24px;
+  @media (max-width: 950px) {
+    grid-template-columns: 1fr;
+  }
+}
+.product_header-aside {
+  grid-column: 2;
+
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  @media (max-width: 950px) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+.product_header-teaser {
+  grid-column: 1 /3;
+  font-size: 40px;
+  margin: 0;
+  @media (max-width: 950px) {
+    font-size: 30px;
+  }
+}
+.product_header-duration {
+  font-size: 30px;
+  font-weight: bold;
+}
+.product_header-location {
+  color: var(--bley);
 }
 </style>

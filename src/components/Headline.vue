@@ -15,7 +15,7 @@
 export default {
   props: {
     level: { type: Number, default: 2 },
-    margin: { type: Boolean },
+    margin: { type: Boolean, default: false },
     center: { type: Boolean }
   },
   data: () => {
@@ -45,8 +45,10 @@ export default {
 /* Levels */
 
 .levelOne {
-  margin-bottom: 18px;
   font-size: 3.4em;
+  &.hasMargin {
+    margin-bottom: 18px;
+  }
 }
 
 .levelTwo {
