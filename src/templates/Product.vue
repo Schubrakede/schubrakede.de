@@ -41,7 +41,17 @@ import ContactForm from "../components/ContactForm";
 import Headline from "../components/Headline";
 import RichText from "../components/RichText";
 export default {
-  components: { Spacer, ContactForm, Headline, RichText }
+  components: { Spacer, ContactForm, Headline, RichText },
+  metaInfo() {
+    return {
+      meta: [
+        {
+          name: "robots",
+          content: this.$page.product.published ? "follow" : "noindex, nofollow"
+        }
+      ]
+    };
+  }
 };
 </script>
 
