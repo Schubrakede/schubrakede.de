@@ -122,6 +122,7 @@ collections:
     identifier_field: name
     folder: "content/products"
     fields:
+      - { name: published, widget: boolean, default: false }
       - { name: name, widget: string }
       - { name: duration, widget: string }
       - { name: locationInfo, widget: string }
