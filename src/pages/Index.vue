@@ -69,7 +69,6 @@ query Index{
   edges{
     node{
       path,
-      image,
       name,
       duration,
       teaser
