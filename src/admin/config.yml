@@ -128,5 +128,5 @@ collections:
       - { name: locationInfo, widget: string }
       - { name: teaser, widget: string }
       - { name: description, widget: markdown }
-      - { name: possibleOutcome, widget: markdown }
-      - { name: additionalInformation, widget: markdown }
+      - { name: possibleOutcome, widget: markdown, required: false }
+      - { name: additionalInformation, widget: markdown, required: false }

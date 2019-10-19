@@ -65,7 +65,7 @@ query Index{
       Description
     }
   },
-  allProduct(sortBy: "name", order: ASC){
+  allProduct(sortBy: "name", order: ASC,filter: { published: { eq: true }}){
   edges{
     node{
       path,
