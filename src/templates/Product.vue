@@ -26,7 +26,6 @@
 query Product ($id: String!) {
     product: product (id: $id){
      name,
-     image,  
      teaser,
      possibleOutcome,
      locationInfo,
