@@ -124,6 +124,8 @@ collections:
     fields:
       - { name: name, widget: string }
       - { name: duration, widget: string }
+      - { name: locationInfo, widget: string }
       - { name: teaser, widget: string }
       - { name: description, widget: markdown }
-      - { name: image, widget: image }
+      - { name: possibleOutcome, widget: markdown }
+      - { name: additionalInformation, widget: markdown }
