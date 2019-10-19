@@ -41,4 +41,34 @@ export default {
   height: 100vh;
   position: relative;
 }
+.ball {
+  position: absolute;
+  --size: 50px;
+  position: absolute;
+  transform-origin: -50px -50px;
+  animation: float 20s linear infinite;
+  height: var(--size);
+  width: var(--size);
+  border-radius: var(--size);
+}
+
+.small {
+  --size: 10px;
+}
+.medium {
+  --size: 15px;
+}
+.big {
+  --size: 25px;
+}
+
+.green {
+  background: var(--green);
+}
+.teal {
+  background: var(--teal);
+}
+.orange {
+  background: var(--orange);
+}
 </style>

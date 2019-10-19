@@ -18,7 +18,15 @@
     },
     {
       "name": "teal",
-      "value": "#3ad4d6"
+      "value": "#39D3D6"
+    },
+    {
+      "name": "red",
+      "value": "#FF9372"
+    },
+    {
+      "name": "yellow",
+      "value": "#FFCF7F"
     }
   ]
 }
