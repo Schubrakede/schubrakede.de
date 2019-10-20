@@ -1,6 +1,5 @@
 <template>
   <Layout isHome>
-    <g-link to="/ideapool" class="sprintwin">Sprint zu Gewinnen</g-link>
     <header class="header">
       <div class="headerText">
         <Headline :level="1">{{$page.site.title}}</Headline>
@@ -154,28 +153,5 @@ export default {
 }
 .headerText {
   margin-bottom: 36px;
-}
-.sprintwin {
-  font-size: 20px;
-  color: inherit;
-  transform: rotate(-30deg) scale(0.8);
-  transition: transform cubic-bezier(0.67, 1.81, 0.88, 1.14) 350ms;
-  will-change: transform;
-  backface-visibility: hidden;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  z-index: 10;
-  text-decoration: none;
-  width: 120px;
-  height: 120px;
-  border-radius: 120px;
-  position: fixed;
-  top: 0.5em;
-  left: 0.5em;
-  background: var(--orange);
-  &:hover {
-    transform: rotate(0) scale(1);
-  }
 }
 </style>

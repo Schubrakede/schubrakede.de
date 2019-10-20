@@ -8,7 +8,6 @@
           Dauer:
           {{$page.product.duration}}
         </span>
-        <span class="product_header-location">{{$page.product.locationInfo}}</span>
       </div>
     </div>
     <Spacer :size="1"></Spacer>
