@@ -12,6 +12,6 @@ description: >-
 
 
   Ihr schickt uns eine Codebase, 8 Stunden später schicken wir diese an euch
-  zurück bzw an ein anderes Team weiter.
+  zurück bzw. an ein anderes Team weiter.
 ---
 
