@@ -48,19 +48,19 @@ export default {};
 @keyframes speed1 {
   50% {
     width: 40px;
-    x: -8;
+    x: -8px;
   }
 }
 @keyframes speed2 {
   50% {
     width: 60px;
-    x: -32;
+    x: -32px;
   }
 }
 @keyframes speed3 {
   50% {
     width: 30px;
-    x: 2;
+    x: 2px;
   }
 }
 #logo {
