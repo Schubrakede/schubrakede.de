@@ -1,12 +1,5 @@
 <template>
   <Layout isHome>
-    <header class="header">
-      <div class="headerText">
-        <Headline :level="1">{{$page.site.title}}</Headline>
-        <Subline>{{$page.site.description}}</Subline>
-      </div>
-      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
-    </header>
     <References :images="$page.site.companies"></References>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>
@@ -150,8 +143,5 @@ export default {
 }
 .handson {
   font-size: 28px;
-}
-.headerText {
-  margin-bottom: 36px;
 }
 </style>

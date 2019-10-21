@@ -2,7 +2,7 @@
   <ClientOnly>
     <div class="bgWrap">
       <div class="bg">
-        <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 7))]" :key="ball"></Ball>
+        <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 9))]" :key="ball"></Ball>
       </div>
     </div>
   </ClientOnly>
@@ -20,7 +20,6 @@ export default {
   },
   mounted() {
     this.windowWidth = window.innerWidth;
-    this.windowHeight = window.innerHeight;
   }
 };
 </script>
@@ -28,38 +27,63 @@ export default {
 
 <style>
 .bgWrap {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
 }
 
 .bg {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 .ball {
   position: absolute;
   --size: 50px;
   position: absolute;
-  transform-origin: -50px -50px;
-  animation: float 20s linear infinite;
+  animation: move 1s linear infinite;
   height: var(--size);
   width: var(--size);
   border-radius: var(--size);
 }
 
+/* bg */
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50vw);
+  }
+}
+
 .small {
-  --size: 10px;
+  --size: 2px;
 }
 .medium {
-  --size: 15px;
+  --size: 3px;
 }
 .big {
-  --size: 25px;
+  --size: 5px;
 }
 
 .green {

@@ -1,10 +1,24 @@
 <template>
   <div>
     <transition name="fade" appear>
-      <div :class="['frame', {wide: wide}, {'is-home': isHome}]">
-        <Logo></Logo>
-        <slot />
-        <Footer></Footer>
+      <div>
+        <header class="pageheader">
+          <nav class="page_navigation">
+            <Logo></Logo>
+          </nav>
+          <div class="homeText" v-if="isHome">
+            <div class="headerText">
+              <Headline :level="1">{{$page.site.title}}</Headline>
+              <Subline>{{$page.site.description}}</Subline>
+            </div>
+            <Button noGlink href="#kontakt">Rückruf anfordern</Button>
+          </div>
+          <Background></Background>
+        </header>
+        <div :class="['frame', {wide: wide}, {'is-home': isHome}]">
+          <slot />
+          <Footer></Footer>
+        </div>
       </div>
     </transition>
   </div>
@@ -12,6 +26,9 @@
        
 <script>
 import Logo from "../components/Logo";
+import Headline from "../components/Headline";
+import Subline from "../components/Subline";
+import Button from "../components/Button";
 import colors from "../components/design/colors.json";
 import Background from "./Background";
 import Footer from "../sections/Footer";
@@ -35,7 +52,7 @@ export default {
         "Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen."
     }
   },
-  components: { Logo, Footer, Background },
+  components: { Button, Headline, Subline, Logo, Footer, Background },
   data() {
     return {
       colors
@@ -173,27 +190,29 @@ body {
   padding: 32px 16px;
 }
 
-.rocket {
-  margin-right: 16px;
-  transform: translateY(-5px);
-  height: 50px;
-  @media (max-width: 800px) {
-    & {
-      display: none;
-    }
-  }
-}
-
-/* bg */
-
-@keyframes float {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 strong {
   font-weight: 600;
+}
+.pageheader {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 400px;
+  background: #12141a;
+  position: relative;
+}
+.page_navigation {
+  width: 100%;
+  padding: 28px;
+  height: 80px;
+}
+.homeText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 5;
 }
 </style>
 
