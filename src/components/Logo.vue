@@ -69,14 +69,14 @@ export default {};
 #firststripe {
   position: absolute;
   right: 0;
-  animation: speed1 3s ease-in-out infinite;
+  /* animation: speed1 3s ease-in-out infinite; */
   transform-origin: 100% 50%;
 }
 #secondstripe {
-  animation: speed2 4s ease-in-out infinite 500ms;
+  /* animation: speed2 4s ease-in-out infinite 500ms; */
 }
 #thirdstripe {
-  animation: speed3 2s ease-in-out infinite 500ms;
+  /* animation: speed3 2s ease-in-out infinite 500ms; */
 }
 </style>
 
