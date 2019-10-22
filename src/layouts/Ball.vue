@@ -8,7 +8,7 @@
   ]"
       :style="{
   top: `${getRandomInt(100)}%`,
-  right: `${getRandomInt(60)}%`,
+  right: `${getRandomInt(70)}%`,
   opacity: opacity,
   animationDuration: `${duration}s`}"
     />
@@ -31,8 +31,8 @@ function getAnimationDuration(max = 400) {
 }
 
 function opacity(number) {
-  let min = 0.2;
-  let maxAmount = 0.6 / 100;
+  let min = 0.1;
+  let maxAmount = 0.3;
   let amount = ((number / 100) * (maxAmount - min) + min).toFixed(2);
   return amount;
 }

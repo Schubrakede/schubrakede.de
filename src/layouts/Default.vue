@@ -3,15 +3,15 @@
     <transition name="fade" appear>
       <div>
         <header class="pageheader">
-          <nav class="page_navigation">
-            <Logo></Logo>
-          </nav>
-          <div class="homeText" v-if="isHome">
-            <div class="headerText">
-              <Headline :level="1">{{$page.site.title}}</Headline>
-              <Subline>{{$page.site.description}}</Subline>
+          <div class="pageheader_content">
+            <nav class="page_navigation">
+              <Logo></Logo>
+            </nav>
+            <div class="homeText">
+              <Headline :level="1" v-if="!isHome">{{title}}</Headline>
+              <Headline v-if="isHome" :level="1">{{$page.site.title}}</Headline>
             </div>
-            <Button noGlink href="#kontakt">Rückruf anfordern</Button>
+            <Button v-if="isHome" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
           </div>
           <Background></Background>
         </header>
@@ -125,9 +125,12 @@ query {
 <style lang="postcss">
 :root {
   --font: "serenity", "arial", sans-serif;
+  --sr-base: 4px;
+  --sr-width: calc(var(--sr-base) * 273);
   --sr-shadow--small: 0 10px 20px 0 rgba(8, 58, 72, 0.26);
   --sr-shadow: 0 20px 40px 0 rgba(8, 58, 72, 0.26);
   --sr-border-radius: 4px;
+  --sr-sky-gradient: linear-gradient(to right, #81fdff, #16a6e7);
   --sr-shadow--active: 0 20px 50px 0 rgba(58, 212, 214, 0.47);
 }
 
@@ -167,22 +170,18 @@ body {
 }
 
 .frame {
-  padding: 60px 16px;
+  color: var(--starry-sky);
+  position: relative;
   &.wide {
     max-width: 1400px !important;
   }
   @media (min-width: 800px) {
-    padding: 80px 32px;
-    max-width: 950px;
-    margin: 0 auto;
-  }
-  &.is-home {
-    padding: 100px 16px;
-    @media (min-width: 800px) {
-      padding: 160px 32px;
-      max-width: 950px;
-      margin: 0 auto;
+    padding: calc(var(--sr-base) * 20) 16px;
+    &.isHome {
+      padding: calc(var(--sr-base) * 50) 16px;
     }
+    max-width: var(--sr-width);
+    margin: 0 auto;
   }
 }
 
@@ -194,25 +193,33 @@ strong {
   font-weight: 600;
 }
 .pageheader {
+  padding: calc(var(--sr-base) * 20) 0 calc(var(--sr-base) * 40);
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   color: white;
-  height: 400px;
   background: #12141a;
   position: relative;
 }
-.page_navigation {
-  width: 100%;
-  padding: 28px;
-  height: 80px;
-}
 .homeText {
+  max-width: 35em;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: calc(var(--sr-base) * 10);
+  ::selection {
+    color: var(--orange);
+  }
+}
+.pageheader_content {
+  width: 100%;
   position: relative;
   z-index: 5;
+  max-width: var(--sr-width);
+}
+.page_navigation {
+  width: 100%;
+  margin-bottom: calc(var(--sr-base) * 10);
 }
 </style>
 

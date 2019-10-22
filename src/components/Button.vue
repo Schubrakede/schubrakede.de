@@ -3,7 +3,7 @@
     v-on:click="$emit('click')"
     :href="href"
     :is="href ? 'a' : 'button'"
-    :class="['button', {'secondary': secondary}]"
+    :class="['button', {'secondary': secondary}, color ?  color : '']"
   >
     <slot />
   </button>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  props: ["secondary", "href"]
+  props: ["secondary", "href", "color"]
 };
 </script>
 
@@ -39,6 +39,11 @@ export default {
     font-weight: 500;
     padding: 0 28px;
     height: 42px;
+  }
+
+  &.green {
+    color: var(--starry-sky);
+    background: var(--green);
   }
 
   &:focus,

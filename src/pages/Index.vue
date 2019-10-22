@@ -1,9 +1,10 @@
 <template>
   <Layout isHome>
     <References :images="$page.site.companies"></References>
+    <Headline :stripe="true" margin>Unsere Mission</Headline>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>
-    <Headline margin center>Produkte</Headline>
+    <Headline margin>Produkte</Headline>
     <ProductCard
       :image="product.node.image"
       :to="product.node.path"
@@ -15,14 +16,14 @@
     ></ProductCard>
 
     <Spacer :size="2"></Spacer>
-    <Headline margin center>In-House Beratung</Headline>
+    <Headline margin>In-House Beratung</Headline>
     <RichText class="handson">{{$page.site.handsOnText}}</RichText>
     <Spacer :size="1"></Spacer>
     <ButtonGroup>
       <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     </ButtonGroup>
     <Spacer v-if="$page.allBlog.edges.length > 0" :size="2"></Spacer>
-    <Headline v-if="$page.allBlog.edges.length > 0" margin center>Blog</Headline>
+    <Headline v-if="$page.allBlog.edges.length > 0" margin>Logbuch</Headline>
     <BlogItem
       :date="item.node.date"
       :href="item.node.path"
@@ -30,7 +31,10 @@
       :key="item.node.headline"
     >{{item.node.headline}}</BlogItem>
     <Spacer :size="2"></Spacer>
-    <Headline margin center>Team</Headline>
+    <Headline margin>Über Uns</Headline>
+    <Paragraph>
+      
+    </Paragraph>
     <Team :data="$page.site.teammember"></Team>
     <Spacer :size="2"></Spacer>
     <Headline id="kontakt" margin>Kontakt</Headline>
@@ -117,10 +121,7 @@ export default {
 
 <style lang="postcss">
 .mission {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   @media (--small-screen) {
     & {
       font-size: 24px;

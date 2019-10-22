@@ -12,7 +12,13 @@ export default {
 
 <style lang="postcss" scoped>
 .references {
-  padding: 5em 0;
+  position: absolute;
+  top: -40px;
+  height: 80px;
+  border-radius: 80px;
+  left: 0;
+  width: var(--sr-width);
+  background: var(--sr-sky-gradient);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(auto, 150px));
   grid-gap: 1.2em;

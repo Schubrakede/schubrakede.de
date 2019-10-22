@@ -3,6 +3,7 @@
     <div class="bgWrap">
       <div class="bg">
         <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 9))]" :key="ball"></Ball>
+        <g-image class="cloud first" src="/cloud.svg"></g-image>
       </div>
     </div>
   </ClientOnly>
@@ -25,7 +26,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="postcss">
 .bgWrap {
   position: absolute;
   top: 0;
@@ -56,19 +57,19 @@ export default {
     opacity: 0;
   }
   5% {
-    opacity: 1;
+    opacity: 0.5;
   }
   45% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
     opacity: 0;
   }
   55% {
-    opacity: 1;
+    opacity: 0.5;
   }
   95% {
-    opacity: 1;
+    opacity: 0.5;
   }
   100% {
     opacity: 0;
@@ -94,5 +95,14 @@ export default {
 }
 .orange {
   background: var(--orange);
+}
+.cloud {
+  position: absolute;
+  z-index: 1;
+  &.first {
+    right: -30%;
+    top: -50%;
+    animation: move 30s linear infinite;
+  }
 }
 </style>

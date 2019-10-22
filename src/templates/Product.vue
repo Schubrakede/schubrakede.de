@@ -1,14 +1,11 @@
 <template>
   <Layout :title="$page.product.name" :description="$page.product.teaser">
     <div class="product_header">
-      <Headline class="product_headline" :margin="false" :level="1">{{$page.product.name}}</Headline>
       <p class="product_header-teaser">{{$page.product.teaser}}</p>
-      <div class="product_header-aside">
-        <span class="product_header-duration">
-          Dauer:
-          {{$page.product.duration}}
-        </span>
-      </div>
+      <span class="product_header-duration">
+        Dauer:
+        {{$page.product.duration}}
+      </span>
     </div>
     <Spacer :size="1"></Spacer>
 
@@ -57,26 +54,17 @@ export default {
 .product_header {
   display: grid;
   grid-template-columns: 1fr auto;
-  grid-template-rows: 1fr auto;
   grid-gap: 24px;
   @media (max-width: 950px) {
     grid-template-columns: 1fr;
   }
 }
 .product_header-aside {
-  grid-column: 2;
-
-  grid-row: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  @media (max-width: 950px) {
-    grid-column: 1;
-    grid-row: 3;
-  }
 }
 .product_header-teaser {
-  grid-column: 1 /3;
   font-size: 40px;
   margin: 0;
   @media (max-width: 950px) {

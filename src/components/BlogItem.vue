@@ -1,40 +1,55 @@
 <template>
   <g-link class="blogItem" :to="href">
+    <h3 class="blogTitle">
+      <slot />
+    </h3>
     <span class="date">
       {{new Date(date).toLocaleDateString("de-DE")
       }}
     </span>
-    <div class="blotTitle">
-      <slot />
-    </div>
   </g-link>
 </template>
 
 <script>
+import Headline from "../components/Headline";
 export default {
+  components: { Headline },
   props: ["href", "date"]
 };
 </script>
 
 <style lang="postcss" scoped>
 .blogItem {
-  max-width: 25em;
   border-radius: 4px;
   margin: 0 auto;
   text-decoration: none;
   color: inherit;
-  padding: 2.5em 5em 2.5em 1.25em;
-  box-shadow: var(--sr-shadow);
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   display: block;
-  padding: 20px;
-  background: white;
+  &:hover .date::before {
+    width: 80px;
+  }
 }
-.blotTitle {
+.blogTitle {
   font-size: 1.25em;
+  margin: 0;
 }
 .date {
+  display: flex;
+  transform: translateX(-8px);
+  align-items: center;
   color: var(--bley);
-  display: block;
+
+  &:before {
+    content: " ";
+    margin-right: 8px;
+    width: 40px;
+    will-change: width;
+    transition: width ease-in-out 350ms;
+    display: block;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--sr-sky-gradient);
+  }
 }
 </style>
