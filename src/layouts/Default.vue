@@ -1,26 +1,22 @@
 <template>
   <div>
-    <transition name="fade" appear>
-      <div>
-        <header class="pageheader">
-          <div class="pageheader_content">
-            <nav class="page_navigation">
-              <Logo></Logo>
-            </nav>
-            <div class="homeText">
-              <Headline :level="1" v-if="!isHome">{{title}}</Headline>
-              <Headline v-if="isHome" :level="1">{{$page.site.title}}</Headline>
-            </div>
-            <Button v-if="isHome" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
-          </div>
-          <Background></Background>
-        </header>
-        <div :class="['frame', {wide: wide}, {'is-home': isHome}]">
-          <slot />
-          <Footer></Footer>
+    <header class="pageheader">
+      <div class="pageheader_content">
+        <nav class="page_navigation">
+          <Logo></Logo>
+        </nav>
+        <div class="homeText">
+          <Headline :level="1" v-if="!isHome">{{title}}</Headline>
+          <Headline v-if="isHome" :level="1">{{$page.site.title}}</Headline>
         </div>
+        <Button v-if="isHome" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
       </div>
-    </transition>
+      <Background></Background>
+    </header>
+    <div :class="['frame', {wide: wide}, {'is-home': isHome}]">
+      <slot />
+      <Footer></Footer>
+    </div>
   </div>
 </template>
        

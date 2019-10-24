@@ -32,9 +32,7 @@
     >{{item.node.headline}}</BlogItem>
     <Spacer :size="2"></Spacer>
     <Headline margin>Über Uns</Headline>
-    <Paragraph>
-      
-    </Paragraph>
+    <Paragraph></Paragraph>
     <Team :data="$page.site.teammember"></Team>
     <Spacer :size="2"></Spacer>
     <Headline id="kontakt" margin>Kontakt</Headline>
@@ -47,7 +45,6 @@
 query Index{
   site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
     Name,
-    description,
     title,
     companies {
       Image
