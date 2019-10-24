@@ -28,7 +28,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .headline {
   font-family: var(--font-headline);
   line-height: 1;

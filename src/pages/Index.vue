@@ -19,9 +19,7 @@
     <Headline margin>In-House Beratung</Headline>
     <RichText class="handson">{{$page.site.handsOnText}}</RichText>
     <Spacer :size="1"></Spacer>
-    <ButtonGroup>
-      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
-    </ButtonGroup>
+    <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     <Spacer v-if="$page.allBlog.edges.length > 0" :size="2"></Spacer>
     <Headline v-if="$page.allBlog.edges.length > 0" margin>Logbuch</Headline>
     <BlogItem
@@ -32,7 +30,6 @@
     >{{item.node.headline}}</BlogItem>
     <Spacer :size="2"></Spacer>
     <Headline margin>Über Uns</Headline>
-    <Paragraph></Paragraph>
     <Team :data="$page.site.teammember"></Team>
     <Spacer :size="2"></Spacer>
     <Headline id="kontakt" margin>Kontakt</Headline>
@@ -89,6 +86,7 @@ import Spacer from "../components/Spacer";
 import Subline from "../components/Subline";
 import ProductCard from "../components/ProductCard";
 import Headline from "../components/Headline";
+import Paragraph from "../components/Paragraph";
 import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
 import RichText from "../components/RichText";
@@ -99,6 +97,7 @@ export default {
     BlogItem,
     ProductCard,
     Spacer,
+    Paragraph,
     Button,
     ButtonGroup,
     ContactForm,

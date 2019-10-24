@@ -32,7 +32,6 @@ export default {
   display: block;
   border-radius: 4px;
   max-width: 25em;
-  margin: 0 auto;
   margin-bottom: 2em;
 
   position: relative;

@@ -1,19 +1,17 @@
 <template>
-  <div>
+  <div :class="{'is-home': isHome}">
     <header class="pageheader">
       <div class="pageheader_content">
         <nav class="page_navigation">
           <Logo></Logo>
         </nav>
-        <div class="homeText">
-          <Headline :level="1" v-if="!isHome">{{title}}</Headline>
-          <Headline v-if="isHome" :level="1">{{$page.site.title}}</Headline>
-        </div>
-        <Button v-if="isHome" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
+        <Headline :level="1" v-if="!isHome">{{title}}</Headline>
+        <Headline v-if="isHome" class="homeHeadline" :level="1">{{$page.site.title}}</Headline>
+        <Button v-if="isHome" class="test" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
       </div>
       <Background></Background>
     </header>
-    <div :class="['frame', {wide: wide}, {'is-home': isHome}]">
+    <div :class="['frame', {wide: wide}]">
       <slot />
       <Footer></Footer>
     </div>
@@ -173,7 +171,7 @@ body {
   }
   @media (min-width: 800px) {
     padding: calc(var(--sr-base) * 20) 16px;
-    &.isHome {
+    .is-home & {
       padding: calc(var(--sr-base) * 50) 16px;
     }
     max-width: var(--sr-width);
@@ -189,7 +187,11 @@ strong {
   font-weight: 600;
 }
 .pageheader {
-  padding: calc(var(--sr-base) * 20) 0 calc(var(--sr-base) * 40);
+  overflow: hidden;
+  padding: calc(var(--sr-base) * 20) 0 calc(var(--sr-base) * 30);
+  &.isHome & {
+    padding: calc(var(--sr-base) * 20) 0 calc(var(--sr-base) * 40);
+  }
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -198,15 +200,12 @@ strong {
   background: #12141a;
   position: relative;
 }
-.homeText {
-  max-width: 35em;
-  display: flex;
-  justify-content: flex-start;
+.homeHeadline {
+  display: block;
+  max-width: 50rem;
   margin-bottom: calc(var(--sr-base) * 10);
-  ::selection {
-    color: var(--orange);
-  }
 }
+
 .pageheader_content {
   width: 100%;
   position: relative;
