@@ -1,5 +1,5 @@
 <template>
-  <Layout isHome>
+  <Layout isHome :companies="$page.site.companies">
     <Headline :stripe="true" margin>Unsere Mission</Headline>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>

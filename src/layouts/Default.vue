@@ -9,7 +9,7 @@
         <Headline v-if="isHome" class="homeHeadline" :level="1">{{$page.site.title}}</Headline>
         <Button v-if="isHome" class="test" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
       </div>
-      <References :images="$page.site.companies"></References>
+      <References v-if="companies" :images="companies"></References>
       <Background></Background>
     </header>
     <div :class="['frame', {wide: wide}]">
@@ -42,6 +42,7 @@ export default {
     wide: Boolean,
     isHome: Boolean,
     title: { type: String, default: "Schubrakede" },
+    companies: { type: Array },
     description: {
       type: String,
       default:
