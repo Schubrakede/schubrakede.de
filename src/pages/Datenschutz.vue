@@ -1,6 +1,5 @@
 <template>
   <Layout :title="$page.site.Title">
-    <Headline :level="1">{{$page.site.Title}}</Headline>
     <RichText>{{$page.site.Content}}</RichText>
   </Layout>
 </template>

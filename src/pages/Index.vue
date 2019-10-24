@@ -1,6 +1,5 @@
 <template>
   <Layout isHome>
-    <References :images="$page.site.companies"></References>
     <Headline :stripe="true" margin>Unsere Mission</Headline>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>

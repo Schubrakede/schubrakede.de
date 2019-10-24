@@ -28,6 +28,7 @@ export default {
 
 <style lang="postcss">
 .bgWrap {
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;

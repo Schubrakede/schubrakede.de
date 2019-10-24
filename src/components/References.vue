@@ -12,23 +12,32 @@ export default {
 
 <style lang="postcss" scoped>
 .references {
+  @media (max-width: 1092px) {
+    border-radius: 0;
+  }
   position: absolute;
-  top: -40px;
-  height: 80px;
+  padding: calc(var(--sr-base) * 6) calc(var(--sr-base) * 10);
   border-radius: 80px;
-  left: 0;
-  width: var(--sr-width);
+  transition: border-radius 350ms ease-in-out;
+  max-width: var(--sr-width);
+  width: 100%;
+  height: 80px;
+  bottom: -40px;
   background: var(--sr-sky-gradient);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 150px));
-  grid-gap: 1.2em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  grid-auto-rows: 32px;
   grid-row-gap: 2em;
   align-items: center;
   align-content: center;
-  justify-content: center;
   justify-items: center;
+  @media (max-width: 800px) {
+    height: auto;
+  }
 }
 .reference-image {
-  max-width: 120px;
+  max-height: 100%;
+  width: 100px;
+  height: 24px;
 }
 </style>

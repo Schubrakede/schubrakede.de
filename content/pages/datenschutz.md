@@ -1,5 +1,5 @@
 ---
-Title: Datenschutz
+Title: Datenschutzerklärung
 Content: >-
   Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der
   Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) im Rahmen
@@ -417,4 +417,3 @@ Content: >-
   europäische Datenschutzrecht einzuhalten
   (https://www.privacyshield.gov/participant?id=a2zt0000000TNo9AAG&status=Active).
 ---
-

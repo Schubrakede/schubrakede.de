@@ -9,6 +9,7 @@
         <Headline v-if="isHome" class="homeHeadline" :level="1">{{$page.site.title}}</Headline>
         <Button v-if="isHome" class="test" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
       </div>
+      <References :images="$page.site.companies"></References>
       <Background></Background>
     </header>
     <div :class="['frame', {wide: wide}]">
@@ -23,6 +24,7 @@ import Logo from "../components/Logo";
 import Headline from "../components/Headline";
 import Subline from "../components/Subline";
 import Button from "../components/Button";
+import References from "../components/References";
 import colors from "../components/design/colors.json";
 import Background from "./Background";
 import Footer from "../sections/Footer";
@@ -46,7 +48,15 @@ export default {
         "Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen."
     }
   },
-  components: { Button, Headline, Subline, Logo, Footer, Background },
+  components: {
+    References,
+    Button,
+    Headline,
+    Subline,
+    Logo,
+    Footer,
+    Background
+  },
   data() {
     return {
       colors
@@ -165,14 +175,16 @@ body {
 
 .frame {
   color: var(--starry-sky);
-  position: relative;
+  width: 100%;
+  padding: calc(var(--sr-base) * 15);
   &.wide {
     max-width: 1400px !important;
   }
   @media (min-width: 800px) {
-    padding: calc(var(--sr-base) * 20) 16px;
+    padding: calc(var(--sr-base) * 20) calc(var(--sr-base) * 15);
+
     .is-home & {
-      padding: calc(var(--sr-base) * 50) 16px;
+      padding: calc(var(--sr-base) * 50) calc(var(--sr-base) * 15);
     }
     max-width: var(--sr-width);
     margin: 0 auto;
@@ -187,10 +199,11 @@ strong {
   font-weight: 600;
 }
 .pageheader {
-  overflow: hidden;
-  padding: calc(var(--sr-base) * 20) 0 calc(var(--sr-base) * 30);
-  &.isHome & {
-    padding: calc(var(--sr-base) * 20) 0 calc(var(--sr-base) * 40);
+  padding: calc(var(--sr-base) * 20) calc(var(--sr-base) * 15)
+    calc(var(--sr-base) * 30);
+  .is-home & {
+    padding: calc(var(--sr-base) * 20) calc(var(--sr-base) * 15)
+      calc(var(--sr-base) * 40);
   }
   display: flex;
   align-items: center;
@@ -199,6 +212,7 @@ strong {
   color: white;
   background: #12141a;
   position: relative;
+  z-index: 5;
 }
 .homeHeadline {
   display: block;
