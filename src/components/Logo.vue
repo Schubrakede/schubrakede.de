@@ -77,18 +77,18 @@ export default {
 #firststripe {
   position: absolute;
   right: 0;
-  @media (min-width: var(--mobile)) {
+  @media (--sr-desktop) {
     animation: speed1 3s ease-in-out infinite;
   }
   transform-origin: 100% 50%;
 }
 #secondstripe {
-  @media (min-width: var(--mobile)) {
+  @media (--sr-desktop) {
     animation: speed2 4s ease-in-out infinite 500ms;
   }
 }
 #thirdstripe {
-  @media (min-width: var(--mobile)) {
+  @media (--sr-desktop) {
     animation: speed3 2s ease-in-out infinite 500ms;
   }
 }
