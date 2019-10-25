@@ -3,6 +3,7 @@ const postcssCustomMedia = require("postcss-custom-media");
 
 module.exports = {
   siteName: "Schubrakede",
+
   siteUrl: "https:/schubrake.de",
   transformers: {
     remark: {

@@ -14,13 +14,13 @@
     "netlify-cms": "^2.9.6",
     "vue-markdown": "^2.2.4",
     "vuefire": "^2.1.2",
-    "xhr2": "^0.2.0"
+    "xhr2": "^0.2.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-nested": "^4.1.2"
   },
   "devDependencies": {
     "@gridsome/plugin-sitemap": "^0.2.1",
     "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-remark": "^0.3.2",
-    "postcss-custom-media": "^7.0.8",
-    "postcss-nested": "^4.1.2"
+    "@gridsome/transformer-remark": "^0.3.2"
   }
 }
