@@ -1,6 +1,12 @@
 <template>
   <div :class="['references', {'references--small': small}]">
-    <img class="reference-image" v-for="image in images" :src="image.Image" :key="image.Image" alt />
+    <g-image
+      class="reference-image"
+      v-for="image in images"
+      :src="image.Image"
+      :key="image.Image"
+      alt
+    />
   </div>
 </template>
 

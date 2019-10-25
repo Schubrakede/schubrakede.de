@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div v-for="item in data" :key="item.headline">
-      <img class="image" :src="item.image" alt />
+      <g-image class="image" :src="item.image" alt />
       <Headline :level="3">{{item.headline}}</Headline>
       <Paragraph>{{item.description}}</Paragraph>
     </div>

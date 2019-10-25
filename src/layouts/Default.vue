@@ -190,16 +190,20 @@ body {
 .frame {
   color: var(--starry-sky);
   width: 100%;
+  max-width: var(--sr-width);
+  margin: 0 auto;
   padding: var(--sr-padding);
   &.wide {
     max-width: 1400px !important;
+  }
+  .is-home & {
+    padding-top: calc(var(--sr-base) * 40);
   }
   @media (--sr-mobile) {
     .is-home & {
       padding-top: calc(var(--sr-base) * 60);
     }
     max-width: var(--sr-width);
-    margin: 0 auto;
   }
 }
 

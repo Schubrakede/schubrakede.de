@@ -21,6 +21,7 @@
     <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     <Spacer v-if="$page.allBlog.edges.length > 0" :size="2"></Spacer>
     <Headline v-if="$page.allBlog.edges.length > 0" margin>Logbuch</Headline>
+
     <BlogItem
       :date="item.node.date"
       :href="item.node.path"
