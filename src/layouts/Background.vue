@@ -34,6 +34,10 @@ export default {
   left: 0;
   bottom: 0;
   right: 0;
+  --moveAmount: -50vw;
+  @media (--sr-mobile) {
+    --moveAmount: -200vw;
+  }
 }
 
 .bg {
@@ -46,6 +50,7 @@ export default {
   --size: 50px;
   position: absolute;
   animation: move 1s linear infinite;
+
   height: var(--size);
   width: var(--size);
   border-radius: var(--size);
@@ -74,7 +79,7 @@ export default {
   }
   100% {
     opacity: 0;
-    transform: translateX(-50vw);
+    transform: translateX(var(--moveAmount));
   }
 }
 

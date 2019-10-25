@@ -12,13 +12,13 @@ export default {
 
 <style lang="postcss" >
 .references {
-  @media (--sr-mobile) {
+  @media (--sr-width) {
     border-radius: 0;
   }
+  border-radius: 80px;
   position: absolute;
   z-index: 50;
   padding: calc(var(--sr-base) * 6) calc(var(--sr-base) * 10);
-  border-radius: 80px;
   transition: border-radius 350ms ease-in-out;
   max-width: var(--sr-width);
   width: 100%;
