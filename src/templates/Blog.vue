@@ -1,6 +1,5 @@
 <template>
   <Layout :title="$page.blog.headline">
-    <Headline class="blog-headline" :level="1">{{$page.blog.headline}}</Headline>
     <RichText class="blog-content">{{$page.blog.content}}</RichText>
     <Author
       v-for="(author, index) in $page.allAuthor.edges[0]"
