@@ -2,7 +2,8 @@
   <ClientOnly>
     <div class="bgWrap">
       <div class="bg">
-        <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 7))]" :key="ball"></Ball>
+        <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 9))]" :key="ball"></Ball>
+        <g-image class="cloud first" src="/cloud.svg"></g-image>
       </div>
     </div>
   </ClientOnly>
@@ -20,46 +21,76 @@ export default {
   },
   mounted() {
     this.windowWidth = window.innerWidth;
-    this.windowHeight = window.innerHeight;
   }
 };
 </script>
 
 
-<style>
+<style lang="postcss">
 .bgWrap {
-  position: fixed;
+  overflow: hidden;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  --moveAmount: -50vw;
+  @media (--sr-mobile) {
+    --moveAmount: -200vw;
+  }
 }
 
 .bg {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 .ball {
   position: absolute;
   --size: 50px;
   position: absolute;
-  transform-origin: -50px -50px;
-  animation: float 20s linear infinite;
+  animation: move 1s linear infinite;
+
   height: var(--size);
   width: var(--size);
   border-radius: var(--size);
 }
 
+/* bg */
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.5;
+  }
+  45% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(var(--moveAmount));
+  }
+}
+
 .small {
-  --size: 10px;
+  --size: 2px;
 }
 .medium {
-  --size: 15px;
+  --size: 3px;
 }
 .big {
-  --size: 25px;
+  --size: 5px;
 }
 
 .green {
@@ -70,5 +101,14 @@ export default {
 }
 .orange {
   background: var(--orange);
+}
+.cloud {
+  position: absolute;
+  z-index: 1;
+  &.first {
+    right: -30%;
+    top: -50%;
+    animation: move 30s linear infinite;
+  }
 }
 </style>

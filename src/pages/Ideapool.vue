@@ -1,29 +1,9 @@
 '<template>
   <Layout
-    title="Entwicklungs-Sprint zu gewinnen"
+    title="Ideen-Pool"
     description="Wir machen einen Sprint, wir brauchen nur noch dein Input"
   >
-    <Headline :level="1">Entwicklungs-Sprint zu gewinnen</Headline>
-    <Paragraph>
-      Was bei uns im Kalender steht: Vom 2.12.2019 bis zum 6.12.2019 machen wir einen
-      <AnchorLink to="product/entwicklungs-sprint">Entwicklungs-Sprint</AnchorLink>
-      <br />
-      <br />Was noch nicht fest steht ist, was wir in dieser Woche konkret machen.
-      Deshalb wollen wir dich gerne einladen uns
-      <AnchorLink href="#addIdea">deine Idee zu pitchen,</AnchorLink>&nbsp;was wir deiner Meinung nach in dieser Woche machen können.
-      <br />
-      <br />Am 29.11.2019 suchen wir uns eine Idee aus. Wichtig hierbei ist dabei die Intention und Herausforderung, aber die Machbarkeit ist auch ein Faktor.
-      <br />
-      <br />Die Abstimmungen sind mehr als Meinungsspiegel, und weniger als konkretes Voting gedacht.
-      <br />
-
-      <br />Generell präferieren wir Ideen, die unter die Kategorie "Make World suck less" fallen.
-    </Paragraph>
-    <Spacer :size="2"></Spacer>
-
     <div id="ideas">
-      <Headline>Ideen Sammlung</Headline>
-      <Spacer :size="1"></Spacer>
       <div class="idea-grid">
         <div class="idea" v-for="idea in ideas" :key="idea.name">
           <p class="idea-text">{{idea.idea}}</p>
@@ -67,7 +47,6 @@
             <Checkbox required id="teilnahmebdg"></Checkbox>
             <Label :noMargin="true" for="teilnahmebdg">
               Ich akzeptiere die
-              <AnchorLink href="#teilnahmebedingungen">Teilnahmebedingungen</AnchorLink>&nbsp;und
               <AnchorLink to="/datenschutz">Datenschutzvereinbarung</AnchorLink>
             </Label>
           </CheckboxWrap>
@@ -76,18 +55,6 @@
       </form>
     </div>
     <Spacer :size="4"></Spacer>
-
-    <div id="teilnahmebedingungen">
-      <Headline>Teilnahmebedingungen</Headline>Wir sind ein kleines Team und haben das hier mal eben zusammengelötet™.
-      <List type="ol">
-        <li>Bitte verzichtete darauf mehr als eine Idee zu pitchen.</li>
-        <li>Bitte verhalte dich wie du dich auch sonstwo im Internet verhalten würdest.</li>
-        <li>Bitte lade nicht die Seite 500 mal neu und Vote deine Idee hoch.</li>
-        <li>Wenn du "Ich will beim Sprint aktiv mithelfen" angeklickt hast, gehen wir davon aus, dass du in der Woche vom 2.12. - 6.12.2019 mindestens 3-4 Stunden am Tag verfügbar bist.</li>
-        <li>Wie bei unserem regulärem Entwicklungs-Sprint gehört das Ergebnis und der gesamte Source-Code dir. Bei diesem Sprint behalten wir uns die Rechte daran den Sprint als Referenz zu benuzten und das Ergebnis öffentlich zu kommunizieren.</li>
-        <li>Wie bei unserem regulärem Entwicklungs-Sprint besteht nach Beendung der Sprints keine Gewährleistung auf Qualität, Hosting oder sonstigen Support. Für kleine Fragen stehen wir selbstverständlich immer zur Verfügung.</li>
-      </List>
-    </div>
   </Layout>
 </template>
 

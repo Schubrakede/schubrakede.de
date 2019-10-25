@@ -3,7 +3,7 @@
     v-on:click="$emit('click')"
     :href="href"
     :is="href ? 'a' : 'button'"
-    :class="['button', {'secondary': secondary}]"
+    :class="['button', {'secondary': secondary}, color ?  color : '']"
   >
     <slot />
   </button>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  props: ["secondary", "href"]
+  props: ["secondary", "href", "color"]
 };
 </script>
 
@@ -19,7 +19,6 @@ export default {
 .button {
   color: white;
   background: var(--starry-sky);
-  border-radius: 4px;
   color: white;
   text-decoration: none;
   font-family: var(--font-headline);
@@ -35,10 +34,15 @@ export default {
 
   transition: box-shadow 120ms ease-in-out;
 
-  @media (max-width: 520px) {
+  @media (max-width: var(--mobile)) {
     font-weight: 500;
     padding: 0 28px;
     height: 42px;
+  }
+
+  &.green {
+    color: var(--starry-sky);
+    background: var(--green);
   }
 
   &:focus,

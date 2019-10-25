@@ -30,7 +30,7 @@ export default {
   align-items: center;
   grid-template-columns: auto 1fr;
   grid-gap: 1em;
-  @media (max-width: 560px) {
+  @media (max-width: var(--mobile)) {
     grid-template-columns: 1fr;
   }
 }

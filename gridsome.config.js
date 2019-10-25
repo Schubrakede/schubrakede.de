@@ -1,13 +1,14 @@
 const PostcssNested = require("postcss-nested");
+const postcssCustomMedia = require("postcss-custom-media");
 
 module.exports = {
   siteName: "Schubrakede",
+
   siteUrl: "https:/schubrake.de",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
-      anchorClassName: "icon icon-link",
       plugins: [
         // ...global plugins
       ]
@@ -16,7 +17,7 @@ module.exports = {
   css: {
     loaderOptions: {
       postcss: {
-        plugins: [PostcssNested]
+        plugins: [postcssCustomMedia, PostcssNested]
       }
     }
   },

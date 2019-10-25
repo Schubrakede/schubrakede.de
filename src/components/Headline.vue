@@ -4,7 +4,8 @@
     :class="[
     'headline',`level${levelClasses[level - 1]}`,
       {hasMargin: margin},
-     {center: center}
+      {stripe: stripe},
+      {center: center}
      ]"
   >
     <slot />
@@ -16,6 +17,7 @@ export default {
   props: {
     level: { type: Number, default: 2 },
     margin: { type: Boolean, default: false },
+    stripe: { type: Boolean, default: false },
     center: { type: Boolean }
   },
   data: () => {
@@ -26,7 +28,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .headline {
   font-family: var(--font-headline);
   line-height: 1;
@@ -40,12 +42,31 @@ export default {
   &.center {
     text-align: center;
   }
+  &.stripe {
+    &:after {
+      content: " ";
+      display: block;
+      transform: translateX(-16px);
+      background: var(--sr-sky-gradient);
+
+      height: 8px;
+      border-radius: 8px;
+      width: calc(var(--sr-base) * 45);
+      @media (--sr-mobile) {
+        height: 4px;
+        border-radius: 4px;
+      }
+    }
+  }
 }
 
 /* Levels */
 
 .levelOne {
   font-size: 3.4em;
+  @media (--sr-mobile) {
+    font-size: 3em;
+  }
   &.hasMargin {
     margin-bottom: 18px;
   }

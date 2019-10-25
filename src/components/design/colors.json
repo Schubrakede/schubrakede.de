@@ -2,7 +2,7 @@
   "values": [
     {
       "name": "starry-sky",
-      "value": "rgba(36, 38, 43, 1)"
+      "value": "#0E282F"
     },
     {
       "name": "bley",
@@ -14,11 +14,15 @@
     },
     {
       "name": "green",
-      "value": "#87fd6e"
+      "value": "#12EE84"
     },
     {
       "name": "teal",
       "value": "#39D3D6"
+    },
+    {
+      "name": "blue-sky",
+      "value": "#81FCFF"
     },
     {
       "name": "red",

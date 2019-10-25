@@ -1,16 +1,9 @@
 <template>
-  <Layout isHome>
-    <header class="header">
-      <div class="headerText">
-        <Headline :level="1">{{$page.site.title}}</Headline>
-        <Subline>{{$page.site.description}}</Subline>
-      </div>
-      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
-    </header>
-    <References :images="$page.site.companies"></References>
+  <Layout isHome :companies="$page.site.companies">
+    <Headline :stripe="true" margin>Unsere Mission</Headline>
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>
-    <Headline margin center>Produkte</Headline>
+    <Headline margin>Produkte</Headline>
     <ProductCard
       :image="product.node.image"
       :to="product.node.path"
@@ -22,14 +15,13 @@
     ></ProductCard>
 
     <Spacer :size="2"></Spacer>
-    <Headline margin center>In-House Beratung</Headline>
+    <Headline margin>In-House Beratung</Headline>
     <RichText class="handson">{{$page.site.handsOnText}}</RichText>
     <Spacer :size="1"></Spacer>
-    <ButtonGroup>
-      <Button noGlink href="#kontakt">Rückruf anfordern</Button>
-    </ButtonGroup>
+    <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     <Spacer v-if="$page.allBlog.edges.length > 0" :size="2"></Spacer>
-    <Headline v-if="$page.allBlog.edges.length > 0" margin center>Blog</Headline>
+    <Headline v-if="$page.allBlog.edges.length > 0" margin>Logbuch</Headline>
+
     <BlogItem
       :date="item.node.date"
       :href="item.node.path"
@@ -37,7 +29,7 @@
       :key="item.node.headline"
     >{{item.node.headline}}</BlogItem>
     <Spacer :size="2"></Spacer>
-    <Headline margin center>Team</Headline>
+    <Headline margin>Über Uns</Headline>
     <Team :data="$page.site.teammember"></Team>
     <Spacer :size="2"></Spacer>
     <Headline id="kontakt" margin>Kontakt</Headline>
@@ -50,7 +42,6 @@
 query Index{
   site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
     Name,
-    description,
     title,
     companies {
       Image
@@ -95,6 +86,7 @@ import Spacer from "../components/Spacer";
 import Subline from "../components/Subline";
 import ProductCard from "../components/ProductCard";
 import Headline from "../components/Headline";
+import Paragraph from "../components/Paragraph";
 import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
 import RichText from "../components/RichText";
@@ -105,6 +97,7 @@ export default {
     BlogItem,
     ProductCard,
     Spacer,
+    Paragraph,
     Button,
     ButtonGroup,
     ContactForm,
@@ -124,13 +117,10 @@ export default {
 
 <style lang="postcss">
 .mission {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 32px;
-  @media (--small-screen) {
+  font-size: 28px;
+  @media (--sr-mobile) {
     & {
-      font-size: 24px;
+      font-size: 1em;
     }
   }
 }
@@ -147,11 +137,5 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-bottom: 80px;
-}
-.handson {
-  font-size: 28px;
-}
-.headerText {
-  margin-bottom: 36px;
 }
 </style>

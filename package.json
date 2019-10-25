@@ -7,21 +7,20 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-remark": "^0.3.2",
     "babel-runtime": "^6.26.0",
     "firebase": "^6.6.2",
-    "gridsome": "^0.6.0",
+    "gridsome": "0.7.9",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.9.6",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-nested": "^4.1.2",
     "vue-markdown": "^2.2.4",
     "vuefire": "^2.1.2",
     "xhr2": "^0.2.0"
   },
   "devDependencies": {
     "@gridsome/plugin-sitemap": "^0.2.1",
-    "i": "^0.3.6",
-    "npm": "^6.10.3",
-    "postcss-nested": "^4.1.2"
+    "@gridsome/source-filesystem": "0.6.2",
+    "@gridsome/transformer-remark": "^0.3.2"
   }
 }

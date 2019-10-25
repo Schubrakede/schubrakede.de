@@ -1,7 +1,5 @@
 <template>
-  <Layout>
-    <Headline :level="1">Schubrakede Design</Headline>
-
+  <Layout title="Schubrakede Design">
     <Subline>Das sind die Komponenten mit denen wir diese Webseite zum leben erwecken</Subline>
 
     <Spacer :size="2" />
@@ -57,7 +55,9 @@
     ></Author>
     <Spacer :size="2" />
     <Label>Referenzen</Label>
-    <References :images="$page.site.companies"></References>
+    <div :style="{transform: 'translateX(0)', height: '500px'}">
+      <References :images="$page.site.companies"></References>
+    </div>
     <Spacer :size="2" />
     <Label>Font</Label>
     <Headline>Serenity</Headline>
