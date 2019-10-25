@@ -87,7 +87,12 @@ export default {
           type: "image/png",
           href: "/favicon_16-16.png"
         },
-        { rel: "stylesheet", href: "https://use.typekit.net/uaf4juj.css" }
+        {
+          rel: "stylesheet",
+          href: "https://use.typekit.net/uaf4juj.css",
+          media: "print",
+          onload: "this.media='all'"
+        }
       ],
       title: this.title,
       meta: [
