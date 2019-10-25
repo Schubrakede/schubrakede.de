@@ -90,9 +90,7 @@ export default {
         },
         {
           rel: "stylesheet",
-          href: "https://use.typekit.net/uaf4juj.css",
-          media: "print",
-          onload: "this.media='all'"
+          href: "https://use.typekit.net/uaf4juj.css"
         }
       ],
       title: this.title,
