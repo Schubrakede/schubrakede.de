@@ -10,9 +10,9 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss" >
 .references {
-  @media (max-width: 1092px) {
+  @media (--sr-mobile) {
     border-radius: 0;
   }
   position: absolute;
@@ -32,7 +32,10 @@ export default {
   align-items: center;
   align-content: center;
   justify-items: center;
-  @media (max-width: 800px) {
+  @media (--sr-mobile) {
+    top: 100%;
+    bottom: initial;
+    z-index: 50;
     height: auto;
   }
 }

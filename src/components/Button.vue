@@ -19,7 +19,6 @@ export default {
 .button {
   color: white;
   background: var(--starry-sky);
-  border-radius: 4px;
   color: white;
   text-decoration: none;
   font-family: var(--font-headline);
@@ -35,7 +34,7 @@ export default {
 
   transition: box-shadow 120ms ease-in-out;
 
-  @media (max-width: 520px) {
+  @media (max-width: var(--mobile)) {
     font-weight: 500;
     padding: 0 28px;
     height: 42px;

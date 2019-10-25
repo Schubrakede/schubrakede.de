@@ -48,9 +48,14 @@ export default {
       display: block;
       transform: translateX(-16px);
       background: var(--sr-sky-gradient);
+
       height: 8px;
       border-radius: 8px;
       width: calc(var(--sr-base) * 45);
+      @media (--sr-mobile) {
+        height: 4px;
+        border-radius: 4px;
+      }
     }
   }
 }
@@ -59,6 +64,9 @@ export default {
 
 .levelOne {
   font-size: 3.4em;
+  @media (--sr-mobile) {
+    font-size: 3em;
+  }
   &.hasMargin {
     margin-bottom: 18px;
   }

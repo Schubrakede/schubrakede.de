@@ -117,9 +117,9 @@ export default {
 <style lang="postcss">
 .mission {
   font-size: 28px;
-  @media (--small-screen) {
+  @media (--sr-mobile) {
     & {
-      font-size: 24px;
+      font-size: 1em;
     }
   }
 }
@@ -136,8 +136,5 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-bottom: 80px;
-}
-.handson {
-  font-size: 28px;
 }
 </style>

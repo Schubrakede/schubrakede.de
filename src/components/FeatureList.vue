@@ -24,7 +24,7 @@ export default {
   grid-template-columns: 1fr 1fr;
   padding: 40px 0 80px 0;
   grid-gap: 20px;
-  @media (max-width: 520px) {
+  @media (max-width: var(--mobile)) {
     & {
       grid-template-columns: 1fr;
     }

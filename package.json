@@ -17,9 +17,10 @@
     "xhr2": "^0.2.0"
   },
   "devDependencies": {
+    "@gridsome/plugin-sitemap": "^0.2.1",
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
-    "@gridsome/plugin-sitemap": "^0.2.1",
+    "postcss-custom-media": "^7.0.8",
     "postcss-nested": "^4.1.2"
   }
 }
