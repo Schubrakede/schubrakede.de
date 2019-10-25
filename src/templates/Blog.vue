@@ -37,7 +37,7 @@ export default {
 </script>
 
 <page-query>
-query Blog ($id: String!, $author: String!) {
+query Blog ($id: ID!, $author: String!) {
   blog: blog (id: $id){
       headline,
       content,

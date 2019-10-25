@@ -123,13 +123,7 @@ export default {
 };
 </script>
 
-<static-query>
-query {
-  metaData {
-    siteName
-  }
-}
-</static-query>
+
 
 <style lang="postcss">
 @custom-media --sr-width (max-width: 1092px);
