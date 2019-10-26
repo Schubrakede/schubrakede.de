@@ -14,18 +14,17 @@ export default {
 
 <style lang="postcss">
 .footer {
-  flex-direction: column;
   align-items: flex-start;
   padding: 200px 0 0 0;
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 20px;
   justify-content: flex-start;
+  flex-direction: row;
 
-  @media (min-width: 600px) {
-    & {
-      flex-direction: row;
-    }
+  @media (--sr-mobile) {
+    grid-template-columns: auto;
+    justify-items: flex-start;
   }
 }
 </style>

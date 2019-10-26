@@ -18,10 +18,10 @@ export default {
 
 <style lang="postcss" >
 .references {
+  border-radius: 80px;
   @media (--sr-width) {
     border-radius: 0;
   }
-  border-radius: 80px;
   position: absolute;
   z-index: 50;
   padding: calc(var(--sr-base) * 6) calc(var(--sr-base) * 10);
@@ -30,7 +30,8 @@ export default {
   width: 100%;
   height: 80px;
   bottom: -40px;
-  background: var(--sr-sky-gradient);
+  background: var(--bley);
+  color: white;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, auto));
   grid-auto-rows: 32px;
@@ -39,6 +40,7 @@ export default {
   align-content: center;
   justify-items: center;
   @media (--sr-mobile) {
+    grid-gap: 20px;
     top: 100%;
     bottom: initial;
     z-index: 50;

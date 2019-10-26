@@ -27,15 +27,15 @@ export default {
 
 <style scoped lang="postcss">
 .product-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
   text-decoration: none;
   color: inherit;
-  display: block;
-  max-width: 25em;
-  margin-bottom: 2em;
-
   position: relative;
   background: white;
-  padding: 2.5em 5em 2.5em 1.25em;
+  padding: 1.5em 1.25em;
   box-shadow: var(--sr-shadow);
   transition: box-shadow 350ms ease-out;
   &:hover {
@@ -44,16 +44,22 @@ export default {
 }
 .headline {
   margin-bottom: 0.25em;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 2.2em;
+  line-height: 1;
 }
 .duration {
+  background: var(--starry-sky);
+  color: white;
+  border-radius: 20px;
+  padding: calc(var(--sr-base) * 2) calc(var(--sr-base) * 4);
   position: absolute;
-  right: 1.25em;
-  top: 1.25em;
+  right: -1.25em;
+  top: -0.5em;
 }
 .teaser {
   opacity: 0.6;
+  line-height: 1.2;
   margin-bottom: 0.5em;
 }
 .fake-link {

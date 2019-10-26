@@ -4,15 +4,17 @@
     <RichText class="mission">{{$page.site.missiontext}}</RichText>
     <Spacer :size="2"></Spacer>
     <Headline margin>Produkte</Headline>
-    <ProductCard
-      :image="product.node.image"
-      :to="product.node.path"
-      v-for="product in $page.allProduct.edges"
-      :key="product.name"
-      :teaser="product.node.teaser"
-      :duration="product.node.duration"
-      :name="product.node.name"
-    ></ProductCard>
+    <ProductGrid>
+      <ProductCard
+        :image="product.node.image"
+        :to="product.node.path"
+        v-for="product in $page.allProduct.edges"
+        :key="product.name"
+        :teaser="product.node.teaser"
+        :duration="product.node.duration"
+        :name="product.node.name"
+      ></ProductCard>
+    </ProductGrid>
 
     <Spacer :size="2"></Spacer>
     <Headline margin>In-House Beratung</Headline>
@@ -55,7 +57,7 @@ query Index{
       Description
     }
   },
-  allProduct(sortBy: "name", order: ASC,filter: { published: { eq: true }}){
+  allProduct(sortBy: "name", order: DESC,filter: { published: { eq: true }}){
   edges{
     node{
       path,
@@ -84,6 +86,7 @@ import ContactForm from "../components/ContactForm";
 import References from "../components/References";
 import Spacer from "../components/Spacer";
 import Subline from "../components/Subline";
+import ProductGrid from "../components/ProductGrid";
 import ProductCard from "../components/ProductCard";
 import Headline from "../components/Headline";
 import Paragraph from "../components/Paragraph";
@@ -95,6 +98,7 @@ import Team from "../components/Team";
 export default {
   components: {
     BlogItem,
+    ProductGrid,
     ProductCard,
     Spacer,
     Paragraph,

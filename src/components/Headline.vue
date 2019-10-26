@@ -64,8 +64,11 @@ export default {
 
 .levelOne {
   font-size: 3.4em;
-  @media (--sr-mobile) {
+  @media (--sr-tablet) {
     font-size: 3em;
+  }
+  @media (--sr-mobile) {
+    font-size: 2.6em;
   }
   &.hasMargin {
     margin-bottom: 18px;

@@ -7,7 +7,7 @@
         </nav>
         <Headline :level="1" v-if="!isHome">{{title}}</Headline>
         <Headline v-if="isHome" class="homeHeadline" :level="1">{{$page.site.title}}</Headline>
-        <Button v-if="isHome" class="test" color="green" noGlink href="#kontakt">Rückruf anfordern</Button>
+        <Button v-if="isHome" class="test" color="teal" noGlink href="#kontakt">Rückruf anfordern</Button>
       </div>
       <References v-if="companies" :images="companies"></References>
       <Background></Background>
@@ -128,6 +128,7 @@ export default {
 <style lang="postcss">
 @custom-media --sr-width (max-width: 1092px);
 @custom-media --sr-mobile (max-width: 600px);
+@custom-media --sr-tablet (max-width: 900px);
 @custom-media --sr-desktop (min-width: 601px);
 
 :root {

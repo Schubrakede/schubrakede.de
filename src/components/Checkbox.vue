@@ -28,6 +28,7 @@ export default {
     justify-content: center;
     position: relative;
     -webkit-appearance: none;
+    margin: 0;
     &:checked {
       &:after {
         position: absolute;

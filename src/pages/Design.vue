@@ -55,7 +55,7 @@
     ></Author>
     <Spacer :size="2" />
     <Label>Referenzen</Label>
-    <div :style="{transform: 'translateX(0)', height: '500px'}">
+    <div :style="{transform: 'translateX(0)', height: '100px'}">
       <References :images="$page.site.companies"></References>
     </div>
     <Spacer :size="2" />

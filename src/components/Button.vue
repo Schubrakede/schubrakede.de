@@ -21,6 +21,7 @@ export default {
   background: var(--starry-sky);
   color: white;
   text-decoration: none;
+  border-radius: 3px;
   font-family: var(--font-headline);
   height: 56px;
   padding: 0 36px;
@@ -43,6 +44,14 @@ export default {
   &.green {
     color: var(--starry-sky);
     background: var(--green);
+  }
+  &.teal {
+    color: var(--starry-sky);
+    background: var(--sr-sky-gradient);
+  }
+  &.yellow {
+    background: var(--yellow);
+    color: var(--starry-sky);
   }
 
   &:focus,
