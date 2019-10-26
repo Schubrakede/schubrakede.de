@@ -49,6 +49,10 @@ description: >-
   * Paralelle Safe-to-Fail Experimente
 
 
+
+  ### Ergbnis
+
+
   Am Ende eines Workshops wollen wir eines folgenden Sachen erreichen
 
 
@@ -57,6 +61,9 @@ description: >-
 
   * Wir haben das Thema zusammen verstanden und entschieden, dass es nicht
   weiter Wert ist zu verfolgen bzw. Ressourcen zu bekommen
+
+
+  ****
 
 
   Zusammengefasst: Der Kickoff Workshop nimmt sich ein dediziertes Thema zur
