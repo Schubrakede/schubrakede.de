@@ -3,7 +3,7 @@ published: false
 name: Kickoff Workshop
 duration: 8 Stunden
 locationInfo: Norddeutschland
-teaser: 'Wir widmen uns dediziert einem Thema, einer Idee oder einen Problem'
+teaser: 'Wir widmen uns dediziert einem Thema, einer Idee oder einem Problem'
 description: >-
   Der Kickoff Workshop ist eine umfassende 8 Stunden Session in der wir ein von
   euch gewähltes Thema zusammen zerlegen, um eine umsetzbare Strategie zu
