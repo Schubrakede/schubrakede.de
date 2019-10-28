@@ -153,6 +153,10 @@ export default {
 
 
 <style lang="postcss">
+@font-face {
+  font-family: "serenity";
+  font-display: swap;
+}
 @custom-media --sr-width (max-width: 1092px);
 @custom-media --sr-mobile (max-width: 600px);
 @custom-media --sr-tablet (max-width: 900px);
@@ -160,7 +164,8 @@ export default {
 @custom-media --sr-ipad only screen and (min-device-width: 768px) and (max-device-width: 1024px);
 
 :root {
-  --font: "serenity", "arial", sans-serif;
+  --font: "serenity", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   --sr-base: 4px;
   --sr-shadow--small: 0 10px 20px 0 rgba(8, 58, 72, 0.26);
   --sr-shadow: 0 20px 40px 0 rgba(8, 58, 72, 0.26);
