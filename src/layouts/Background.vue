@@ -1,12 +1,10 @@
 <template>
-  <ClientOnly>
-    <div class="bgWrap">
-      <div class="bg">
-        <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 9))]" :key="ball"></Ball>
-        <g-image class="cloud first" src="/cloud.svg"></g-image>
-      </div>
+  <div :class="[{animated:backgroundAnimated},'bgWrap']">
+    <div class="bg">
+      <Ball v-for="ball in [...Array(Math.ceil(windowWidth / 9))]" :key="ball"></Ball>
+      <g-image class="cloud first" src="/cloud.svg"></g-image>
     </div>
-  </ClientOnly>
+  </div>
 </template>
 
 <script>
@@ -16,11 +14,15 @@ export default {
   data: function() {
     return {
       windowWidth: 0,
-      windowHeight: 0
+      backgroundAnimated: false
     };
   },
   mounted() {
     this.windowWidth = window.innerWidth;
+    this.$nextTick(e => {
+      console.log("now", e);
+      this.backgroundAnimated = true;
+    });
   }
 };
 </script>
@@ -49,7 +51,9 @@ export default {
   position: absolute;
   --size: 50px;
   position: absolute;
-  animation: move 1s linear infinite;
+  .animated & {
+    animation: move 1s linear infinite;
+  }
 
   height: var(--size);
   width: var(--size);

@@ -1,5 +1,5 @@
 <template>
-  <div class="logoContainer">
+  <div :class="[{animated:animated},'logoContainer']">
     <g-link to="/" class="logo">
       <svg width="426" height="31" viewBox="0 0 426 31" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
@@ -22,7 +22,17 @@
 
 <script>
 export default {
-  props: ["white"]
+  props: ["white"],
+  data() {
+    return {
+      animated: false
+    };
+  },
+  mounted() {
+    this.$nextTick(e => {
+      this.animated = true;
+    });
+  }
 };
 </script>
 
@@ -78,18 +88,24 @@ export default {
   position: absolute;
   right: 0;
   @media (--sr-desktop) {
-    animation: speed1 3s ease-in-out infinite;
+    .animated & {
+      animation: speed1 3s ease-in-out infinite;
+    }
   }
   transform-origin: 100% 50%;
 }
 #secondstripe {
   @media (--sr-desktop) {
-    animation: speed2 4s ease-in-out infinite 500ms;
+    .animated & {
+      animation: speed2 4s ease-in-out infinite 500ms;
+    }
   }
 }
 #thirdstripe {
   @media (--sr-desktop) {
-    animation: speed3 2s ease-in-out infinite 500ms;
+    .animated & {
+      animation: speed3 2s ease-in-out infinite 500ms;
+    }
   }
 }
 </style>
