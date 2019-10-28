@@ -1,7 +1,9 @@
 <template>
   <div class="team">
     <div class="member" v-for="member in data" :key="member.Name">
-      <div class="memberImg" :style="{backgroundImage: `url(${member.Image})`}" />
+      <div class="memberImg">
+        <g-image :src="member.Image"></g-image>
+      </div>
       <Headline :level="3" class="memberName">{{member.Name}}</Headline>
       <span class="role">{{member.Title}}</span>
 
@@ -50,12 +52,14 @@ export default {
 
 .memberImg {
   box-shadow: var(--sr-shadow--small);
-  background-position: center center;
-  background-size: cover;
   width: 160px;
   height: 160px;
   border-radius: 160px;
   margin-bottom: calc(var(--sr-base) * 4);
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
 }
 
 .memberDescription {
