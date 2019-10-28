@@ -8,14 +8,14 @@ companies:
   - Image: /img/cellular_logo.svg
   - Image: /img/sumcumo.svg
 missiontext: >-
-  Innovation bekommt man nicht durch Adaption sondern Exaptation. Die
-  Überstrapazierung von Agile und die Verherrlichung von Case Studies (siehe
-  “Spotify Model”) lähmt Innovative Entwicklung. 
+  Über Adaption (lineare Verbesserung) wissen wir alles. Um in sich wandelnden
+  Systemen und Märkten relevant zu bleiben brauch man Exaptation. Man verwendet
+  eine Stärke und benutzt sie für etwas komplett anderes.
 
 
-  Wir setzten ohne Masterplan an bestehenden Problemen & Ideen an um schnell
-  neue Reisen anzufangen bei denen man die Route ändern kann statt
-  überpropotional viel Ressourcen für ein unnerreichbares Ziel zu verschwenden.
+  Wir helfen Unternehmen in Komplexen Systemen relevant zu bleiben, indem wir
+  den größeren Kontext visualisieren und Probleme auf die es keine klare Antwort
+  gibt sondieren.
 handsOnText: >-
   Ein Projekt zu starten ist die eine Sache, ein langlebiges bestehendes
   Produkt/Team in die Lage zu versetzen,  schnell Kundenorientiert zu entwickeln
