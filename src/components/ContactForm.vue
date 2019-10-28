@@ -66,7 +66,7 @@
     <span>Mit * gekennzeichnete Felder sind Pflichtfelder</span>
     <br />
     <br />
-    <Button>Anfrage an Schubrakede senden</Button>
+    <Button>Anfrage Senden</Button>
   </form>
 </template>
 

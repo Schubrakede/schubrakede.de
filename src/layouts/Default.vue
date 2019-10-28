@@ -130,6 +130,7 @@ export default {
 @custom-media --sr-mobile (max-width: 600px);
 @custom-media --sr-tablet (max-width: 900px);
 @custom-media --sr-desktop (min-width: 601px);
+@custom-media --sr-ipad only screen and (min-device-width: 768px) and (max-device-width: 1024px);
 
 :root {
   --font: "serenity", "arial", sans-serif;
@@ -217,6 +218,7 @@ strong {
         calc(var(--sr-base) * 40);
     }
   }
+
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -227,6 +229,11 @@ strong {
   z-index: 5;
 
   @media (--sr-mobile) {
+    .is-home & {
+      height: 100vh;
+    }
+  }
+  @media (--sr-ipad) {
     .is-home & {
       height: 100vh;
     }
@@ -242,6 +249,13 @@ strong {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+  }
+  @media (--sr-ipad) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     height: 100%;
   }
 }

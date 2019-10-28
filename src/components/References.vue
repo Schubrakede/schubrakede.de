@@ -24,11 +24,11 @@ export default {
   }
   position: absolute;
   z-index: 50;
-  padding: calc(var(--sr-base) * 6) calc(var(--sr-base) * 10);
+  padding: calc(var(--sr-base) * 4) calc(var(--sr-base) * 10);
   transition: border-radius 350ms ease-in-out;
   max-width: var(--sr-width);
   width: 100%;
-  height: 80px;
+  height: 88px;
   bottom: -40px;
   background: var(--bley);
   color: white;
@@ -40,6 +40,13 @@ export default {
   align-content: center;
   justify-items: center;
   @media (--sr-mobile) {
+    grid-gap: 20px;
+    top: 100%;
+    bottom: initial;
+    z-index: 50;
+    height: auto;
+  }
+  @media (--sr-ipad) {
     grid-gap: 20px;
     top: 100%;
     bottom: initial;
