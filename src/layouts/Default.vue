@@ -66,6 +66,7 @@ export default {
   metaInfo() {
     return {
       link: [
+        { rel: "preconnect", href: "https://use.typekit.net" },
         {
           rel: "shortcut icon",
           href: "data:;base64,iVBORw0KGgo="
