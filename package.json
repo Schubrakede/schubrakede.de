@@ -2,7 +2,7 @@
   "name": "schubrakede",
   "private": true,
   "scripts": {
-    "build": "npx workbox generateSW workbox-config.js && gridsome build",
+    "build": "gridsome build && npx workbox generateSW workbox-config.js",
     "start": "gridsome develop",
     "explore": "gridsome explore"
   },
