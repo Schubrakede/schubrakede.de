@@ -92,6 +92,7 @@ export default {
       ],
       title: this.title,
       meta: [
+        { name: "theme-color", content: "#39D3D6" },
         { name: "description", content: this.description },
         { property: "og:description", content: this.description },
         { property: "og:title", content: this.title },
