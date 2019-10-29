@@ -2,7 +2,7 @@
   "name": "schubrakede",
   "private": true,
   "scripts": {
-    "build": "npx workbox generateSW workbox-config.js && gridsome build",
+    "build": "gridsome build",
     "start": "gridsome develop",
     "explore": "gridsome explore"
   },
@@ -16,7 +16,6 @@
     "postcss-nested": "^4.1.2",
     "vue-markdown": "^2.2.4",
     "vuefire": "^2.1.2",
-    "workbox-cli": "^4.3.1",
     "xhr2": "^0.2.0"
   },
   "devDependencies": {
