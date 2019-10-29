@@ -13,6 +13,5 @@
     "statusBarItem.hoverBackground": "#ffbc4c",
     "statusBar.foreground": "#15202b"
   },
-"peacock.color": "#FFCF7F",
-"workbench.colorTheme": "Monokai Dimmed"
+  "peacock.color": "#FFCF7F"
 }
