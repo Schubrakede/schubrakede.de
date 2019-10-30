@@ -1,6 +1,6 @@
 ---
 Name: Startrampe
-title: Neue Ideen für Komplexe Probleme
+title: Wir bringen neue Ideen für Komplexe Probleme
 companies:
   - Image: /img/fielmannlogo.svg
   - Image: /img/jimdo-logo.svg
