@@ -26,7 +26,7 @@ teammember:
   - Description: >-
       9 Jahre Erfahrung mit Nutzerorientiertem Design. Von UX über UI bis zur
       technischen Umsetzung.
-    Image: /img/dsc_0759_square-0-8x.jpg
+    Image: /img/dsc_0759_square-0-4x.jpg
     Name: Lasse Diercks
     Title: 'Gründer, Designer'
   - Description: >-
