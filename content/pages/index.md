@@ -1,6 +1,6 @@
 ---
 Name: Startrampe
-title: Wir helfen Unternehmen gute Ideen besser und schneller umzusetzen.
+title: Neue Ideen für Komplexe Probleme
 companies:
   - Image: /img/fielmannlogo.svg
   - Image: /img/jimdo-logo.svg
