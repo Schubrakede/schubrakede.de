@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 name: Kickoff Workshop
 duration: 8 Stunden
 locationInfo: Norddeutschland
@@ -10,13 +10,13 @@ description: >-
   entwickeln.  
 
 
-  Themen (vereinfacht) aus vergangen Workshops waren z.b.:
+  Themen aus vergangen Workshops waren z.b. (vereinfacht):
 
 
-  **Wie können wir die echten Bedürfnisse unserer Kunden herausfinden?**
+  **Wie können wir unformulierte Bedürfnisse unserer Kunden herausfinden?**
 
 
-  **Wie fangen wir diese Idee an?**
+  **Wie fangen wir eine bestimmte Idee an?**
 
 
   **Wie entscheiden wir, wo wir investieren müssen?**
@@ -25,12 +25,12 @@ description: >-
   **Was müssen wir tun, um Marktführer zu bleiben?**
 
 
-  ****
+  - - -
 
 
-  Jedes Unternehmen ist unterschiedlich weswegen es kein dogmatisches Format für
-  den Workshop gibt. Wir entscheiden je nach Thema individuell welche Methoden
-  für euch am meisten Sinn ergeben. 
+  Jedes Unternehmen ist unterschiedlich weswegen es kein Schema F für den
+  Workshop gibt. Wir entscheiden je nach Thema individuell welche Methoden für
+  euch am meisten Sinn ergeben. 
 
 
   Das kann unter anderem z.b. sein:
@@ -46,9 +46,6 @@ description: >-
 
   * Kohärenz Tests
 
-  * Paralelle Safe-to-Fail Experimente
-
-
 
   ### Ergbnis
 
@@ -56,19 +53,19 @@ description: >-
   Am Ende eines Workshops wollen wir eines folgenden Sachen erreichen
 
 
-  * Wir ein Thema durchdrungen und eine Strategie für die nächsten Schritte
-  entwickelt
+  * Wir haben ein Thema durchdrungen und eine Strategie für die nächsten
+  Schritte entwickelt
 
   * Wir haben das Thema zusammen verstanden und entschieden, dass es nicht
-  weiter Wert ist zu verfolgen bzw. Ressourcen zu bekommen
+  weiter Wert ist verfolgt zu werden
 
 
-  ****
+  - - -
 
 
   Zusammengefasst: Der Kickoff Workshop nimmt sich ein dediziertes Thema zur
   Brust. Dabei kann herauskommen, dass das Thema weiterverfolgt werden sollte
-  und wir das geht, es kann aber auch zu der Einsicht führen, dass das Thema
-  nicht das richtige ist was euer Unternehmen gerade benötigt.
+  und wie genau das geht, es kann aber auch zu der Einsicht führen, dass das
+  Thema nicht das richtige ist was euer Unternehmen gerade benötigt.
 ---
 
