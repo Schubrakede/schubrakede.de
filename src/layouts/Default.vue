@@ -119,6 +119,10 @@ export default {
     };
   },
   mounted() {
+    let vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+
     (function(d) {
       var config = {
           kitId: "uaf4juj",
@@ -245,7 +249,6 @@ strong {
   font-weight: 600;
 }
 .pageheader {
-  padding: var(--sr-padding);
   @media (--sr-desktop) {
     .is-home & {
       padding: calc(var(--sr-base) * 20) calc(var(--sr-base) * 15)
@@ -265,19 +268,23 @@ strong {
   @media (--sr-mobile) {
     .is-home & {
       height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
     }
   }
   @media (--sr-ipad) {
     .is-home & {
       height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
     }
   }
 }
 
 .pageheader_content {
+  padding: var(--sr-padding);
   width: 100%;
   position: relative;
   z-index: 5;
+
   max-width: var(--sr-width);
   @media (--sr-mobile) {
     display: flex;
