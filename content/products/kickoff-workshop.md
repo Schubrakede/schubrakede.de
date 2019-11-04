@@ -47,7 +47,7 @@ description: >-
   * Kohärenz Tests
 
 
-  ### Ergbnis
+  ### Ergebnisse
 
 
   Am Ende eines Workshops wollen wir eines folgenden Sachen erreichen
