@@ -159,10 +159,6 @@ export default {
 
 
 <style lang="postcss">
-@font-face {
-  font-family: "serenity";
-  font-display: swap;
-}
 @custom-media --sr-width (max-width: 1092px);
 @custom-media --sr-mobile (max-width: 600px);
 @custom-media --sr-tablet (max-width: 900px);
