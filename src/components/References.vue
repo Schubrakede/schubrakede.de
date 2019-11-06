@@ -19,9 +19,6 @@ export default {
 <style lang="postcss" >
 .references {
   border-radius: 80px;
-  @media (--sr-width) {
-    border-radius: 0;
-  }
   position: absolute;
   z-index: 50;
   padding: calc(var(--sr-base) * 4) calc(var(--sr-base) * 10);
@@ -39,6 +36,9 @@ export default {
   align-items: center;
   align-content: center;
   justify-items: center;
+  @media (--sr-width) {
+    border-radius: 0;
+  }
   @media (--sr-mobile) {
     grid-gap: 20px;
     top: 100%;
