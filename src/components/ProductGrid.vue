@@ -8,7 +8,7 @@
 export default {};
 </script>
 
-<style>
+<style lang="postcss">
 .product-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
