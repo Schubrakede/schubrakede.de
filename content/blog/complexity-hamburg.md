@@ -49,6 +49,17 @@ content: >+
   Ubilabs - Navigating complexity with maps
 
 
+  ## Wo & Wann?
+
+
+  Am 28.11. bei Ubilabs
+
+  Heidi Kabel Platz 2
+
+
+  Ab 18:30 sind die Türen offen und die Talks fangen um 19:00 an
+
+
   Anmelden kann man sich über
   [Meetup.com](https://www.meetup.com/Complexity-Hamburg/events/264313999/)
 
