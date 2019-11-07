@@ -22,6 +22,7 @@
   "devDependencies": {
     "@gridsome/plugin-sitemap": "^0.2.1",
     "@gridsome/source-filesystem": "0.6.2",
-    "@gridsome/transformer-remark": "^0.3.2"
+    "@gridsome/transformer-remark": "^0.3.2",
+    "vue-svg-inline-loader": "^1.4.3"
   }
 }

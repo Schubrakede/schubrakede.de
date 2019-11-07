@@ -1,18 +1,18 @@
 <template>
-  <ClientOnly>
-    <div
-      :class="[
+  <img
+    :class="[
   ballClass,
   colorClasses[color],
   sizeClasses[size],
   ]"
-      :style="{
+    :style="{
   top: `${getRandomInt(100)}%`,
   right: `${getRandomInt(70)}%`,
   opacity: opacity,
   animationDuration: `${duration}s`}"
-    />
-  </ClientOnly>
+    svg-inline
+    src="../assets/ball.svg"
+  />
 </template>
 
 <script>
@@ -53,10 +53,6 @@ export default {
       color: getRandomInt(3),
       size: getRandomInt(3)
     };
-  },
-  mounted() {
-    this.windowHeight = window.innerHeight;
-    this.windowWidth = window.innerWidth;
   }
 };
 </script>

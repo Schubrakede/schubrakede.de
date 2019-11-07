@@ -98,13 +98,19 @@ export default {
 }
 
 .green {
-  background: var(--green);
+  circle {
+    fill: var(--green);
+  }
 }
 .teal {
-  background: var(--teal);
+  circle {
+    fill: var(--teal);
+  }
 }
 .orange {
-  background: var(--orange);
+  circle {
+    fill: var(--orange);
+  }
 }
 .cloud {
   position: absolute;

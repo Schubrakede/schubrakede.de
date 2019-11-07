@@ -2,6 +2,15 @@ const PostcssNested = require("postcss-nested");
 const postcssCustomMedia = require("postcss-custom-media");
 
 module.exports = {
+  chainWebpack: config => {
+    config.module
+      .rule("vue")
+      .use("vue-svg-inline-loader")
+      .loader("vue-svg-inline-loader")
+      .options({
+        /* ... */
+      });
+  },
   siteName: "Schubrakede",
 
   siteUrl: "https:/schubrake.de",
