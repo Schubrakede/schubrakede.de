@@ -2,7 +2,12 @@
   <div class="team">
     <div class="member" v-for="member in data" :key="member.Name">
       <div class="memberImg">
-        <g-image loading="lazy" :src="member.Image" width="160"></g-image>
+        <g-image
+          :alt="`Schubrakede Teammitglied${member.Name}`"
+          loading="lazy"
+          :src="member.Image"
+          width="160"
+        ></g-image>
       </div>
       <Headline :level="3" class="memberName">{{member.Name}}</Headline>
       <span class="role">{{member.Title}}</span>
