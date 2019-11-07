@@ -6,7 +6,7 @@
 
 <page-query>
 query Imprint {
-  site: site(id:"a630b5b3e8f57accbc2847bc0ec78fae"){
+  site: site(id:"8cabb533edb884270a844434353e02f6"){
     Title,
     Content
   }

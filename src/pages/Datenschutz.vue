@@ -6,7 +6,7 @@
 
 <page-query>
 query Datenschutz {
-  site: site(id:"677bddfb986449de783d67d381122dfc"){
+  site: site(id:"2dba86a8fc132402a68a82819a66462a"){
     Title,
     Content
   }
