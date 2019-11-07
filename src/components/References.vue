@@ -4,7 +4,7 @@
       class="reference-image"
       v-for="image in images"
       :src="image.image"
-      :key="image.image"
+      :key="image.image.src"
       alt
     />
   </div>
