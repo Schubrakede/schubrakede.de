@@ -2,12 +2,12 @@
   <div class="team">
     <div class="member" v-for="member in data" :key="member.Name">
       <div class="memberImg">
-        <g-image
+        <img
           :alt="`Schubrakede Teammitglied${member.Name}`"
           loading="lazy"
-          :src="member.Image"
+          :srcset="addWebP(member.Image)"
           width="160"
-        ></g-image>
+        />
       </div>
       <Headline :level="3" class="memberName">{{member.Name}}</Headline>
       <span class="role">{{member.Title}}</span>
@@ -23,7 +23,18 @@ import Paragraph from "./Paragraph";
 
 export default {
   components: { Headline, Paragraph },
-  props: ["data", "img"]
+  props: ["data", "img"],
+  methods: {
+    addWebP(origPath) {
+      let webP =
+        origPath
+          .split(".")
+          .slice(0, -1)
+          .join(".") + ".webp";
+      console.log(webP);
+      return `${origPath}, ${webP}`;
+    }
+  }
 };
 </script>
 
