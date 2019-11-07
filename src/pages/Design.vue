@@ -82,12 +82,12 @@ query Index{
   site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
     teammember{
       Title,
-      Image,
+      image,
       Name,
       Description
     },
     companies{
-        Image
+        image
     }
 },
 allAuthor{

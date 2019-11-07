@@ -1,12 +1,11 @@
----
 Name: Startrampe
 title: Wir bringen neue Ideen für Komplexe Probleme
 companies:
-  - Image: /img/fielmannlogo.svg
-  - Image: /img/jimdo-logo.svg
-  - Image: /img/xinglogo.svg
-  - Image: /img/cellular_logo.svg
-  - Image: /img/sumcumo.svg
+  - image: /img/fielmannlogo.svg
+  - image: /img/jimdo-logo.svg
+  - image: /img/xinglogo.svg
+  - image: /img/cellular_logo.svg
+  - image: /img/sumcumo.svg
 missiontext: >-
   Über Adaption (lineare Verbesserung) wissen wir alles. Um in sich wandelnden
   Systemen und Märkten relevant zu bleiben brauch man Exaptation. Man verwendet
@@ -26,27 +25,25 @@ teammember:
   - Description: >-
       9 Jahre Erfahrung mit Nutzerorientiertem Design. Von UX über UI bis zur
       technischen Umsetzung.
-    Image: /img/dsc_0759_square-0-8x.jpg
+    image: /img/dsc_0759_square-0-8x.jpg
     Name: Lasse Diercks
-    Title: 'Gründer, Designer'
+    Title: "Gründer, Designer"
   - Description: >-
       Entwickelt seit 10 Jahren Web basierte Applikationen. Am liebsten in
       JavaScript und ohne Server. Stabil und mit bedachter Developer Experience.
-    Image: /img/hannes.png
+    image: /img/hannes.png
     Name: Hannes Diercks
-    Title: 'Gründer, Entwickler'
+    Title: "Gründer, Entwickler"
   - Description: >-
       Setzt seit 10 Jahren erfolgreich IT-Projekte mit Unternehmen um. Unser
       Experte für Online Marketing und Vertrieb.
-    Image: /img/felix.png
+    image: /img/felix.png
     Name: Felix Speck
-    Title: 'Projektmanagement, Vertrieb'
+    Title: "Projektmanagement, Vertrieb"
   - Description: >-
       Seit 8 Jahren in der Web Branche. Kreative Energie, kombiniert mit
       technischer Finesse erlaubt Karsten Webseiten eine eigene Geschichte
       erzählen zu lassen.
-    Image: /img/karsten.png
+    image: /img/karsten.png
     Name: Karsten Buckstegge
-    Title: 'Illustrator, Entwickler'
----
-
+    Title: "Illustrator, Entwickler"

@@ -5,7 +5,7 @@ backend:
 display_url: https://schubrake.de
 logo_url: https://schubrake.de/schubrakede.png
 media_folder: "static/img"
-public_folder: "img"
+public_folder: "/img"
 
 collections:
   - name: "pages"
@@ -20,7 +20,7 @@ collections:
           - {
               name: companies,
               widget: list,
-              fields: [{ name: Image, widget: image }],
+              fields: [{ name: image, widget: image }],
             }
           - { name: missiontext, widget: markdown }
           - { name: handsOnText, widget: markdown }
@@ -32,7 +32,7 @@ collections:
                   { name: Name, widget: string },
                   { name: Description, widget: string },
                   { name: Title, widget: string },
-                  { name: Image, widget: image },
+                  { name: image, widget: image },
                 ],
             }
       - label: "Impressum"

@@ -3,8 +3,8 @@
     <g-image
       class="reference-image"
       v-for="image in images"
-      :src="image.Image"
-      :key="image.Image"
+      :src="image.image"
+      :key="image.image"
       alt
     />
   </div>

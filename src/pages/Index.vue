@@ -42,17 +42,17 @@
 
 <page-query>
 query Index{
-  site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
+  site: site(id: "d24eacb9525427329820cb4a2ec7e187"){
     Name,
     title,
     companies {
-      Image
+      image
     },
     missiontext,
     handsOnText,
     teammember{
       Title,
-      Image,
+      image,
       Name,
       Description
     }

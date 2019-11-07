@@ -27,7 +27,7 @@
 query Landingpage ($id: ID!) {
   site: site(id: "8b7eef239c7763e2ba8567c18cb858e8"){
     companies {
-      Image
+      image
     }
   },
   landingpage: landingpage (id: $id){

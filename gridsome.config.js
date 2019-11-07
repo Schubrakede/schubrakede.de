@@ -6,6 +6,7 @@ module.exports = {
 
   siteUrl: "https:/schubrake.de",
   transformers: {
+    netlify: {},
     remark: {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
@@ -22,6 +23,9 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      use: "gridsome-transformer-netlify"
+    },
     {
       use: "@gridsome/plugin-sitemap",
       options: {
@@ -53,7 +57,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/pages/*.md",
+        path: "content/pages/*.yml",
         typeName: "Site",
         remark: {
           plugins: [
