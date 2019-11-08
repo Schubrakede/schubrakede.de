@@ -33,6 +33,13 @@ module.exports = {
   },
   plugins: [
     {
+      use: "gridsome-plugin-pwa",
+      options: {
+        statusBarStyle: "default",
+        manifestPath: "manifest.json"
+    }
+    },
+    {
       use: "gridsome-transformer-netlify"
     },
     {
