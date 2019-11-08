@@ -2,7 +2,7 @@
   "name": "schubrakede",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
+    "build": "gridsome build && npx workbox generateSW workbox-config.js",
     "start": "gridsome develop",
     "explore": "gridsome explore"
   },
@@ -23,6 +23,7 @@
     "@gridsome/plugin-sitemap": "^0.2.1",
     "@gridsome/source-filesystem": "0.6.2",
     "@gridsome/transformer-remark": "^0.3.2",
-    "vue-svg-inline-loader": "^1.4.3"
+    "vue-svg-inline-loader": "^1.4.3",
+    "workbox-cli": "^4.3.1"
   }
 }
