@@ -98,7 +98,7 @@ export default {
         { property: "og:title", content: this.title },
         {
           property: "og:image",
-          content: "https://schubrake.de/img/open-graph.png"
+          content: "https://schubrake.de/img/open-graph.png?cache=1"
         },
         { property: "og:image:width", content: "1200" },
         { property: "og:image:height", content: "630" },
