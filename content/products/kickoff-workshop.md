@@ -50,7 +50,7 @@ description: >-
   ### Ergebnisse
 
 
-  Am Ende eines Workshops wollen wir eines der folgenden Sachen erreichen
+  Am Ende eines Workshops wollen wir eines der folgenden zwei Sachen erreichen
 
 
   * Wir haben ein Thema durchdrungen und eine Strategie für die nächsten
