@@ -66,6 +66,7 @@ export default {
   metaInfo() {
     return {
       link: [
+        { rel: "manifest", href: "manifest.json" },
         { rel: "preconnect", href: "https://use.typekit.net" },
         {
           rel: "shortcut icon",
