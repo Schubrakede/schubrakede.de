@@ -1,6 +1,6 @@
 ---
-published: false
-date: 2019-11-07T21:44:50.757Z
+published: true
+date: 2019-11-18T21:44:50.757Z
 headline: 'Meetup: Complexity Hamburg'
 content: >+
   Vor ca. 2 Jahren gab es eine Situation bei einem Kunden, in der ich mich
@@ -41,7 +41,8 @@ content: >+
   ## Talks
 
 
-  Nadja Macht
+  Nadja Macht -  Strategy Deployment - Components that help you to create a
+  coherent narrative
 
   VP Engineering - Jimdo
 
