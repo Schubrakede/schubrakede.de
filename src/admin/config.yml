@@ -13,7 +13,7 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "content/pages/index.md"
+        file: "content/pages/index.yml"
         fields:
           - { label: "Name", name: "Name", widget: string }
           - { label: "Title", name: "title", widget: "string" }
@@ -37,13 +37,13 @@ collections:
             }
       - label: "Impressum"
         name: imprint
-        file: "content/pages/imprint.md"
+        file: "content/pages/imprint.yml"
         fields:
           - { name: "Title", widget: string }
           - { name: Content, widget: markdown }
       - label: "Datenschutz"
         name: datenschutz
-        file: "content/pages/datenschutz.md"
+        file: "content/pages/datenschutz.yml"
         fields:
           - { name: "Title", widget: string }
           - { name: Content, widget: markdown }
