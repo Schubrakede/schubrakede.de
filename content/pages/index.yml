@@ -1,5 +1,5 @@
 Name: Startrampe
-title: Wir bringen neue Ideen für Komplexe Probleme
+title: Wir bringen neue Ideen für komplexe Probleme
 companies:
   - image: /img/fielmannlogo.svg
   - image: /img/jimdo-logo.svg
@@ -7,14 +7,14 @@ companies:
   - image: /img/cellular_logo.svg
   - image: /img/sumcumo.svg
 missiontext: >-
-  Über Adaption (lineare Verbesserung) wissen wir alles. Um in sich wandelnden
-  Systemen und Märkten relevant zu bleiben brauch man Exaptation. Man verwendet
-  eine Stärke und benutzt sie für etwas komplett anderes.
+  Über Adaption - lineare Verbesserung - wissen wir alles. Um auch in stetig
+  wandelnden Märkten und Systemen relevant zu bleiben, bedarf es Exaptation: Die
+  Verwendung vorhandener Stärken in anderen Kontexten.
 
 
-  Wir helfen Unternehmen in Komplexen Systemen relevant zu bleiben, indem wir
-  den größeren Kontext visualisieren und Probleme auf die es keine klare Antwort
-  gibt sondieren.
+  Wir helfen Unternehmen in komplexen Systemen zu bestehen, indem wir den
+  größeren Kontext visualisieren und Probleme sondieren, auf die es keine klare
+  Antwort gibt.
 handsOnText: >-
   Ein Projekt zu starten ist die eine Sache, ein langlebiges bestehendes
   Produkt/Team in die Lage zu versetzen,  schnell Kundenorientiert zu entwickeln
@@ -25,25 +25,25 @@ teammember:
   - Description: >-
       9 Jahre Erfahrung mit Nutzerorientiertem Design. Von UX über UI bis zur
       technischen Umsetzung.
-    image: /img/dsc_0759_square-0-8x.jpg
     Name: Lasse Diercks
-    Title: "Gründer, Designer"
+    Title: 'Gründer, Designer'
+    image: /img/dsc_0759_square-0-8x.jpg
   - Description: >-
       Entwickelt seit 10 Jahren Web basierte Applikationen. Am liebsten in
       JavaScript und ohne Server. Stabil und mit bedachter Developer Experience.
-    image: /img/hannes.png
     Name: Hannes Diercks
-    Title: "Gründer, Entwickler"
+    Title: 'Gründer, Entwickler'
+    image: /img/hannes.png
   - Description: >-
       Setzt seit 10 Jahren erfolgreich IT-Projekte mit Unternehmen um. Unser
       Experte für Online Marketing und Vertrieb.
-    image: /img/felix.png
     Name: Felix Speck
-    Title: "Projektmanagement, Vertrieb"
+    Title: 'Projektmanagement, Vertrieb'
+    image: /img/felix.png
   - Description: >-
       Seit 8 Jahren in der Web Branche. Kreative Energie, kombiniert mit
       technischer Finesse erlaubt Karsten Webseiten eine eigene Geschichte
       erzählen zu lassen.
-    image: /img/karsten.png
     Name: Karsten Buckstegge
-    Title: "Illustrator, Entwickler"
+    Title: 'Illustrator, Entwickler'
+    image: /img/karsten.png
