@@ -1,7 +1,7 @@
 <template>
   <Layout isHome :companies="$page.site.companies">
     <Headline :stripe="true" margin>Unsere Mission</Headline>
-    <RichText class="mission">{{$page.site.missiontext}}</RichText>
+    <RichText class="mission">{{ $page.site.missiontext }}</RichText>
     <Spacer :size="2"></Spacer>
     <Headline margin>Produkte</Headline>
     <ProductGrid>
@@ -18,18 +18,18 @@
 
     <Spacer :size="2"></Spacer>
     <Headline margin>In-House Beratung</Headline>
-    <RichText class="handson">{{$page.site.handsOnText}}</RichText>
+    <RichText class="handson">{{ $page.site.handsOnText }}</RichText>
     <Spacer :size="1"></Spacer>
     <Button noGlink href="#kontakt">Rückruf anfordern</Button>
     <Spacer v-if="$page.allBlog.edges.length > 0" :size="2"></Spacer>
     <Headline v-if="$page.allBlog.edges.length > 0" margin>Logbuch</Headline>
 
-    <BlogItem
+    <!-- <BlogItem
       :date="item.node.date"
       :href="item.node.path"
       v-for="item in $page.allBlog.edges"
       :key="item.node.headline"
-    >{{item.node.headline}}</BlogItem>
+    >{{item.node.headline}}</BlogItem> -->
     <Spacer :size="2"></Spacer>
     <Headline margin>Über Uns</Headline>
     <Team :data="$page.site.teammember"></Team>
@@ -38,7 +38,6 @@
     <ContactForm formName="Startseiten Kontakt Formular"></ContactForm>
   </Layout>
 </template>
-
 
 <page-query>
 query Index{
@@ -109,13 +108,13 @@ export default {
     Subline,
     References,
     RichText,
-    Team
+    Team,
   },
   metaInfo() {
     return {
-      title: this.$page.site.Name
+      title: this.$page.site.Name,
     };
-  }
+  },
 };
 </script>
 
